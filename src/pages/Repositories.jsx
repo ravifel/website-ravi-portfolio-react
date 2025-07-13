@@ -50,6 +50,12 @@ const groupedRepositories = [
         eventKey: '1',
         items: [
             {
+                name: 'Website Ravi Portfolio React',
+                description: 'Personal website Portfolio using React.',
+                url: 'https://github.com/ravifel/website-ravi-portfolio-react',
+                tech: 'react'
+            },
+            {
                 name: 'Book Library Project',
                 description: 'The system simulates a virtual library of books. Project for front-end study',
                 url: 'https://github.com/ravifel/book-library-project',
