@@ -45,7 +45,7 @@ function Home() {
                 <Col xs={12} md={5} className="text-center mb-4 mb-md-0">
                     <Image
                         src="/images/ravi-image-2.jpeg"
-                        alt="Ravi Felipe Ferreira da Silva"
+                        alt="Profile Image"
                         roundedCircle
                         fluid
                         style={{
