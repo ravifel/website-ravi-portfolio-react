@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import TechCard from '../components/TechCard';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 import CustomButton from '../components/CustomButton';
-
+import { ThemeContext } from '../App';
 
 function Home() {
+    const { darkMode } = useContext(ThemeContext); // pega o tema atual
 
     const tecnologias = [
         { emoji: "🎭", label: "Playwright", testId: "tech-playwright" },
@@ -39,122 +40,116 @@ function Home() {
     ];
 
     return (
-        <Container className="my-5">
-            <Row className="align-items-center">
-                {/* Profile photo */}
-                <Col xs={12} md={5} className="text-center mb-4 mb-md-0">
-                    <Image
-                        src="/images/ravi-image-2.jpeg"
-                        alt="Profile Image"
-                        roundedCircle
-                        fluid
-                        style={{
-                            maxWidth: '240px',
-                            opacity: 0.95,
-                            border: '4px solid #212529',
-                            padding: '4px'
-                        }}
-                        data-testid="home-profile-image"
-                    />
+        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-light text-dark min-vh-100'}>
+            <Container className="py-5">
+                <Row className="align-items-center">
+                    <Col xs={12} md={5} className="text-center mb-4 mb-md-0">
+                        <Image
+                            src="/images/ravi-image-2.jpeg"
+                            alt="Profile Image"
+                            roundedCircle
+                            fluid
+                            style={{
+                                maxWidth: '240px',
+                                opacity: 0.95,
+                                border: '4px solid #212529',
+                                padding: '4px'
+                            }}
+                            data-testid="home-profile-image"
+                        />
+                    </Col>
 
-                </Col>
+                    <Col xs={12} md={7}>
+                        <h1 className="mb-3">Ravi Silva</h1>
+                        <p style={{ fontSize: '1.1rem' }}>
+                            Apaixonado por tecnologia e qualidade de software, sou formado em Análise e Desenvolvimento de Sistemas pela <strong>Universidade de Fortaleza (UNIFOR)</strong> e pós-graduado em <strong>Engenharia de Software com Ênfase em Qualidade</strong> e em <strong>Desenvolvimento Frontend</strong>.
+                        </p>
+                        <p style={{ fontSize: '1.1rem' }}>
+                            Atuo como Analista de Qualidade de Software, com experiência em testes automatizados com as ferramentas <strong>Cypress, Selenium WebDriver</strong> e outras. Tenho familiaridade com <strong>Angular, React, Git, SQL</strong> e metodologias ágeis.
+                        </p>
+                        <p style={{ fontSize: '1.1rem' }}>
+                            Estudo <strong>inglês com professores nativos</strong> cinco vezes por semana, buscando aprimorar as minhas habilidades na lingua inglesa. Sou uma pessoa <strong>detalhista, organizada e comprometida</strong> com a excelência.
+                        </p>
+                        <p style={{ fontStyle: 'italic', fontSize: '1rem' }}>
+                            “Acho impressionante o impacto positivo que a tecnologia pode gerar na vida das pessoas ao solucionar problemas reais e cotidianos. A capacidade de inovação e transformação proporcionada por ela me inspira cada vez mais a seguir aprofundando meu conhecimento, movido pela fascinação pelas infinitas possibilidades que a tecnologia oferece.”
+                        </p>
 
-                {/* Presentation text */}
-                <Col xs={12} md={7}>
-                    <h1 className="mb-3">Ravi Silva</h1>
-                    <p style={{ fontSize: '1.1rem' }}>
-                        Apaixonado por tecnologia e qualidade de software, sou formado em Análise e Desenvolvimento de Sistemas pela <strong>Universidade de Fortaleza (UNIFOR)</strong> e pós-graduado em <strong>Engenharia de Software com Ênfase em Qualidade</strong> e em <strong>Desenvolvimento Frontend</strong>.
-                    </p>
-                    <p style={{ fontSize: '1.1rem' }}>
-                        Atuo como Analista de Qualidade de Software, com experiência em testes automatizados com as ferramentas <strong>Cypress, Selenium WebDriver</strong> e outras. Tenho familiaridade com <strong>Angular, React, Git, SQL</strong> e metodologias ágeis.
-                    </p>
-                    <p style={{ fontSize: '1.1rem' }}>
-                        Estudo <strong>inglês com professores nativos</strong> cinco vezes por semana, buscando aprimorar as minhas habilidades na lingua inglesa. Sou uma pessoa <strong>detalhista, organizada e comprometida</strong> com a excelência.
-                    </p>
-                    <p style={{ fontStyle: 'italic', fontSize: '1rem' }}>
-                        “Acho impressionante o impacto positivo que a tecnologia pode gerar na vida das pessoas ao solucionar problemas reais e cotidianos. A capacidade de inovação e transformação proporcionada por ela me inspira cada vez mais a seguir aprofundando meu conhecimento, movido pela fascinação pelas infinitas possibilidades que a tecnologia oferece.”
-                    </p>
+                        <div className="d-flex flex-wrap gap-3 mt-4">
+                            <CustomButton
+                                icon="📄"
+                                text="Ver Currículo em Português"
+                                href="/curriculo-ravi-pt.pdf"
+                                isExternal
+                            />
+                            <CustomButton
+                                icon="🌍"
+                                text="Ver Currículo em Inglês"
+                                href="/curriculo-ravi-en.pdf"
+                                isExternal
+                            />
+                        </div>
+                    </Col>
+                </Row>
 
-                    {/* Curriculum */}
-                    <div className="d-flex flex-wrap gap-3 mt-4">
+                <hr className="my-5" />
+                <h2 className="mb-4 d-flex align-items-center">
+                    <Phone className="me-2" />
+                    Contato
+                </h2>
+                <p className="mb-4 text-muted">
+                    Caso queira entrar em contato comigo, abaixo estão algumas opções de como me contactar.
+                </p>
+                <Row className="mb-5">
+                    <Col md={6} className="d-flex flex-column gap-3 mb-3">
                         <CustomButton
-                            icon="📄"
-                            text="Ver Currículo em Português"
-                            href="/curriculo-ravi-pt.pdf"
-                            isExternal
+                            icon={<Mail />}
+                            text="ravifel.contact@gmail.com"
+                            href="mailto:ravifel.contact@gmail.com"
+                            className="btn btn-outline-primary btn-contact"
                         />
                         <CustomButton
-                            icon="🌍"
-                            text="Ver Currículo em Inglês"
-                            href="/curriculo-ravi-en.pdf"
+                            icon={<Phone />}
+                            text="WhatsApp"
+                            href="https://wa.me/5585997641193?text=Ol%C3%A1%2C%20Ravi.%20Como%20vai%3F%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20n%C3%BAmero%20que%20encontrei%20no%20seu%20website."
                             isExternal
+                            className="btn btn-outline-primary btn-contact"
                         />
-                    </div>
-                </Col>
-            </Row>
+                    </Col>
 
-            {/* Contact */}
-            <hr className="my-5" />
-            <h2 className="mb-4 d-flex align-items-center">
-                <Phone className="me-2" />
-                Contato
-            </h2>
-            <p className="mb-4 text-muted">
-                Caso queira entrar em contato comigo, abaixo estão algumas opções de como me contactar.
-            </p>
-            <Row className="mb-5">
-                <Col md={6} className="d-flex flex-column gap-3 mb-3">
-                    <CustomButton
-                        icon={<Mail />}
-                        text="ravifel.contact@gmail.com"
-                        href="mailto:ravifel.contact@gmail.com"
-                        className="btn btn-outline-primary btn-contact"
-                    />
-                    <CustomButton
-                        icon={<Phone />}
-                        text="WhatsApp"
-                        href="https://wa.me/5585997641193?text=Ol%C3%A1%2C%20Ravi.%20Como%20vai%3F%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20n%C3%BAmero%20que%20encontrei%20no%20seu%20website."
-                        isExternal
-                        className="btn btn-outline-primary btn-contact"
-                    />
-                </Col>
+                    <Col md={6} className="d-flex flex-column gap-3 mb-3">
+                        <CustomButton
+                            icon={<Linkedin />}
+                            text="LinkedIn"
+                            href="https://www.linkedin.com/in/ravifel"
+                            isExternal
+                            className="btn btn-outline-primary btn-contact"
+                        />
+                        <CustomButton
+                            icon={<Github />}
+                            text="GitHub"
+                            href="https://github.com/ravifel"
+                            isExternal
+                            className="btn btn-outline-primary btn-contact"
+                        />
+                    </Col>
+                </Row>
 
-                <Col md={6} className="d-flex flex-column gap-3 mb-3">
-                    <CustomButton
-                        icon={<Linkedin />}
-                        text="LinkedIn"
-                        href="https://www.linkedin.com/in/ravifel"
-                        isExternal
-                        className="btn btn-outline-primary btn-contact"
-                    />
-                    <CustomButton
-                        icon={<Github />}
-                        text="GitHub"
-                        href="https://github.com/ravifel"
-                        isExternal
-                        className="btn btn-outline-primary btn-contact"
-                    />
-                </Col>
-            </Row>
-
-
-
-            {/* Technologies */}
-            <hr className="my-5" />
-            <h2 className="mb-4">
-                <span role="img" aria-label="Tecnologias">💻</span> Tecnologias
-            </h2>
-            <Row xs={3} md={4} lg={6} className="g-3">
-                {tecnologias.map((tech) => (
-                    <TechCard
-                        key={tech.testId}
-                        emoji={tech.emoji}
-                        label={tech.label}
-                        testId={tech.testId}
-                    />
-                ))}
-            </Row>
-        </Container>
+                <hr className="my-5" />
+                <h2 className="mb-4">
+                    <span role="img" aria-label="Tecnologias">💻</span> Tecnologias
+                </h2>
+                <Row xs={3} md={4} lg={6} className="g-3">
+                    {tecnologias.map((tech) => (
+                        <TechCard
+                            key={tech.testId}
+                            emoji={tech.emoji}
+                            label={tech.label}
+                            testId={tech.testId}
+                        />
+                    ))}
+                </Row>
+            </Container>
+        </div>
     );
 }
 

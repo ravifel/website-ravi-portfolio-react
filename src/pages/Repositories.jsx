@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Container, Row, Col, Accordion } from 'react-bootstrap';
 import RepositoryCard from '../components/RepositoryCard';
+import { ThemeContext } from '../App';
 
 const groupedRepositories = [
     {
@@ -89,29 +90,39 @@ const groupedRepositories = [
     }
 ];
 
-const Repositories = () => (
-    <Container className="my-5">
-        <h2 className="mb-4">
-            <span role="img" aria-label="Folder">📁</span> Repositórios
-        </h2>
+const Repositories = () => {
+    const { darkMode } = useContext(ThemeContext);
 
-        <Accordion alwaysOpen>
-            {groupedRepositories.map((group) => (
-                <Accordion.Item eventKey={group.eventKey} key={group.eventKey}>
-                    <Accordion.Header>{group.title}</Accordion.Header>
-                    <Accordion.Body>
-                        <Row xs={1} md={2} lg={3} className="g-4">
-                            {group.items.map((repo) => (
-                                <Col key={repo.name}>
-                                    <RepositoryCard {...repo} />
-                                </Col>
-                            ))}
-                        </Row>
-                    </Accordion.Body>
-                </Accordion.Item>
-            ))}
-        </Accordion>
-    </Container>
-);
+    return (
+        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-light text-dark min-vh-100'}>
+            <Container className="py-5">
+                <h2 className="mb-4">
+                    <span role="img" aria-label="Folder">📁</span> Repositórios
+                </h2>
+
+                <Accordion alwaysOpen>
+                    {groupedRepositories.map((group) => (
+                        <Accordion.Item
+                            eventKey={group.eventKey}
+                            key={group.eventKey}
+                            className={darkMode ? 'bg-dark text-light' : ''}
+                        >
+                            <Accordion.Header>{group.title}</Accordion.Header>
+                            <Accordion.Body>
+                                <Row xs={1} md={2} lg={3} className="g-4">
+                                    {group.items.map((repo) => (
+                                        <Col key={repo.name}>
+                                            <RepositoryCard {...repo} />
+                                        </Col>
+                                    ))}
+                                </Row>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    ))}
+                </Accordion>
+            </Container>
+        </div>
+    );
+};
 
 export default Repositories;
