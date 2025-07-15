@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Ravi Silva - Personal Portfolio
+
+Welcome to my personal portfolio website!  
+This project is a modern, multilingual portfolio built with React, showcasing my background, skills, and selected projects as a Software Quality Analyst and Frontend Developer.
+
+---
+
+## 🌐 Features
+
+- **Multilingual Support**:  
+  Available in Portuguese, English, Spanish, French, Chinese (Mandarin), Japanese, and Irish Gaelic.
+- **Responsive Design**:  
+  Works seamlessly across devices (desktop, tablet, mobile).
+- **Dark & Light Modes**:  
+  Switch between dark and light themes.
+- **Projects & Technologies**:  
+  Organized display of repositories and tech stack.
+- **Contact Options**:  
+  Quick access to email, WhatsApp, LinkedIn, and GitHub.
+
+---
+
+## 🚀 Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
+npm install 
+
+- (Option 2)This command ignores dependency conflicts and installs
+npm install --save --legacy-peer-deps
+
+```
+
+### Running Locally
+
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) to view in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The app will be built in the `build` folder, optimized for best performance.
+
+---
+
+## 🗂️ Project Structure
+
+- `src/locales/` — Translation files for all supported languages
+- `src/components/` — React components (Header, Portfolio, etc)
+- `src/styles/` — CSS files (including theme support)
+- `public/` — Static files and assets
+
+---
+
+## 🌍 Languages Supported
+
+- **Português** (`pt`)
+- **English** (`en`)
+- **Español** (`es`)
+- **Français** (`fr`)
+- **中文** (`zh`)
+- **日本語** (`ja`)
+- **Gaeilge** (`ga`)
+
+> Language selection is available in the website header.
+
+---
+
+## 🖥️ Main Technologies
+
+- **React** (with Hooks)
+- **React-i18next** (for internationalization)
+- **CSS3** (with theme support)
+- **[Create React App](https://create-react-app.dev/)**
+
+---
+
+## 📦 Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start` — Runs the app in development mode.
+- `npm test` — Launches the test runner.
+- `npm run build` — Builds the app for production.
+- `npm run eject` — Ejects configuration (not reversible).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📬 Contact
 
-### `npm test`
+- **Email**: ravifel.contact@gmail.com
+- **LinkedIn**: [Ravi Silva](https://www.linkedin.com/in/seulinkedin)
+- **GitHub**: [ravilsilvafitbank](https://github.com/ravisilvafitbank)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📝 License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is open-source and available under the [MIT License](LICENSE).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🙏 Acknowledgments
 
-### `npm run eject`
+- [Create React App](https://github.com/facebook/create-react-app)
+- [React-i18next](https://react.i18next.com/)
+- All contributors and open-source libraries!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to fork, open issues, or contribute!

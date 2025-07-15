@@ -1,0 +1,219 @@
+{
+    "profile_name": "Ravi Silva",
+    "profile_description_1": "热爱技术和软件质量，我毕业于<strong>福塔雷萨大学（UNIFOR）</strong>系统分析与开发专业，并拥有<strong>软件工程（质量方向）</strong>和<strong>前端开发</strong>两个研究生学位。",
+    "profile_description_2": "我是一名软件质量分析师，拥有使用<strong>Cypress、Selenium WebDriver</strong>等工具进行自动化测试的经验。熟悉<strong>Angular、React、Git、SQL</strong>和敏捷开发方法。",
+    "profile_description_3": "我每周五次与母语老师学习<strong>英语</strong>，不断提升自己的英语能力。我是一个<strong>注重细节、组织有序、追求卓越</strong>的人。",
+    "profile_quote": "“我对技术在解决现实和日常问题方面对人们生活所带来的积极影响感到惊叹。技术带来的创新和变革能力不断激励我深入学习，令我着迷于科技带来的无限可能。”",
+    "see_resume_pt": "查看葡萄牙语简历",
+    "see_resume_en": "查看英文简历",
+    "contact": "联系方式",
+    "contact_intro": "如果您想与我联系，以下是一些联系方式。",
+    "contact_email": "ravifel.contact@gmail.com",
+    "contact_whatsapp": "WhatsApp",
+    "contact_linkedin": "LinkedIn",
+    "contact_github": "GitHub",
+    "technologies": "技术",
+    "welcome": "欢迎来到我的作品集！",
+    "repositories": "仓库",
+    "dark_mode": "深色模式",
+    "light_mode": "浅色模式",
+    "language": "语言",
+    "home": "首页",
+    "view_repository": "查看仓库",
+    "testimonials": "推荐语",
+    "select_language": "选择语言",
+    "testimonials_section": {
+        "title": "推荐语",
+        "sort_label": "排序方式：",
+        "most_recent": "最新",
+        "oldest": "最早",
+        "see_more": "查看更多",
+        "see_more_aria": "查看更多推荐内容",
+        "close_modal": "关闭"
+    },
+    "testimonials_data": [
+        {
+            "name": "Luana Medeiros",
+            "title": "前端开发工程师",
+            "connection": "我们在同一家公司工作，但在不同团队。",
+            "recommendation": {
+                "pt": "É um prazer recomendar o Ravi, trabalhamos juntos por um período na equipe de produto da Polibras. Durante esse tempo, pude ver o quanto ele é dedicado, sempre muito focado e organizado. Você faz muita diferença e foi uma ótima experiência trabalhar juntos!",
+                "en": "It is a pleasure to recommend Ravi; we worked together for a period on the Polibras product team. During this time, I saw how dedicated a professional he is, always very focused and organized. You make a big difference, and it was a great experience working together!",
+                "zh": "我很高兴推荐Ravi，我们曾在Polibras的产品团队共事一段时间。在那段时间里，我看到他非常专注且有条理。你的存在带来了很大的不同，很高兴能与你共事！"
+            },
+            "date": "2024-03-29"
+        },
+        {
+            "name": "Diego Silva Costa",
+            "title": "QA分析师",
+            "connection": "我们在同一个团队工作。",
+            "recommendation": {
+                "pt": "Durante a oportunidade que tive de trabalhar com o Ravi, aprendi muito sobre os procedimentos internos da empresa. Um profissional atualizado, paciente, dedicado e, acima de tudo, proativo na resolução de problemas. Seu conhecimento sempre agregou muito e, hoje, parte do profissional que sou devo a ele.",
+                "en": "During the opportunity I had to work with Ravi, I learned a lot about the company's internal procedures. An up-to-date, patient, dedicated professional and, above all, proactive in solving problems. His knowledge has always added a lot, and today, part of the professional I am thanks to him.",
+                "zh": "在与Ravi共事的过程中，我学到了很多公司的内部流程。他是一位知识更新、耐心、敬业，尤其是解决问题非常主动的专业人士。他的知识总能带来新价值，今天的我也要感谢他。"
+            },
+            "date": "2024-03-28"
+        },
+        {
+            "name": "Thalia Lopes",
+            "title": "职业指导 | 招聘专员 | 技术招聘 | 入职培训 | 心理评估",
+            "connection": "我们在同一家公司工作，但在不同团队。",
+            "recommendation": {
+                "pt": "Ravi foi um talento que me chamou atenção desde a sua seleção. Pude acompanhá-lo de perto durante toda a sua entrada e permanência no estágio até o momento da sua efetivação. Sua dedicação e compromisso foi, com certeza, um dos pontos mais marcantes na sua trajetória, até agora. É inspirador trabalhar com pessoas assim! Parabéns Ravi!",
+                "en": "Ravi was a talent who caught my attention from the selection process. I was able to closely follow him throughout his internship until his permanent position. His dedication and commitment were certainly some of the most remarkable points in his journey so far. It is inspiring to work with people like that! Congratulations, Ravi!",
+                "zh": "Ravi从招聘阶段起就引起了我的注意。我能够全程关注他从实习到转正的过程。他的敬业和承诺无疑是他职业道路上最突出的亮点。与这样的人共事令人鼓舞！恭喜你，Ravi！"
+            },
+            "date": "2023-08-07"
+        },
+        {
+            "name": "Rony de Freitas",
+            "title": "UX设计师",
+            "connection": "我们在同一家公司工作，但在不同团队。",
+            "recommendation": {
+                "pt": "Trabalhar com o Ravi foi incrível. Ele é dedicado e atencioso, sempre buscando melhorar. Tive o prazer de trabalhar com ele na equipe de QA da nossa empresa. Ravi demonstrou grande habilidade em testes de regressão e automação. Sua atenção aos detalhes e capacidade de encontrar bugs foram impressionantes. Recomendo o Ravi como um profissional talentoso e comprometido.",
+                "en": "Working with Ravi was incredible. He is dedicated and attentive, always striving to improve. I had the pleasure of working with him on the QA team of our company. Ravi demonstrated great skill in regression and automation testing. His attention to detail and ability to find bugs were impressive. I recommend Ravi as a talented and committed professional.",
+                "zh": "与Ravi共事非常棒。他敬业细心，总是在追求进步。我很荣幸能和他一起在QA团队工作。他在回归测试和自动化方面表现出色，对细节的关注和发现缺陷的能力令人印象深刻。我推荐Ravi，他是一位有才华且敬业的专业人士。"
+            },
+            "date": "2024-07-09"
+        },
+        {
+            "name": "Gabriel Bastos",
+            "title": "IT主管与.NetCore | C# | SQL | Azure | Xamarin | Angular | Java开发者",
+            "connection": "Gabriel直接管理Ravi。",
+            "recommendation": {
+                "pt": "Hoje quero compartilhar um pouco sobre um profissional que não foi apenas parte da nossa equipe, mas também se tornou um grande amigo. Receber o Ravi em meu time foi uma daquelas experiências que nos faz perceber como o ambiente de trabalho pode se tornar um lugar realmente especial. Desde o primeiro dia, ele demonstrou clareza de ideias e responsabilidade que me impressionaram muito. Seu compromisso com a entrega de resultados excepcionais não só foi atendido, mas superou todas as expectativas. Um aspecto que sempre admirei foi sua capacidade de aprender muito rápido e, além disso, aplicar o que aprendeu. Dessa forma, ele foi peça fundamental no desenvolvimento do sistema Angular. Ele não apenas dominou a tecnologia, mas também tinha uma maneira única de tornar as coisas claras e acessíveis para toda a equipe. Além da parte técnica, um fator muito importante é sua habilidade de trabalhar em equipe. Ele nunca perdeu o foco no objetivo maior, sempre mantendo uma atitude colaborativa e encorajadora. Obrigado por todo seu suporte técnico no projeto, assim como seu apoio no desenvolvimento do time. Parabéns por ser um profissional tão transparente, honesto e que entrega resultados.",
+                "en": "Today I want to share a bit about a professional who was not only part of our team but also became a great friend. Welcoming Ravi to my team was one of those experiences that makes us realize how the work environment can become a truly special place. From the first day, he demonstrated clarity of ideas and responsibility that greatly impressed me. His commitment to delivering exceptional results was not only met but exceeded all expectations. One aspect I always admired was his ability to learn very quickly and, moreover, to apply what he learned. In this way, he was a key part in the development of the Angular system. He not only mastered the technology but also had a unique way of making things clear and accessible to the entire team. In addition to the technical part, a very important factor is his ability to work as a team. He never lost focus on the bigger goal, always maintaining a collaborative and encouraging attitude. Thank you for all your technical support on the project, as well as your support for team development. Congratulations on being such a transparent, honest professional who delivers results.",
+                "zh": "今天我想谈谈一位不仅是我们团队成员，更成为了我的好朋友的专业人士。Ravi加入团队让我们意识到，工作环境可以变得如此特别。从第一天起，他展现出的思路清晰和责任心让我印象深刻。他对卓越成果的承诺不仅得以实现，还超出了所有预期。我一直很欣赏他极快的学习能力以及能将所学立即应用的本事。正因如此，他在Angular系统开发中发挥了关键作用。他不仅精通技术，还能用独特的方式让整个团队都能轻松理解技术细节。除了技术，他的团队协作能力也非常重要。他从不偏离大目标，总是保持合作和鼓励的态度。感谢你在项目中的技术支持和对团队成长的帮助。恭喜你，Ravi，是一位透明、诚实且能交付成果的专业人士。"
+            },
+            "date": "2024-04-24"
+        },
+        {
+            "name": "Ronaldo Dantas",
+            "title": "Polibras软件开发经理及技术主管",
+            "connection": "Ronaldo直接管理Ravi。",
+            "recommendation": {
+                "pt": "Participei do início de carreira do Ravi de estagiário de testes até Analista de Qualidade e posso concluir que o Ravi é um profissional de disciplina e empenho ímpar. Você pode contar com o Ravi para garantir que o trabalho que precisa ser feito será realizado da maneira conforme planejada, sem margem a falha. Altamente disciplinado e esforçado. Consegue ser flexível em vários produtos distintos mantendo o foco no resultado alvo. É um excelente parceiro e agrega com qualidade qualquer equipe que participar.",
+                "en": "I participated in the beginning of Ravi's career from testing intern to Quality Analyst and I can conclude that Ravi is a professional with unique discipline and commitment. You can count on Ravi to ensure that the work that needs to be done will be carried out as planned, with no margin for error. Highly disciplined and hardworking. He can be flexible in various different products while maintaining focus on the target outcome. He is an excellent partner and adds quality to any team he joins.",
+                "zh": "我见证了Ravi从测试实习生成长为质量分析师的过程，可以说他是一位纪律性和敬业精神极强的专业人士。你可以信赖Ravi，他总能按计划圆满完成任务，零失误。他极为自律和努力，能适应各种产品开发，并始终聚焦目标结果。他是非常棒的合作伙伴，为任何团队都能带来高质量。"
+            },
+            "date": "2024-07-14"
+        },
+        {
+            "name": "Jaelyson Martins",
+            "title": "高级软件开发工程师 | Polibras Software",
+            "connection": "我们在同一个团队工作。",
+            "recommendation": {
+                "pt": "Ravi é um ótimo profissional, altamente flexível e sempre disposto a aprender novos assuntos. Ele exerce sua função com competência e consistência, além de ser altamente comunicativo, o que facilita a colaboração dentro da equipe. Nesse um ano de participação, ele se mostrou altamente participativo, mantendo uma ótima relação com o time de desenvolvimento e demonstrando um verdadeiro interesse em entender o negócio e o produto. Certamente será um ativo valioso para qualquer organização.",
+                "en": "Ravi is an excellent professional, highly flexible and always willing to learn new subjects. He performs his duties with competence and consistency, and is highly communicative, which facilitates collaboration within the team. Over the past year, he has shown great involvement, maintaining an excellent relationship with the development team and demonstrating a genuine interest in understanding the business and the product. He will certainly be a valuable asset to any organization.",
+                "zh": "Ravi是一位出色的专业人士，非常灵活，总是乐于学习新知识。他工作能力强且一贯高效，同时非常善于沟通，促进了团队协作。在这一年中，他积极参与，始终与开发团队保持良好关系，并表现出对业务和产品的真正兴趣。他一定会成为任何组织的宝贵财富。"
+            },
+            "date": "2024-07-09"
+        },
+        {
+            "name": "Davi Fernandes",
+            "title": "质量分析师 | C#, .NET, JavaScript, Python | Playwright, Selenium, SQL, Azure DevOps, GitHub Copilot",
+            "connection": "我们在同一个团队工作。",
+            "recommendation": {
+                "pt": "Tive a oportunidade de trabalhar com o Ravi e, com certeza, posso dizer que ele é um analista de qualidade excepcional. Seu domínio em criar casos de testes e criar cenários em cima de aplicações backend e frontend é impressionante. Ele sempre assegura testes de alta qualidade e faz uma grande diferença na estabilidade e desempenho dos sistemas em que está envolvido. Mas o que realmente torna o Ravi especial é sua atitude. Ele é uma pessoa incrível, sempre disposto a ajudar e a compartilhar seu conhecimento com os demais. Sua bondade e empatia criam um ambiente de trabalho colaborativo e positivo, onde todos se sentem apoiados. Se você está em busca de um analista de qualidade altamente qualificado, que é meticuloso e dedicado aos detalhes, além de ser uma excelente pessoa, eu recomendo o Ravi sem hesitação!",
+                "en": "I had the opportunity to work with Ravi and I can certainly say that he is an exceptional quality analyst. His expertise in creating test cases and scenarios on backend and frontend applications is impressive. He always ensures high-quality tests and makes a big difference in the stability and performance of the systems he is involved with. But what really makes Ravi special is his attitude. He is an amazing person, always willing to help and share his knowledge with others. His kindness and empathy create a collaborative and positive work environment where everyone feels supported. If you are looking for a highly skilled quality analyst who is meticulous and detail-oriented, as well as an excellent person, I recommend Ravi without hesitation!",
+                "zh": "我有幸与Ravi共事，可以肯定地说他是一位出色的质量分析师。他在创建后端和前端测试用例和场景方面非常专业，总能保证测试质量，为系统的稳定和性能带来显著提升。但真正让Ravi与众不同的是他的态度。他乐于助人，善于分享知识，善良和同理心营造了积极协作的工作氛围。如果你在寻找一位细致、敬业、又非常优秀的质量分析师，我会毫不犹豫地推荐Ravi！"
+            },
+            "date": "2025-03-27"
+        },
+        {
+            "name": "Marcos Venicio Viana",
+            "title": "软件测试与质量分析师 (QA)",
+            "connection": "Marcos Venicio直接管理Ravi。",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar ao lado do Ravi por dois anos e testemunhar de perto suas qualidades excepcionais. Ele é um profissional extremamente esforçado, dedicado e pontual. Ravi se destaca por sua capacidade de observação e sua ética impecável. Além disso, ele é uma pessoa extremamente educada, o que torna o ambiente de trabalho muito mais agradável. Durante o tempo em que trabalhamos juntos, Ravi demonstrou um desejo constante de aprimoramento, especialmente nas áreas de Quality Assurance e no aprendizado do inglês. Ele está sempre buscando novas formas de melhorar seus resultados e contribuir para a equipe. Recomendo Ravi sem hesitação para qualquer oportunidade futura, pois sei que se trata de um profissional de alto nível.",
+                "en": "I had the pleasure of working alongside Ravi for two years and witnessing his exceptional qualities up close. He is an extremely hardworking, dedicated, and punctual professional. Ravi stands out for his observation skills and impeccable ethics. In addition, he is an extremely polite person, which makes the work environment much more pleasant. During the time we worked together, Ravi showed a constant desire for improvement, especially in the areas of Quality Assurance and learning English. He is always looking for new ways to improve his results and contribute to the team. I recommend Ravi without hesitation for any future opportunity, as I know he is a top-level professional.",
+                "zh": "我有幸与Ravi共事两年，亲眼见证了他非凡的品质。他极其勤奋、敬业且守时。Ravi以出色的观察力和无可挑剔的职业道德脱颖而出。此外，他非常有礼貌，让工作环境更加愉快。我们合作期间，Ravi始终渴望进步，尤其是在质量保证和英语学习方面。他总是在寻找新方法提升自己并为团队做贡献。对于未来的任何机会，我都会毫不犹豫地推荐Ravi，因为我知道他是一位顶尖的专业人士。"
+            },
+            "date": "2024-07-20"
+        },
+        {
+            "name": "Júnior Veras",
+            "title": "QA与测试自动化分析师 | C# | Selenium | Playwright",
+            "connection": "我们在同一个团队工作。",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar com Ravi na equipe e posso dizer com certeza que ele é um profissional excepcional. Sempre comprometido com a excelência das entregas, Ravi demonstra grande dedicação e atenção aos detalhes, garantindo que os processos sejam executados com qualidade e eficiência. Além do seu conhecimento técnico sólido, ele se destaca pela colaboração e espírito de equipe, estando sempre disposto a ajudar e compartilhar conhecimento. Seus conhecimentos em automação de testes, bancos de dados e validação de APIs com Postman fazem dele um profissional versátil e altamente capacitado. Além disso, sua organização e comprometimento contribuem para um ambiente de trabalho produtivo e harmonioso. Sem dúvidas, Ravi é um grande talento, e qualquer equipe que contar com ele terá um profissional dedicado e competente. Recomendo fortemente!",
+                "en": "I had the pleasure of working with Ravi on the team and I can say with certainty that he is an exceptional professional. Always committed to delivering excellence, Ravi demonstrates great dedication and attention to detail, ensuring that processes are executed with quality and efficiency. In addition to his solid technical knowledge, he stands out for his collaboration and team spirit, always willing to help and share knowledge. His knowledge of test automation, databases, and API validation with Postman makes him a versatile and highly qualified professional. In addition, his organization and commitment contribute to a productive and harmonious work environment. Without a doubt, Ravi is a great talent, and any team that counts on him will have a dedicated and competent professional. I highly recommend him!",
+                "zh": "我很高兴能和Ravi在团队中共事，可以肯定地说他是一位非常优秀的专业人士。他始终追求卓越，对工作极其专注和细致，确保流程高效且高质量地完成。除扎实的技术知识外，他还以合作精神和团队意识著称，总是乐于助人和知识分享。他在测试自动化、数据库和API验证（Postman）方面的知识让他成为多才多艺的高水平专家。此外，他的组织能力和敬业精神为团队营造了高效和谐的工作氛围。毫无疑问，Ravi是个了不起的人才，任何团队有他都会拥有一位敬业能干的成员。我强烈推荐他！"
+            },
+            "date": "2025-04-01"
+        },
+        {
+            "name": "Augusto Soares",
+            "title": "软件工程师 | Java | Groovy | Go | Python",
+            "connection": "我们在同一个团队工作。",
+            "recommendation": {
+                "pt": "Tive o privilégio de trabalhar com o Ravi na Fitbank, onde ele atuou como Analista de Qualidade (QA) com excelência. Desde o início, Ravi demonstrou um domínio técnico notável, especialmente na criação de testes automatizados eficientes, que ajudaram a garantir entregas mais seguras e ágeis para o time de desenvolvimento. Um dos diferenciais mais marcantes do Ravi é sua habilidade de analisar escopos e códigos com um olhar crítico e construtivo. Ele identifica pontos que impactam diretamente na segurança e no desempenho das aplicações, colaborando ativamente com os desenvolvedores para melhorar a qualidade do software como um todo. Suas sugestões sempre vêm acompanhadas de argumentos sólidos, baseados em boas práticas e experiências reais. Além disso, Ravi se destaca pelo seu domínio da língua inglesa. Em diversas ocasiões, ele foi peça-chave para que colegas entendessem melhor tanto documentações técnicas quanto partes do código escritas em inglês, contribuindo diretamente para a fluidez do trabalho em equipe e a autonomia dos profissionais ao lidar com conteúdos internacionais. Profissional comprometido, colaborativo e tecnicamente muito bem preparado, Ravi é uma adição valiosa a qualquer equipe de tecnologia.",
+                "en": "I had the privilege of working with Ravi at Fitbank, where he excelled in his role as a QA Analyst. From the beginning, Ravi demonstrated remarkable technical expertise, especially in creating efficient automated tests that helped ensure safer and faster deliveries for the development team. One of Ravi's most outstanding qualities is his ability to analyze scopes and code with a critical and constructive eye. He identifies aspects that directly impact the security and performance of applications, actively collaborating with developers to improve the overall quality of the software. His suggestions are always accompanied by solid arguments, based on best practices and real-world experience. Moreover, Ravi stands out for his command of the English language. On several occasions, he was a key player in helping colleagues better understand both technical documentation and parts of code written in English, directly contributing to teamwork fluidity and the autonomy of professionals when dealing with international content. A committed, collaborative, and technically well-prepared professional, Ravi is a valuable addition to any technology team.",
+                "zh": "我很荣幸能与Ravi在Fitbank共事，他在QA分析师岗位上表现卓越。自入职以来，Ravi展现了出色的技术专长，尤其擅长高效自动化测试，为开发团队带来更安全与高效的交付。Ravi最突出的特点之一是能以批判和建设性的眼光分析需求和代码，发现影响应用安全和性能的关键点，并积极与开发人员协作提升整体软件质量。他的建议总是有充分的论据，基于最佳实践和真实经验。此外，Ravi在英语方面也很突出，多次帮助同事更好地理解技术文档和英文代码，直接提升了团队协作与自主性。他敬业、善于合作且技术扎实，是任何技术团队的宝贵财富。"
+            },
+            "date": "2025-05-06"
+        }
+    ],
+    "techs": {
+        "playwright": "Playwright",
+        "selenium": "Selenium WebDriver",
+        "csharp": "C#",
+        "cypress": "Cypress",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "postman": "Postman",
+        "sql": "SQL",
+        "postgresql": "PostgreSQL",
+        "sqlite": "SQLite",
+        "git": "Git",
+        "github": "GitHub",
+        "bitbucket": "BitBucket",
+        "react": "React JS",
+        "angular": "Angular",
+        "html": "HTML",
+        "css": "CSS",
+        "bootstrap": "Bootstrap",
+        "angularmaterial": "Angular Material",
+        "vscode": "Visual Studio Code",
+        "jira": "Jira",
+        "teams": "Teams",
+        "azuredevops": "Azure DevOps",
+        "trello": "Trello",
+        "windows": "Windows",
+        "linux": "Linux",
+        "fedora": "Fedora",
+        "ubuntu": "Ubuntu"
+    },
+    "pagination": {
+        "items_per_page": "每页结果数",
+        "of": "共",
+        "prev_page": "上一页",
+        "next_page": "下一页"
+    },
+    "repositories_test_group": "🧪 测试仓库",
+    "repositories_dev_group": "💻 开发仓库",
+    "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
+    "repo_landing_page_tests_automated_desc": "Agilean落地页的自动化测试。",
+    "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",
+    "repo_selenium_ui_test_csharp_desc": "Selenium WebDriver | C#.Net | Workshop | (RKTestingTools)",
+    "repo_cypress_test_api_name": "Cypress Test Api",
+    "repo_cypress_test_api_desc": "用于API测试的Cypress项目。",
+    "repo_cypress_project_to_practice_name": "Cypress Project To Practice",
+    "repo_cypress_project_to_practice_desc": "使用Cypress进行网页自动化。",
+    "repo_cypress_bdd_cucumber_name": "Cypress BDD Cucumber",
+    "repo_cypress_bdd_cucumber_desc": "结合Cypress与Cucumber（BDD）的网页自动化。",
+    "repo_cypress_web_automation_tests_name": "Cypress Web Automation Tests",
+    "repo_cypress_web_automation_tests_desc": "使用Cypress进行网页自动化。",
+    "repo_website_ravi_portfolio_react_name": "Website Ravi Portfolio React",
+    "repo_website_ravi_portfolio_react_desc": "使用React构建的个人作品集网站。",
+    "repo_book_library_project_name": "Book Library Project",
+    "repo_book_library_project_desc": "该系统模拟一个虚拟图书馆。前端学习项目。",
+    "repo_projeto_angular_spa_name": "Angular Spa项目",
+    "repo_projeto_angular_spa_desc": "在Desenvolvedor.io平台“Angular SPA开发”课程中开发的项目。",
+    "repo_curso_angular9_cod3r_name": "Angular9 COD3R课程",
+    "repo_curso_angular9_cod3r_desc": "在Cod3r平台“Angular 9 Essencial”课程中开发的项目。",
+    "repo_email_js_angular_name": "Email JS Angular",
+    "repo_email_js_angular_desc": "在Angular中使用TypeScript实现的“EmailJS”邮件发送服务。",
+    "repo_movies_project_name": "Movies Project",
+    "repo_movies_project_desc": "在该项目中，用户可以搜索电影并查看相关信息。"
+}

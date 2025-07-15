@@ -1,0 +1,86 @@
+[
+    {
+        "titleKey": "repositories_test_group",
+        "eventKey": "0",
+        "items": [
+            {
+                "nameKey": "repo_landing_page_tests_automated_name",
+                "descriptionKey": "repo_landing_page_tests_automated_desc",
+                "url": "https://github.com/ravifel/LandingPageTestsAutomated",
+                "tech": "selenium"
+            },
+            {
+                "nameKey": "repo_selenium_ui_test_csharp_name",
+                "descriptionKey": "repo_selenium_ui_test_csharp_desc",
+                "url": "https://github.com/ravifel/SeleniumUITestCsharp",
+                "tech": "selenium"
+            },
+            {
+                "nameKey": "repo_cypress_test_api_name",
+                "descriptionKey": "repo_cypress_test_api_desc",
+                "url": "https://github.com/ravifel/cypress-test-api",
+                "tech": "cypress"
+            },
+            {
+                "nameKey": "repo_cypress_project_to_practice_name",
+                "descriptionKey": "repo_cypress_project_to_practice_desc",
+                "url": "https://github.com/ravifel/cypress-project-to-practice",
+                "tech": "cypress"
+            },
+            {
+                "nameKey": "repo_cypress_bdd_cucumber_name",
+                "descriptionKey": "repo_cypress_bdd_cucumber_desc",
+                "url": "https://github.com/ravifel/cypress-bdd-cucumber",
+                "tech": "cypress"
+            },
+            {
+                "nameKey": "repo_cypress_web_automation_tests_name",
+                "descriptionKey": "repo_cypress_web_automation_tests_desc",
+                "url": "https://github.com/ravifel/cypress-web-automation-tests",
+                "tech": "cypress"
+            }
+        ]
+    },
+    {
+        "titleKey": "repositories_dev_group",
+        "eventKey": "1",
+        "items": [
+            {
+                "nameKey": "repo_website_ravi_portfolio_react_name",
+                "descriptionKey": "repo_website_ravi_portfolio_react_desc",
+                "url": "https://github.com/ravifel/website-ravi-portfolio-react",
+                "tech": "react"
+            },
+            {
+                "nameKey": "repo_book_library_project_name",
+                "descriptionKey": "repo_book_library_project_desc",
+                "url": "https://github.com/ravifel/book-library-project",
+                "tech": "react"
+            },
+            {
+                "nameKey": "repo_projeto_angular_spa_name",
+                "descriptionKey": "repo_projeto_angular_spa_desc",
+                "url": "https://github.com/ravifel/projeto-angular-spa",
+                "tech": "angular"
+            },
+            {
+                "nameKey": "repo_curso_angular9_cod3r_name",
+                "descriptionKey": "repo_curso_angular9_cod3r_desc",
+                "url": "https://github.com/ravifel/curso-angular9-cod3r",
+                "tech": "angular"
+            },
+            {
+                "nameKey": "repo_email_js_angular_name",
+                "descriptionKey": "repo_email_js_angular_desc",
+                "url": "https://github.com/ravifel/emailJS-angular",
+                "tech": "angular"
+            },
+            {
+                "nameKey": "repo_movies_project_name",
+                "descriptionKey": "repo_movies_project_desc",
+                "url": "https://github.com/ravifel/projeto-filmes",
+                "tech": "angular"
+            }
+        ]
+    }
+]

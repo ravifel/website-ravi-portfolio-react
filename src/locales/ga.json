@@ -1,0 +1,219 @@
+{
+    "profile_name": "Ravi Silva",
+    "profile_description_1": "Táim paiseanta faoi theicneolaíocht agus cáilíocht bogearraí, bhain mé céim amach i mAnailís agus Forbairt Córais ó <strong>Ollscoil Fortaleza (UNIFOR)</strong> agus tá céimeanna iarchéime agam i <strong>Innealtóireacht Bogearraí le Béim ar Cháilíocht</strong> agus <strong>Forbairt Frontend</strong>.",
+    "profile_description_2": "Táim ag obair mar Anailísí Cáilíochta Bogearraí, le taithí ar thástáil uathoibríoch ag baint úsáide as <strong>Cypress, Selenium WebDriver</strong> agus cinn eile. Tá cur amach agam ar <strong>Angular, React, Git, SQL</strong> agus modheolaíochtaí lúfar.",
+    "profile_description_3": "Táim ag staidéar <strong>Béarla le múinteoirí dúchais</strong> cúig huaire sa tseachtain, ag iarraidh mo scileanna sa teanga a fheabhsú. Is duine <strong>mionchúiseach, eagraithe agus tiomanta</strong> mé le haghaidh feabhais.",
+    "profile_quote": "“Is iontach liom an tionchar dearfach is féidir le teicneolaíocht a bheith aici ar shaol na ndaoine trí fhadhbanna fíorúla laethúla a réiteach. Spreagann an acmhainn nuálaíochta agus claochlaithe a thugann sí orm mo chuid eolais a dhoimhniú tuilleadh, spreagtha ag an t-iontas atá agam do na deiseanna gan teorainn a thairgeann an teicneolaíocht.”",
+    "see_resume_pt": "Féach ar an CV i bPortaingéilis",
+    "see_resume_en": "Féach ar an CV i mBéarla",
+    "contact": "Teagmháil",
+    "contact_intro": "Más mian leat teagmháil a dhéanamh liom, tá roinnt bealaí thíos chun teagmháil a dhéanamh liom.",
+    "contact_email": "ravifel.contact@gmail.com",
+    "contact_whatsapp": "WhatsApp",
+    "contact_linkedin": "LinkedIn",
+    "contact_github": "GitHub",
+    "technologies": "Teicneolaíochtaí",
+    "welcome": "Fáilte go dtí mo phunann!",
+    "repositories": "Stórtha",
+    "dark_mode": "Mód Dorcha",
+    "light_mode": "Mód Éadrom",
+    "language": "Teanga",
+    "home": "Baile",
+    "view_repository": "Féach ar an stór",
+    "testimonials": "Teistiméireachtaí",
+    "select_language": "Roghnaigh teanga",
+    "testimonials_section": {
+        "title": "Teistiméireachtaí",
+        "sort_label": "Sórtáil de réir:",
+        "most_recent": "Is nuaí",
+        "oldest": "Is sine",
+        "see_more": "Tuilleadh",
+        "see_more_aria": "Féach tuilleadh faoin teistiméireacht",
+        "close_modal": "Dún modhal"
+    },
+    "testimonials_data": [
+        {
+            "name": "Luana Medeiros",
+            "title": "Forbróir Frontend",
+            "connection": "D'oibríomar sa chuideachta chéanna, ach i bhfoirne éagsúla.",
+            "recommendation": {
+                "pt": "É um prazer recomendar o Ravi, trabalhamos juntos por um período na equipe de produto da Polibras. Durante esse tempo, pude ver o quanto ele é dedicado, sempre muito focado e organizado. Você faz muita diferença e foi uma ótima experiência trabalhar juntos!",
+                "en": "It is a pleasure to recommend Ravi; we worked together for a period on the Polibras product team. During this time, I saw how dedicated a professional he is, always very focused and organized. You make a big difference, and it was a great experience working together!",
+                "ga": "Is pléisiúr dom Ravi a mholadh; d’oibríomar le chéile ar feadh tréimhse ar fhoireann táirge Polibras. Le linn an ama sin, chonaic mé cé chomh díograiseach is atá sé, i gcónaí an-dírithe agus eagraithe. Déanann tú difríocht mhór agus bhí sé ina thaithí iontach a bheith ag obair le chéile!"
+            },
+            "date": "2024-03-29"
+        },
+        {
+            "name": "Diego Silva Costa",
+            "title": "Anailísí QA",
+            "connection": "D'oibríomar ar an bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Durante a oportunidade que tive de trabalhar com o Ravi, aprendi muito sobre os procedimentos internos da empresa. Um profissional atualizado, paciente, dedicado e, acima de tudo, proativo na resolução de problemas. Seu conhecimento sempre agregou muito e, hoje, parte do profissional que sou devo a ele.",
+                "en": "During the opportunity I had to work with Ravi, I learned a lot about the company's internal procedures. An up-to-date, patient, dedicated professional and, above all, proactive in solving problems. His knowledge has always added a lot, and today, part of the professional I am thanks to him.",
+                "ga": "Le linn na deis a bhí agam obair le Ravi, d’fhoghlaim mé go leor faoi nósanna imeachta inmheánacha na cuideachta. Gairmí cothrom le dáta, foighneach, díograiseach agus thar aon rud eile, gníomhach i réiteach fadhbanna. Chuir a chuid eolais go mór leis agus inniu, tá cuid den ghairmí atá ionam mar gheall air."
+            },
+            "date": "2024-03-28"
+        },
+        {
+            "name": "Thalia Lopes",
+            "title": "Treoir Ghairme | Earcaíocht Tallainne | Earcaí Teicniúil | Onboarding | Measúnú Síceolaíoch",
+            "connection": "D'oibríomar sa chuideachta chéanna, ach i bhfoirne éagsúla.",
+            "recommendation": {
+                "pt": "Ravi foi um talento que me chamou atenção desde a sua seleção. Pude acompanhá-lo de perto durante toda a sua entrada e permanência no estágio até o momento da sua efetivação. Sua dedicação e compromisso foi, com certeza, um dos pontos mais marcantes na sua trajetória, até agora. É inspirador trabalhar com pessoas assim! Parabéns Ravi!",
+                "en": "Ravi was a talent who caught my attention from the selection process. I was able to closely follow him throughout his internship until his permanent position. His dedication and commitment were certainly some of the most remarkable points in his journey so far. It is inspiring to work with people like that! Congratulations, Ravi!",
+                "ga": "Ba dhuine cumasach é Ravi a tharraing m’aird ón bpróiseas roghnaithe. D’éirigh liom é a leanúint go dlúth le linn a chleachtais agus go dtí a bpost buan. Bhí a thiomantas agus a dhíograis ar chuid de na pointí ba shuntasaí ina thuras go dtí seo. Tá sé spreagúil a bheith ag obair le daoine mar é! Comhghairdeas, Ravi!"
+            },
+            "date": "2023-08-07"
+        },
+        {
+            "name": "Rony de Freitas",
+            "title": "Dearthóir UX",
+            "connection": "D'oibríomar sa chuideachta chéanna, ach i bhfoirne éagsúla.",
+            "recommendation": {
+                "pt": "Trabalhar com o Ravi foi incrível. Ele é dedicado e atencioso, sempre buscando melhorar. Tive o prazer de trabalhar com ele na equipe de QA da nossa empresa. Ravi demonstrou grande habilidade em testes de regressão e automação. Sua atenção aos detalhes e capacidade de encontrar bugs foram impressionantes. Recomendo o Ravi como um profissional talentoso e comprometido.",
+                "en": "Working with Ravi was incredible. He is dedicated and attentive, always striving to improve. I had the pleasure of working with him on the QA team of our company. Ravi demonstrated great skill in regression and automation testing. His attention to detail and ability to find bugs were impressive. I recommend Ravi as a talented and committed professional.",
+                "ga": "Bhí sé iontach a bheith ag obair le Ravi. Tá sé díograiseach agus aireach, i gcónaí ag iarraidh feabhsú. Bhí an-áthas orm a bheith ag obair leis ar fhoireann QA na cuideachta. Léirigh Ravi scil mhór i dtástáil athfhillteach agus uathoibriú. Bhí a aird ar mhionsonraí agus a chumas fabhtanna a aimsiú an-taitneamhach. Molaim Ravi mar ghairmí cumasach agus tiomanta."
+            },
+            "date": "2024-07-09"
+        },
+        {
+            "name": "Gabriel Bastos",
+            "title": "Ceann IT agus .NetCore | C# | SQL | Azure | Xamarin | Angular | Forbróir Java",
+            "connection": "Bhí Gabriel ina mhaoirseoir díreach ar Ravi.",
+            "recommendation": {
+                "pt": "Hoje quero compartilhar um pouco sobre um profissional que não foi apenas parte da nossa equipe, mas também se tornou um grande amigo. Receber o Ravi em meu time foi uma daquelas experiências que nos faz perceber como o ambiente de trabalho pode se tornar um lugar realmente especial. Desde o primeiro dia, ele demonstrou clareza de ideias e responsabilidade que me impressionaram muito. Seu compromisso com a entrega de resultados excepcionais não só foi atendido, mas superou todas as expectativas. Um aspecto que sempre admirei foi sua capacidade de aprender muito rápido e, além disso, aplicar o que aprendeu. Dessa forma, ele foi peça fundamental no desenvolvimento do sistema Angular. Ele não apenas dominou a tecnologia, mas também tinha uma maneira única de tornar as coisas claras e acessíveis para toda a equipe. Além da parte técnica, um fator muito importante é sua habilidade de trabalhar em equipe. Ele nunca perdeu o foco no objetivo maior, sempre mantendo uma atitude colaborativa e encorajadora. Obrigado por todo seu suporte técnico no projeto, assim como seu apoio no desenvolvimento do time. Parabéns por ser um profissional tão transparente, honesto e que entrega resultados.",
+                "en": "Today I want to share a bit about a professional who was not only part of our team but also became a great friend. Welcoming Ravi to my team was one of those experiences that makes us realize how the work environment can become a truly special place. From the first day, he demonstrated clarity of ideas and responsibility that greatly impressed me. His commitment to delivering exceptional results was not only met but exceeded all expectations. One aspect I always admired was his ability to learn very quickly and, moreover, to apply what he learned. In this way, he was a key part in the development of the Angular system. He not only mastered the technology but also had a unique way of making things clear and accessible to the entire team. In addition to the technical part, a very important factor is his ability to work as a team. He never lost focus on the bigger goal, always maintaining a collaborative and encouraging attitude. Thank you for all your technical support on the project, as well as your support for team development. Congratulations on being such a transparent, honest professional who delivers results.",
+                "ga": "Inniu ba mhaith liom beagán a roinnt faoi ghairmí nárbh é amháin gur chuid dár bhfoireann é, ach tháinig sé chun bheith ina chara mór freisin. Bhí fáilte roimh Ravi i mo fhoireann ar cheann de na heispéiris sin a thugann le fios dúinn gur féidir leis an timpeallacht oibre a bheith ina háit an-speisialta i ndáiríre. Ón gcéad lá, léirigh sé soiléireacht smaointe agus freagracht a chuir iontas orm go mór. Ní hamháin gur chomhlíon sé, ach sháraigh sé gach ionchas maidir le torthaí eisceachtúla a sheachadadh. Rud a raibh meas agam air i gcónaí ná a chumas foghlaim go tapa agus, níos tábhachtaí fós, an fhoghlaim sin a chur i bhfeidhm. Mar sin, bhí sé ina bhall lárnach i bhforbairt an chórais Angular. Ní raibh sé ina mháistir amháin ar an teicneolaíocht, ach bhí bealach uathúil aige rudaí a dhéanamh soiléir agus inrochtana don fhoireann ar fad. Seachas an chuid theicniúil, tá a chumas oibriú i bhfoireann thar a bheith tábhachtach freisin. Níor chaill sé riamh fócas ar an sprioc is mó, i gcónaí ag coinneáil dearcadh comhoibríoch agus spreagúil. Go raibh maith agat as do thacaíocht theicniúil ar an tionscadal agus as do thacaíocht i bhforbairt na foirne. Comhghairdeas as a bheith chomh trédhearcach, macánta agus torthaí a sheachadadh."
+            },
+            "date": "2024-04-24"
+        },
+        {
+            "name": "Ronaldo Dantas",
+            "title": "Bainisteoir Forbartha agus Ceannaire Teicniúil ag Polibras Software",
+            "connection": "Bhí Ronaldo ina mhaoirseoir díreach ar Ravi.",
+            "recommendation": {
+                "pt": "Participei do início de carreira do Ravi de estagiário de testes até Analista de Qualidade e posso concluir que o Ravi é um profissional de disciplina e empenho ímpar. Você pode contar com o Ravi para garantir que o trabalho que precisa ser feito será realizado da maneira conforme planejada, sem margem a falha. Altamente disciplinado e esforçado. Consegue ser flexível em vários produtos distintos mantendo o foco no resultado alvo. É um excelente parceiro e agrega com qualidade qualquer equipe que participar.",
+                "en": "I participated in the beginning of Ravi's career from testing intern to Quality Analyst and I can conclude that Ravi is a professional with unique discipline and commitment. You can count on Ravi to ensure that the work that needs to be done will be carried out as planned, with no margin for error. Highly disciplined and hardworking. He can be flexible in various different products while maintaining focus on the target outcome. He is an excellent partner and adds quality to any team he joins.",
+                "ga": "Ghlac mé páirt i dtús ghairm Ravi ó bheith ina intéirneach tástála go dtí Anailísí Cáilíochta agus is féidir liom a rá go bhfuil Ravi ar cheann de na gairmithe is disciplíní agus is díograisí. Is féidir leat brath ar Ravi chun a chinntiú go ndéanfar an obair go léir mar a bhí beartaithe, gan botún. An-disciplinear agus dianobrach. Is féidir leis a bheith solúbtha i réimse leathan táirgí, agus fócas aige i gcónaí ar an toradh deiridh. Is comhoibrí den scoth é agus cuireann sé cáilíocht le haon fhoireann."
+            },
+            "date": "2024-07-14"
+        },
+        {
+            "name": "Jaelyson Martins",
+            "title": "Forbróir Bogearraí Sinsearach | Polibras Software",
+            "connection": "D'oibríomar ar an bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Ravi é um ótimo profissional, altamente flexível e sempre disposto a aprender novos assuntos. Ele exerce sua função com competência e consistência, além de ser altamente comunicativo, o que facilita a colaboração dentro da equipe. Nesse um ano de participação, ele se mostrou altamente participativo, mantendo uma ótima relação com o time de desenvolvimento e demonstrando um verdadeiro interesse em entender o negócio e o produto. Certamente será um ativo valioso para qualquer organização.",
+                "en": "Ravi is an excellent professional, highly flexible and always willing to learn new subjects. He performs his duties with competence and consistency, and is highly communicative, which facilitates collaboration within the team. Over the past year, he has shown great involvement, maintaining an excellent relationship with the development team and demonstrating a genuine interest in understanding the business and the product. He will certainly be a valuable asset to any organization.",
+                "ga": "Is gairmí den scoth é Ravi, thar a bheith solúbtha agus i gcónaí toilteanach ábhair nua a fhoghlaim. Déanann sé a chuid dualgas le hinniúlacht agus le comhsheasmhacht, agus tá sé an-chumarsáideach, rud a chuireann le comhoibriú sa bhfoireann. Sa bhliain seo caite, léirigh sé rannpháirtíocht mhór, ag cothú caidreamh den scoth leis an bhfoireann forbartha agus ag léiriú spéis mhór i dtuiscint ar an ngnó agus ar an táirge. Is cinnte go mbeidh sé ina shócmhainn luachmhar d’aon eagraíocht."
+            },
+            "date": "2024-07-09"
+        },
+        {
+            "name": "Davi Fernandes",
+            "title": "Anailísí Cáilíochta | C#, .NET, JavaScript, Python | Playwright, Selenium, SQL, Azure DevOps, GitHub Copilot",
+            "connection": "D'oibríomar ar an bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Tive a oportunidade de trabalhar com o Ravi e, com certeza, posso dizer que ele é um analista de qualidade excepcional. Seu domínio em criar casos de testes e criar cenários em cima de aplicações backend e frontend é impressionante. Ele sempre assegura testes de alta qualidade e faz uma grande diferença na estabilidade e desempenho dos sistemas em que está envolvido. Mas o que realmente torna o Ravi especial é sua atitude. Ele é uma pessoa incrível, sempre disposto a ajudar e a compartilhar seu conhecimento com os demais. Sua bondade e empatia criam um ambiente de trabalho colaborativo e positivo, onde todos se sentem apoiados. Se você está em busca de um analista de qualidade altamente qualificado, que é meticuloso e dedicado aos detalhes, além de ser uma excelente pessoa, eu recomendo o Ravi sem hesitação!",
+                "en": "I had the opportunity to work with Ravi and I can certainly say that he is an exceptional quality analyst. His expertise in creating test cases and scenarios on backend and frontend applications is impressive. He always ensures high-quality tests and makes a big difference in the stability and performance of the systems he is involved with. But what really makes Ravi special is his attitude. He is an amazing person, always willing to help and share his knowledge with others. His kindness and empathy create a collaborative and positive work environment where everyone feels supported. If you are looking for a highly skilled quality analyst who is meticulous and detail-oriented, as well as an excellent person, I recommend Ravi without hesitation!",
+                "ga": "Bhí deis agam obair le Ravi agus is cinnte gur féidir liom a rá gur anailísí cáilíochta eisceachtúil é. Tá saineolas aige ar chruthú cásanna tástála agus ar chruthú cásanna ar ardáin backend agus frontend, rud atá an-taitneamhach. Cinntíonn sé tástálacha ar ardchaighdeán i gcónaí agus déanann sé difríocht mhór i gcobhsaíocht agus feidhmíocht na gcóras ina bhfuil sé páirteach. Ach is é a dhearcadh a dhéanann Ravi speisialta i ndáiríre. Is duine iontach é, i gcónaí toilteanach cabhrú agus a chuid eolais a roinnt le daoine eile. Cruthaíonn a chineáltas agus a empataíocht timpeallacht oibre comhoibríoch agus dearfach ina mbíonn gach duine tacaíochta. Má tá tú ag lorg anailísí cáilíochta ardcháilithe, a bhfuil sé mionchúiseach agus dírithe ar shonraí, chomh maith le bheith ina dhuine iontach, molaim Ravi gan aon leisce!"
+            },
+            "date": "2025-03-27"
+        },
+        {
+            "name": "Marcos Venicio Viana",
+            "title": "Anailísí Tástála agus Cáilíochta Bogearraí (QA)",
+            "connection": "Bhí Marcos Venicio ina mhaoirseoir díreach ar Ravi.",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar ao lado do Ravi por dois anos e testemunhar de perto suas qualidades excepcionais. Ele é um profissional extremamente esforçado, dedicado e pontual. Ravi se destaca por sua capacidade de observação e sua ética impecável. Além disso, ele é uma pessoa extremamente educada, o que torna o ambiente de trabalho muito mais agradável. Durante o tempo em que trabalhamos juntos, Ravi demonstrou um desejo constante de aprimoramento, especialmente nas áreas de Quality Assurance e no aprendizado do inglês. Ele está sempre buscando novas formas de melhorar seus resultados e contribuir para a equipe. Recomendo Ravi sem hesitação para qualquer oportunidade futura, pois sei que se trata de um profissional de alto nível.",
+                "en": "I had the pleasure of working alongside Ravi for two years and witnessing his exceptional qualities up close. He is an extremely hardworking, dedicated, and punctual professional. Ravi stands out for his observation skills and impeccable ethics. In addition, he is an extremely polite person, which makes the work environment much more pleasant. During the time we worked together, Ravi showed a constant desire for improvement, especially in the areas of Quality Assurance and learning English. He is always looking for new ways to improve his results and contribute to the team. I recommend Ravi without hesitation for any future opportunity, as I know he is a top-level professional.",
+                "ga": "Bhí an-áthas orm a bheith ag obair taobh le Ravi ar feadh dhá bhliain agus a chuid tréithe eisceachtúla a fheiceáil go dlúth. Is gairmí thar a bheith dícheallach, díograiseach agus poncúil é. Seasann Ravi amach dá chuid scileanna breathnóireachta agus a eitic gan locht. Ina theannta sin, is duine thar a bheith béasach é, rud a dhéanann an timpeallacht oibre i bhfad níos taitneamhaí. Le linn an ama a d’oibríomar le chéile, léirigh Ravi fonn leanúnach ar fheabhsú, go háirithe i réimsí Dearbhú Cáilíochta agus foghlaim na Béarla. Tá sé i gcónaí ag lorg bealaí nua chun a thorthaí a fheabhsú agus cur le foireann. Molaim Ravi gan aon leisce do gach deis sa todhchaí, mar is eol dom gur gairmí den scoth é."
+            },
+            "date": "2024-07-20"
+        },
+        {
+            "name": "Júnior Veras",
+            "title": "Anailísí QA & Uathoibriú Tástála | C# | Selenium | Playwright",
+            "connection": "D'oibríomar ar an bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar com Ravi na equipe e posso dizer com certeza que ele é um profissional excepcional. Sempre comprometido com a excelência das entregas, Ravi demonstra grande dedicação e atenção aos detalhes, garantindo que os processos sejam executados com qualidade e eficiência. Além do seu conhecimento técnico sólido, ele se destaca pela colaboração e espírito de equipe, estando sempre disposto a ajudar e compartilhar conhecimento. Seus conhecimentos em automação de testes, bancos de dados e validação de APIs com Postman fazem dele um profissional versátil e altamente capacitado. Além disso, sua organização e comprometimento contribuem para um ambiente de trabalho produtivo e harmonioso. Sem dúvidas, Ravi é um grande talento, e qualquer equipe que contar com ele terá um profissional dedicado e competente. Recomendo fortemente!",
+                "en": "I had the pleasure of working with Ravi on the team and I can say with certainty that he is an exceptional professional. Always committed to delivering excellence, Ravi demonstrates great dedication and attention to detail, ensuring that processes are executed with quality and efficiency. In addition to his solid technical knowledge, he stands out for his collaboration and team spirit, always willing to help and share knowledge. His knowledge of test automation, databases, and API validation with Postman makes him a versatile and highly qualified professional. In addition, his organization and commitment contribute to a productive and harmonious work environment. Without a doubt, Ravi is a great talent, and any team that counts on him will have a dedicated and competent professional. I highly recommend him!",
+                "ga": "Bhí an-áthas orm a bheith ag obair le Ravi ar an bhfoireann agus is féidir liom a rá go cinnte gur gairmí eisceachtúil é. I gcónaí tiomanta do shármhaitheas a sheachadadh, taispeánann Ravi díograis mhór agus aird ar shonraí, ag cinntiú go ndéantar próisis le caighdeán agus le héifeachtúlacht. Ina theannta sin, seasann sé amach as a chomhoibriú agus a spiorad foirne, agus tá sé i gcónaí toilteanach cabhrú agus eolas a roinnt. Déanann a chuid eolais ar uathoibriú tástála, bunachair sonraí agus bailíochtú API le Postman gairmí ildánach agus ardcháilithe de. Chomh maith leis sin, cabhraíonn a eagrúchán agus a thiomantas le timpeallacht oibre tháirgiúil agus shuaimhneach a chruthú. Gan amhras, is tallann iontach é Ravi, agus beidh gairmí tiomanta agus inniúil ag aon fhoireann a mbeidh sé ann. Molaim go láidir é!"
+            },
+            "date": "2025-04-01"
+        },
+        {
+            "name": "Augusto Soares",
+            "title": "Innealtóir Bogearraí | Java | Groovy | Go | Python",
+            "connection": "D'oibríomar ar an bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Tive o privilégio de trabalhar com o Ravi na Fitbank, onde ele atuou como Analista de Qualidade (QA) com excelência. Desde o início, Ravi demonstrou um domínio técnico notável, especialmente na criação de testes automatizados eficientes, que ajudaram a garantir entregas mais seguras e ágeis para o time de desenvolvimento. Um dos diferenciais mais marcantes do Ravi é sua habilidade de analisar escopos e códigos com um olhar crítico e construtivo. Ele identifica pontos que impactam diretamente na segurança e no desempenho das aplicações, colaborando ativamente com os desenvolvedores para melhorar a qualidade do software como um todo. Suas sugestões sempre vêm acompanhadas de argumentos sólidos, baseados em boas práticas e experiências reais. Além disso, Ravi se destaca pelo seu domínio da língua inglesa. Em diversas ocasiões, ele foi peça-chave para que colegas entendessem melhor tanto documentações técnicas quanto partes do código escritas em inglês, contribuindo diretamente para a fluidez do trabalho em equipe e a autonomia dos profissionais ao lidar com conteúdos internacionais. Profissional comprometido, colaborativo e tecnicamente muito bem preparado, Ravi é uma adição valiosa a qualquer equipe de tecnologia.",
+                "en": "I had the privilege of working with Ravi at Fitbank, where he excelled in his role as a QA Analyst. From the beginning, Ravi demonstrated remarkable technical expertise, especially in creating efficient automated tests that helped ensure safer and faster deliveries for the development team. One of Ravi's most outstanding qualities is his ability to analyze scopes and code with a critical and constructive eye. He identifies aspects that directly impact the security and performance of applications, actively collaborating with developers to improve the overall quality of the software. His suggestions are always accompanied by solid arguments, based on best practices and real-world experience. Moreover, Ravi stands out for his command of the English language. On several occasions, he was a key player in helping colleagues better understand both technical documentation and parts of code written in English, directly contributing to teamwork fluidity and the autonomy of professionals when dealing with international content. A committed, collaborative, and technically well-prepared professional, Ravi is a valuable addition to any technology team.",
+                "ga": "Bhí an t-ádh orm obair le Ravi ag Fitbank, áit ar léirigh sé sárchaighdeán mar Anailísí QA. Ón tús, léirigh Ravi saineolas teicniúil eisceachtúil, go háirithe i gcruthú tástálacha uathoibrithe éifeachtacha a chuidigh le seachadtaí níos sábháilte agus níos tapúla don fhoireann forbartha. Ceann de na tréithe is suntasaí atá ag Ravi ná a chumas scóip agus cód a anailísiú go criticiúil agus go tógálach. Aithníonn sé gnéithe a chuireann tionchar díreach ar shlándáil agus ar fheidhmíocht na n-aipeanna, agus comhoibríonn sé go gníomhach leis na forbróirí chun cáilíocht iomlán an bhogearra a fheabhsú. Tagann a mholtaí le hargóintí láidre i gcónaí, bunaithe ar chleachtais mhaith agus taithí fhíor-aimseartha. Ina theannta sin, seasann Ravi amach as a mháistreacht ar an mBéarla. Ar go leor ócáidí, bhí sé lárnach chun cabhrú le comhghleacaithe tuiscint níos fearr a fháil ar dhoiciméid theicniúla agus ar chodanna cód scríofa i mBéarla, agus chabhraigh sé go díreach le sreabhadh oibre agus le huathriail sa bhfoireann. Gairmí tiomanta, comhoibríoch agus an-mhaith go teicniúil, is breisluach é Ravi in aon fhoireann teicneolaíochta."
+            },
+            "date": "2025-05-06"
+        }
+    ],
+    "techs": {
+        "playwright": "Playwright",
+        "selenium": "Selenium WebDriver",
+        "csharp": "C#",
+        "cypress": "Cypress",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "postman": "Postman",
+        "sql": "SQL",
+        "postgresql": "PostgreSQL",
+        "sqlite": "SQLite",
+        "git": "Git",
+        "github": "GitHub",
+        "bitbucket": "BitBucket",
+        "react": "React JS",
+        "angular": "Angular",
+        "html": "HTML",
+        "css": "CSS",
+        "bootstrap": "Bootstrap",
+        "angularmaterial": "Angular Material",
+        "vscode": "Visual Studio Code",
+        "jira": "Jira",
+        "teams": "Teams",
+        "azuredevops": "Azure DevOps",
+        "trello": "Trello",
+        "windows": "Windows",
+        "linux": "Linux",
+        "fedora": "Fedora",
+        "ubuntu": "Ubuntu"
+    },
+    "pagination": {
+        "items_per_page": "Torthaí in aghaidh an leathanaigh",
+        "of": "as",
+        "prev_page": "Leathanach roimhe seo",
+        "next_page": "Leathanach eile"
+    },
+    "repositories_test_group": "🧪 Stórtha Tástála",
+    "repositories_dev_group": "💻 Stórtha Forbartha",
+    "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
+    "repo_landing_page_tests_automated_desc": "Tástálacha uathoibrithe do LandingPage Agilean.",
+    "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",
+    "repo_selenium_ui_test_csharp_desc": "Selenium WebDriver | C#.Net | Ceardlann | (RKTestingTools)",
+    "repo_cypress_test_api_name": "Cypress Test Api",
+    "repo_cypress_test_api_desc": "Tionscadal Cypress do thástáil API.",
+    "repo_cypress_project_to_practice_name": "Cypress Project To Practice",
+    "repo_cypress_project_to_practice_desc": "Uathoibriú Gréasáin le Cypress.",
+    "repo_cypress_bdd_cucumber_name": "Cypress BDD Cucumber",
+    "repo_cypress_bdd_cucumber_desc": "Uathoibriú Gréasáin le Cypress agus Cucumber (BDD).",
+    "repo_cypress_web_automation_tests_name": "Cypress Web Automation Tests",
+    "repo_cypress_web_automation_tests_desc": "Uathoibriú Gréasáin le Cypress.",
+    "repo_website_ravi_portfolio_react_name": "Website Ravi Portfolio React",
+    "repo_website_ravi_portfolio_react_desc": "Suíomh pearsanta punainne ag úsáid React.",
+    "repo_book_library_project_name": "Book Library Project",
+    "repo_book_library_project_desc": "Déantar insamhladh ar leabharlann fhíorúil leabhar. Tionscadal staidéir front-end.",
+    "repo_projeto_angular_spa_name": "Tionscadal Angular Spa",
+    "repo_projeto_angular_spa_desc": "Tionscadal forbartha ar an gcúrsa \"Forbairt SPA le Angular\", ar an ardán Desenvolvedor.io.",
+    "repo_curso_angular9_cod3r_name": "Cúrsa Angular9 COD3R",
+    "repo_curso_angular9_cod3r_desc": "Tionscadal forbartha le linn an chúrsa \"Angular 9 Essencial\", ar ardán Cod3r.",
+    "repo_email_js_angular_name": "Email JS Angular",
+    "repo_email_js_angular_desc": "Seirbhís seolta ríomhphoist ag úsáid \"EmailJS\" curtha i bhfeidhm in Angular le TypeScript.",
+    "repo_movies_project_name": "Movies Project",
+    "repo_movies_project_desc": "Sa tionscadal seo, is féidir leis an úsáideoir scannáin a chuardach agus faisnéis a fheiceáil fúthu."
+}

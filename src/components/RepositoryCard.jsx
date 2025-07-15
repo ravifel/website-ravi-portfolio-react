@@ -10,6 +10,7 @@ import {
 } from 'react-icons/si';
 import { BiCodeAlt } from 'react-icons/bi';
 import { Github } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const techIcons = {
     javascript: <SiJavascript size={60} color="#F7DF1E" />,
@@ -35,6 +36,7 @@ const techIcons = {
 };
 
 const RepositoryCard = ({ name, description, url, tech }) => {
+    const { t } = useTranslation();
     const icon = techIcons[tech?.toLowerCase()] || techIcons.default;
 
     return (
@@ -50,7 +52,7 @@ const RepositoryCard = ({ name, description, url, tech }) => {
                     rel="noopener noreferrer"
                     className="mt-auto d-inline-flex align-items-center"
                 >
-                    <span className="me-2"><Github /></span> Ver o repositório
+                    <span className="me-2"><Github /></span> {t('view_repository')}
                 </Button>
             </Card.Body>
         </Card>

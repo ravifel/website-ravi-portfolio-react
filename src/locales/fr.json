@@ -1,0 +1,219 @@
+{
+    "profile_name": "Ravi Silva",
+    "profile_description_1": "Passionné par la technologie et la qualité logicielle, je suis diplômé en Analyse et Développement de Systèmes à <strong>l'Université de Fortaleza (UNIFOR)</strong> et titulaire de deux diplômes de troisième cycle en <strong>Ingénierie Logicielle avec une spécialisation en Qualité</strong> et en <strong>Développement Frontend</strong>.",
+    "profile_description_2": "J'occupe le poste d'Analyste Qualité Logicielle, avec une expérience en tests automatisés sur <strong>Cypress, Selenium WebDriver</strong> et d'autres outils. Je maîtrise <strong>Angular, React, Git, SQL</strong> ainsi que les méthodologies agiles.",
+    "profile_description_3": "J'étudie <strong>l'anglais avec des professeurs natifs</strong> cinq fois par semaine afin d'améliorer mes compétences linguistiques. Je suis une personne <strong>rigoureuse, organisée et engagée</strong> dans la recherche de l'excellence.",
+    "profile_quote": "« Je trouve impressionnant l'impact positif que la technologie peut avoir sur la vie des gens en résolvant des problèmes réels et quotidiens. La capacité d'innovation et de transformation qu'elle offre m'inspire à approfondir toujours plus mes connaissances, fasciné par les possibilités infinies de la technologie. »",
+    "see_resume_pt": "Voir le CV en portugais",
+    "see_resume_en": "Voir le CV en anglais",
+    "contact": "Contact",
+    "contact_intro": "Si vous souhaitez me contacter, vous trouverez ci-dessous différents moyens de le faire.",
+    "contact_email": "ravifel.contact@gmail.com",
+    "contact_whatsapp": "WhatsApp",
+    "contact_linkedin": "LinkedIn",
+    "contact_github": "GitHub",
+    "technologies": "Technologies",
+    "welcome": "Bienvenue sur mon portfolio !",
+    "repositories": "Dépôts",
+    "dark_mode": "Mode sombre",
+    "light_mode": "Mode clair",
+    "language": "Langue",
+    "home": "Accueil",
+    "view_repository": "Voir le dépôt",
+    "testimonials": "Témoignages",
+    "select_language": "Sélectionner la langue",
+    "testimonials_section": {
+        "title": "Témoignages",
+        "sort_label": "Trier par :",
+        "most_recent": "Les plus récents",
+        "oldest": "Les plus anciens",
+        "see_more": "Voir plus",
+        "see_more_aria": "Voir plus du témoignage",
+        "close_modal": "Fermer la fenêtre"
+    },
+    "testimonials_data": [
+        {
+            "name": "Luana Medeiros",
+            "title": "Développeuse Front-End",
+            "connection": "Nous avons travaillé dans la même entreprise, mais dans des équipes différentes.",
+            "recommendation": {
+                "pt": "É um prazer recomendar o Ravi, trabalhamos juntos por um período na equipe de produto da Polibras. Durante esse tempo, pude ver o quanto ele é dedicado, sempre muito focado e organizado. Você faz muita diferença e foi uma ótima experiência trabalhar juntos!",
+                "en": "It is a pleasure to recommend Ravi; we worked together for a period on the Polibras product team. During this time, I saw how dedicated a professional he is, always very focused and organized. You make a big difference, and it was a great experience working together!",
+                "fr": "C’est un plaisir de recommander Ravi ; nous avons travaillé ensemble pendant un certain temps dans l’équipe produit de Polibras. Durant cette période, j’ai pu constater à quel point il est dévoué, toujours très concentré et organisé. Tu fais vraiment la différence et ce fut une excellente expérience de travailler ensemble !"
+            },
+            "date": "2024-03-29"
+        },
+        {
+            "name": "Diego Silva Costa",
+            "title": "Analyste QA",
+            "connection": "Nous avons travaillé dans la même équipe.",
+            "recommendation": {
+                "pt": "Durante a oportunidade que tive de trabalhar com o Ravi, aprendi muito sobre os procedimentos internos da empresa. Um profissional atualizado, paciente, dedicado e, acima de tudo, proativo na resolução de problemas. Seu conhecimento sempre agregou muito e, hoje, parte do profissional que sou devo a ele.",
+                "en": "During the opportunity I had to work with Ravi, I learned a lot about the company's internal procedures. An up-to-date, patient, dedicated professional and, above all, proactive in solving problems. His knowledge has always added a lot, and today, part of the professional I am thanks to him.",
+                "fr": "Lors de l’opportunité que j’ai eue de travailler avec Ravi, j’ai beaucoup appris sur les procédures internes de l’entreprise. Un professionnel à jour, patient, dévoué et, surtout, proactif dans la résolution des problèmes. Ses connaissances ont toujours beaucoup apporté et aujourd’hui, une partie du professionnel que je suis, je le dois à lui."
+            },
+            "date": "2024-03-28"
+        },
+        {
+            "name": "Thalia Lopes",
+            "title": "Orientation professionnelle | Talent Acquisition | Recruteuse Tech | Onboarding | Évaluation Psychologique",
+            "connection": "Nous avons travaillé dans la même entreprise, mais dans des équipes différentes.",
+            "recommendation": {
+                "pt": "Ravi foi um talento que me chamou atenção desde a sua seleção. Pude acompanhá-lo de perto durante toda a sua entrada e permanência no estágio até o momento da sua efetivação. Sua dedicação e compromisso foi, com certeza, um dos pontos mais marcantes na sua trajetória, até agora. É inspirador trabalhar com pessoas assim! Parabéns Ravi!",
+                "en": "Ravi was a talent who caught my attention from the selection process. I was able to closely follow him throughout his internship until his permanent position. His dedication and commitment were certainly some of the most remarkable points in his journey so far. It is inspiring to work with people like that! Congratulations, Ravi!",
+                "fr": "Ravi était un talent qui a attiré mon attention dès la sélection. J’ai pu le suivre de près tout au long de son entrée et de son stage jusqu’à sa titularisation. Sa dévotion et son engagement ont été, sans aucun doute, des points marquants dans son parcours jusqu’à présent. Travailler avec des personnes comme lui est inspirant ! Félicitations Ravi !"
+            },
+            "date": "2023-08-07"
+        },
+        {
+            "name": "Rony de Freitas",
+            "title": "Designer UX",
+            "connection": "Nous avons travaillé dans la même entreprise, mais dans des équipes différentes.",
+            "recommendation": {
+                "pt": "Trabalhar com o Ravi foi incrível. Ele é dedicado e atencioso, sempre buscando melhorar. Tive o prazer de trabalhar com ele na equipe de QA da nossa empresa. Ravi demonstrou grande habilidade em testes de regressão e automação. Sua atenção aos detalhes e capacidade de encontrar bugs foram impressionantes. Recomendo o Ravi como um profissional talentoso e comprometido.",
+                "en": "Working with Ravi was incredible. He is dedicated and attentive, always striving to improve. I had the pleasure of working with him on the QA team of our company. Ravi demonstrated great skill in regression and automation testing. His attention to detail and ability to find bugs were impressive. I recommend Ravi as a talented and committed professional.",
+                "fr": "Travailler avec Ravi a été incroyable. Il est dévoué et attentif, toujours en quête d’amélioration. J’ai eu le plaisir de travailler avec lui dans l’équipe QA de notre entreprise. Ravi a montré une grande habileté dans les tests de régression et d’automatisation. Son attention au détail et sa capacité à trouver des bugs sont impressionnantes. Je recommande Ravi comme un professionnel talentueux et engagé."
+            },
+            "date": "2024-07-09"
+        },
+        {
+            "name": "Gabriel Bastos",
+            "title": "Responsable IT et .NetCore | C# | SQL | Azure | Xamarin | Angular | Développeur Java",
+            "connection": "Gabriel supervisait directement Ravi.",
+            "recommendation": {
+                "pt": "Hoje quero compartilhar um pouco sobre um profissional que não foi apenas parte da nossa equipe, mas também se tornou um grande amigo. Receber o Ravi em meu time foi uma daquelas experiências que nos faz perceber como o ambiente de trabalho pode se tornar um lugar realmente especial. Desde o primeiro dia, ele demonstrou clareza de ideias e responsabilidade que me impressionaram muito. Seu compromisso com a entrega de resultados excepcionais não só foi atendido, mas superou todas as expectativas. Um aspecto que sempre admirei foi sua capacidade de aprender muito rápido e, além disso, aplicar o que aprendeu. Dessa forma, ele foi peça fundamental no desenvolvimento do sistema Angular. Ele não apenas dominou a tecnologia, mas também tinha uma maneira única de tornar as coisas claras e acessíveis para toda a equipe. Além da parte técnica, um fator muito importante é sua habilidade de trabalhar em equipe. Ele nunca perdeu o foco no objetivo maior, sempre mantendo uma atitude colaborativa e encorajadora. Obrigado por todo seu suporte técnico no projeto, assim como seu apoio no desenvolvimento do time. Parabéns por ser um profissional tão transparente, honesto e que entrega resultados.",
+                "en": "Today I want to share a bit about a professional who was not only part of our team but also became a great friend. Welcoming Ravi to my team was one of those experiences that makes us realize how the work environment can become a truly special place. From the first day, he demonstrated clarity of ideas and responsibility that greatly impressed me. His commitment to delivering exceptional results was not only met but exceeded all expectations. One aspect I always admired was his ability to learn very quickly and, moreover, to apply what he learned. In this way, he was a key part in the development of the Angular system. He not only mastered the technology but also had a unique way of making things clear and accessible to the entire team. In addition to the technical part, a very important factor is his ability to work as a team. He never lost focus on the bigger goal, always maintaining a collaborative and encouraging attitude. Thank you for all your technical support on the project, as well as your support for team development. Congratulations on being such a transparent, honest professional who delivers results.",
+                "fr": "Aujourd’hui, je souhaite partager un peu sur un professionnel qui non seulement a fait partie de notre équipe, mais est aussi devenu un grand ami. Accueillir Ravi dans mon équipe a été une de ces expériences qui nous font réaliser à quel point l’environnement de travail peut devenir vraiment spécial. Dès le premier jour, il a démontré une clarté d’idées et un sens des responsabilités qui m’ont beaucoup impressionné. Son engagement pour l’excellence des résultats a non seulement été respecté, mais il a dépassé toutes les attentes. Un aspect que j’ai toujours admiré était sa capacité à apprendre très rapidement et, de plus, à appliquer ce qu’il avait appris. Il a ainsi joué un rôle clé dans le développement du système Angular. Il n’a pas seulement maîtrisé la technologie, mais il avait aussi une façon unique de rendre les choses claires et accessibles à toute l’équipe. Au-delà de la technique, il est également très important de noter sa capacité à travailler en équipe. Il n’a jamais perdu de vue l’objectif majeur, gardant toujours une attitude collaborative et encourageante. Merci pour tout ton soutien technique sur le projet, ainsi que pour ton appui au développement de l’équipe. Félicitations pour être un professionnel aussi transparent, honnête et efficace."
+            },
+            "date": "2024-04-24"
+        },
+        {
+            "name": "Ronaldo Dantas",
+            "title": "Responsable Développement et Chef Technique chez Polibras Software",
+            "connection": "Ronaldo supervisait directement Ravi.",
+            "recommendation": {
+                "pt": "Participei do início de carreira do Ravi de estagiário de testes até Analista de Qualidade e posso concluir que o Ravi é um profissional de disciplina e empenho ímpar. Você pode contar com o Ravi para garantir que o trabalho que precisa ser feito será realizado da maneira conforme planejada, sem margem a falha. Altamente disciplinado e esforçado. Consegue ser flexível em vários produtos distintos mantendo o foco no resultado alvo. É um excelente parceiro e agrega com qualidade qualquer equipe que participar.",
+                "en": "I participated in the beginning of Ravi's career from testing intern to Quality Analyst and I can conclude that Ravi is a professional with unique discipline and commitment. You can count on Ravi to ensure that the work that needs to be done will be carried out as planned, with no margin for error. Highly disciplined and hardworking. He can be flexible in various different products while maintaining focus on the target outcome. He is an excellent partner and adds quality to any team he joins.",
+                "fr": "J’ai participé au début de carrière de Ravi, de stagiaire test à Analyste Qualité, et je peux affirmer que Ravi est un professionnel d’une discipline et d’un engagement remarquables. Vous pouvez compter sur Ravi pour garantir que le travail sera fait comme prévu, sans marge d’erreur. Très discipliné et travailleur. Il sait être flexible sur divers produits tout en gardant le focus sur le résultat. C’est un excellent partenaire qui apporte de la qualité à toute équipe."
+            },
+            "date": "2024-07-14"
+        },
+        {
+            "name": "Jaelyson Martins",
+            "title": "Développeur Logiciel Senior | Polibras Software",
+            "connection": "Nous avons travaillé dans la même équipe.",
+            "recommendation": {
+                "pt": "Ravi é um ótimo profissional, altamente flexível e sempre disposto a aprender novos assuntos. Ele exerce sua função com competência e consistência, além de ser altamente comunicativo, o que facilita a colaboração dentro da equipe. Nesse um ano de participação, ele se mostrou altamente participativo, mantendo uma ótima relação com o time de desenvolvimento e demonstrando um verdadeiro interesse em entender o negócio e o produto. Certamente será um ativo valioso para qualquer organização.",
+                "en": "Ravi is an excellent professional, highly flexible and always willing to learn new subjects. He performs his duties with competence and consistency, and is highly communicative, which facilitates collaboration within the team. Over the past year, he has shown great involvement, maintaining an excellent relationship with the development team and demonstrating a genuine interest in understanding the business and the product. He will certainly be a valuable asset to any organization.",
+                "fr": "Ravi est un excellent professionnel, très flexible et toujours prêt à apprendre de nouveaux sujets. Il accomplit ses fonctions avec compétence et régularité, et est très communicatif, ce qui facilite la collaboration au sein de l’équipe. Cette année, il a montré une forte implication, gardant une excellente relation avec l’équipe de développement et démontrant un réel intérêt pour le business et le produit. Il sera sans aucun doute un atout précieux pour toute organisation."
+            },
+            "date": "2024-07-09"
+        },
+        {
+            "name": "Davi Fernandes",
+            "title": "Analyste Qualité | C#, .NET, JavaScript, Python | Playwright, Selenium, SQL, Azure DevOps, GitHub Copilot",
+            "connection": "Nous avons travaillé dans la même équipe.",
+            "recommendation": {
+                "pt": "Tive a oportunidade de trabalhar com o Ravi e, com certeza, posso dizer que ele é um analista de qualidade excepcional. Seu domínio em criar casos de testes e criar cenários em cima de aplicações backend e frontend é impressionante. Ele sempre assegura testes de alta qualidade e faz uma grande diferença na estabilidade e desempenho dos sistemas em que está envolvido. Mas o que realmente torna o Ravi especial é sua atitude. Ele é uma pessoa incrível, sempre disposto a ajudar e a compartilhar seu conhecimento com os demais. Sua bondade e empatia criam um ambiente de trabalho colaborativo e positivo, onde todos se sentem apoiados. Se você está em busca de um analista de qualidade altamente qualificado, que é meticuloso e dedicado aos detalhes, além de ser uma excelente pessoa, eu recomendo o Ravi sem hesitação!",
+                "en": "I had the opportunity to work with Ravi and I can certainly say that he is an exceptional quality analyst. His expertise in creating test cases and scenarios on backend and frontend applications is impressive. He always ensures high-quality tests and makes a big difference in the stability and performance of the systems he is involved with. But what really makes Ravi special is his attitude. He is an amazing person, always willing to help and share his knowledge with others. His kindness and empathy create a collaborative and positive work environment where everyone feels supported. If you are looking for a highly skilled quality analyst who is meticulous and detail-oriented, as well as an excellent person, I recommend Ravi without hesitation!",
+                "fr": "J’ai eu l’opportunité de travailler avec Ravi et je peux dire sans hésiter que c’est un analyste qualité exceptionnel. Sa maîtrise dans la création de cas de test et de scénarios tant backend que frontend est impressionnante. Il assure toujours des tests de grande qualité et fait une réelle différence dans la stabilité et la performance des systèmes auxquels il participe. Mais ce qui rend Ravi vraiment spécial, c’est son attitude. C’est une personne formidable, toujours prête à aider et à partager ses connaissances. Sa gentillesse et son empathie créent un environnement de travail collaboratif et positif où chacun se sent soutenu. Si vous recherchez un analyste qualité hautement qualifié, méticuleux et attentif aux détails, tout en étant une excellente personne, je recommande Ravi sans hésitation !"
+            },
+            "date": "2025-03-27"
+        },
+        {
+            "name": "Marcos Venicio Viana",
+            "title": "Analyste Tests et Qualité Logicielle (QA)",
+            "connection": "Marcos Venicio supervisait directement Ravi.",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar ao lado do Ravi por dois anos e testemunhar de perto suas qualidades excepcionais. Ele é um profissional extremamente esforçado, dedicado e pontual. Ravi se destaca por sua capacidade de observação e sua ética impecável. Além disso, ele é uma pessoa extremamente educada, o que torna o ambiente de trabalho muito mais agradável. Durante o tempo em que trabalhamos juntos, Ravi demonstrou um desejo constante de aprimoramento, especialmente nas áreas de Quality Assurance e no aprendizado do inglês. Ele está sempre buscando novas formas de melhorar seus resultados e contribuir para a equipe. Recomendo Ravi sem hesitação para qualquer oportunidade futura, pois sei que se trata de um profissional de alto nível.",
+                "en": "I had the pleasure of working alongside Ravi for two years and witnessing his exceptional qualities up close. He is an extremely hardworking, dedicated, and punctual professional. Ravi stands out for his observation skills and impeccable ethics. In addition, he is an extremely polite person, which makes the work environment much more pleasant. During the time we worked together, Ravi showed a constant desire for improvement, especially in the areas of Quality Assurance and learning English. He is always looking for new ways to improve his results and contribute to the team. I recommend Ravi without hesitation for any future opportunity, as I know he is a top-level professional.",
+                "fr": "J’ai eu le plaisir de travailler aux côtés de Ravi pendant deux ans et de constater ses qualités exceptionnelles. C’est un professionnel extrêmement travailleur, dévoué et ponctuel. Ravi se distingue par sa capacité d’observation et son éthique irréprochable. De plus, c’est une personne extrêmement polie, ce qui rend l’environnement de travail beaucoup plus agréable. Durant notre collaboration, Ravi a montré un désir constant de s’améliorer, notamment en Assurance Qualité et dans l’apprentissage de l’anglais. Il cherche toujours à progresser et à contribuer à l’équipe. Je recommande Ravi sans hésiter pour toute opportunité future, car je sais qu’il est un professionnel de haut niveau."
+            },
+            "date": "2024-07-20"
+        },
+        {
+            "name": "Júnior Veras",
+            "title": "Analyste QA & Automatisation des Tests | C# | Selenium | Playwright",
+            "connection": "Nous avons travaillé dans la même équipe.",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar com Ravi na equipe e posso dizer com certeza que ele é um profissional excepcional. Sempre comprometido com a excelência das entregas, Ravi demonstra grande dedicação e atenção aos detalhes, garantindo que os processos sejam executados com qualidade e eficiência. Além do seu conhecimento técnico sólido, ele se destaca pela colaboração e espírito de equipe, estando sempre disposto a ajudar e compartilhar conhecimento. Seus conhecimentos em automação de testes, bancos de dados e validação de APIs com Postman fazem dele um profissional versátil e altamente capacitado. Além disso, sua organização e comprometimento contribuem para um ambiente de trabalho produtivo e harmonioso. Sem dúvidas, Ravi é um grande talento, e qualquer equipe que contar com ele terá um profissional dedicado e competente. Recomendo fortemente!",
+                "en": "I had the pleasure of working with Ravi on the team and I can say with certainty that he is an exceptional professional. Always committed to delivering excellence, Ravi demonstrates great dedication and attention to detail, ensuring that processes are executed with quality and efficiency. In addition to his solid technical knowledge, he stands out for his collaboration and team spirit, always willing to help and share knowledge. His knowledge of test automation, databases, and API validation with Postman makes him a versatile and highly qualified professional. In addition, his organization and commitment contribute to a productive and harmonious work environment. Without a doubt, Ravi is a great talent, and any team that counts on him will have a dedicated and competent professional. I highly recommend him!",
+                "fr": "J’ai eu le plaisir de travailler avec Ravi dans l’équipe et je peux dire avec certitude que c’est un professionnel exceptionnel. Toujours engagé pour l’excellence, Ravi fait preuve d’une grande rigueur et attention aux détails, garantissant des processus de qualité et efficaces. Outre ses solides connaissances techniques, il se distingue par sa collaboration et son esprit d’équipe, toujours prêt à aider et à partager son savoir. Sa maîtrise de l’automatisation des tests, des bases de données et de la validation d’API avec Postman font de lui un professionnel polyvalent et très qualifié. De plus, son organisation et son engagement contribuent à un environnement de travail productif et harmonieux. Sans aucun doute, Ravi est un grand talent, et toute équipe qui l’aura bénéficiera d’un professionnel engagé et compétent. Je le recommande vivement !"
+            },
+            "date": "2025-04-01"
+        },
+        {
+            "name": "Augusto Soares",
+            "title": "Ingénieur Logiciel | Java | Groovy | Go | Python",
+            "connection": "Nous avons travaillé dans la même équipe.",
+            "recommendation": {
+                "pt": "Tive o privilégio de trabalhar com o Ravi na Fitbank, onde ele atuou como Analista de Qualidade (QA) com excelência. Desde o início, Ravi demonstrou um domínio técnico notável, especialmente na criação de testes automatizados eficientes, que ajudaram a garantir entregas mais seguras e ágeis para o time de desenvolvimento. Um dos diferenciais mais marcantes do Ravi é sua habilidade de analisar escopos e códigos com um olhar crítico e construtivo. Ele identifica pontos que impactam diretamente na segurança e no desempenho das aplicações, colaborando ativamente com os desenvolvedores para melhorar a qualidade do software como um todo. Suas sugestões sempre vêm acompanhadas de argumentos sólidos, baseados em boas práticas e experiências reais. Além disso, Ravi se destaca pelo seu domínio da língua inglesa. Em diversas ocasiões, ele foi peça-chave para que colegas entendessem melhor tanto documentações técnicas quanto partes do código escritas em inglês, contribuindo diretamente para a fluidez do trabalho em equipe e a autonomia dos profissionais ao lidar com conteúdos internacionais. Profissional comprometido, colaborativo e tecnicamente muito bem preparado, Ravi é uma adição valiosa a qualquer equipe de tecnologia.",
+                "en": "I had the privilege of working with Ravi at Fitbank, where he excelled in his role as a QA Analyst. From the beginning, Ravi demonstrated remarkable technical expertise, especially in creating efficient automated tests that helped ensure safer and faster deliveries for the development team. One of Ravi's most outstanding qualities is his ability to analyze scopes and code with a critical and constructive eye. He identifies aspects that directly impact the security and performance of applications, actively collaborating with developers to improve the overall quality of the software. His suggestions are always accompanied by solid arguments, based on best practices and real-world experience. Moreover, Ravi stands out for his command of the English language. On several occasions, he was a key player in helping colleagues better understand both technical documentation and parts of code written in English, directly contributing to teamwork fluidity and the autonomy of professionals when dealing with international content. A committed, collaborative, and technically well-prepared professional, Ravi is a valuable addition to any technology team.",
+                "fr": "J’ai eu le privilège de travailler avec Ravi chez Fitbank, où il a excellé dans son rôle d’Analyste QA. Dès le début, Ravi a démontré une expertise technique remarquable, notamment dans la création de tests automatisés efficaces qui ont permis des livraisons plus sûres et plus rapides à l’équipe de développement. L’une des qualités les plus marquantes de Ravi est sa capacité à analyser des portées et du code avec un regard critique et constructif. Il identifie les points qui impactent directement la sécurité et la performance des applications, collaborant activement avec les développeurs pour améliorer la qualité globale du logiciel. Ses suggestions sont toujours accompagnées d’arguments solides, fondés sur les bonnes pratiques et l’expérience réelle. De plus, Ravi se distingue par sa maîtrise de l’anglais. À plusieurs reprises, il a été une pièce clé pour aider les collègues à mieux comprendre la documentation technique et des parties du code rédigées en anglais, contribuant directement à la fluidité du travail en équipe et à l’autonomie des professionnels face à des contenus internationaux. Professionnel engagé, collaboratif et techniquement très bien préparé, Ravi est un atout précieux pour toute équipe technologique."
+            },
+            "date": "2025-05-06"
+        }
+    ],
+    "techs": {
+        "playwright": "Playwright",
+        "selenium": "Selenium WebDriver",
+        "csharp": "C#",
+        "cypress": "Cypress",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript",
+        "postman": "Postman",
+        "sql": "SQL",
+        "postgresql": "PostgreSQL",
+        "sqlite": "SQLite",
+        "git": "Git",
+        "github": "GitHub",
+        "bitbucket": "BitBucket",
+        "react": "React JS",
+        "angular": "Angular",
+        "html": "HTML",
+        "css": "CSS",
+        "bootstrap": "Bootstrap",
+        "angularmaterial": "Angular Material",
+        "vscode": "Visual Studio Code",
+        "jira": "Jira",
+        "teams": "Teams",
+        "azuredevops": "Azure DevOps",
+        "trello": "Trello",
+        "windows": "Windows",
+        "linux": "Linux",
+        "fedora": "Fedora",
+        "ubuntu": "Ubuntu"
+    },
+    "pagination": {
+        "items_per_page": "Résultats par page",
+        "of": "sur",
+        "prev_page": "Page précédente",
+        "next_page": "Page suivante"
+    },
+    "repositories_test_group": "🧪 Dépôts de test",
+    "repositories_dev_group": "💻 Dépôts de développement",
+    "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
+    "repo_landing_page_tests_automated_desc": "Tests automatisés pour la LandingPage d’Agilean.",
+    "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",
+    "repo_selenium_ui_test_csharp_desc": "Selenium WebDriver | C#.Net | Workshop | (RKTestingTools)",
+    "repo_cypress_test_api_name": "Cypress Test Api",
+    "repo_cypress_test_api_desc": "Projet Cypress pour les tests d’API.",
+    "repo_cypress_project_to_practice_name": "Cypress Project To Practice",
+    "repo_cypress_project_to_practice_desc": "Automatisation web avec Cypress.",
+    "repo_cypress_bdd_cucumber_name": "Cypress BDD Cucumber",
+    "repo_cypress_bdd_cucumber_desc": "Automatisation web avec Cypress et Cucumber (BDD).",
+    "repo_cypress_web_automation_tests_name": "Cypress Web Automation Tests",
+    "repo_cypress_web_automation_tests_desc": "Automatisation web avec Cypress.",
+    "repo_website_ravi_portfolio_react_name": "Website Ravi Portfolio React",
+    "repo_website_ravi_portfolio_react_desc": "Site personnel de portfolio utilisant React.",
+    "repo_book_library_project_name": "Book Library Project",
+    "repo_book_library_project_desc": "Le système simule une bibliothèque virtuelle de livres. Projet d’étude front-end.",
+    "repo_projeto_angular_spa_name": "Projet Angular Spa",
+    "repo_projeto_angular_spa_desc": "Projet développé lors du cours « Développement SPA avec Angular » sur la plateforme Desenvolvedor.io.",
+    "repo_curso_angular9_cod3r_name": "Cours Angular9 COD3R",
+    "repo_curso_angular9_cod3r_desc": "Projet développé lors du cours « Angular 9 Essentiel » de la plateforme Cod3r.",
+    "repo_email_js_angular_name": "Email JS Angular",
+    "repo_email_js_angular_desc": "Service d’envoi d’emails avec « EmailJS » implémenté en Angular avec TypeScript.",
+    "repo_movies_project_name": "Movies Project",
+    "repo_movies_project_desc": "Dans ce projet, l’utilisateur peut rechercher des films et voir des informations à leur sujet."
+}
