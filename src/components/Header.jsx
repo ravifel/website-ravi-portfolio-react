@@ -16,10 +16,11 @@ function Header() {
 
     return (
         <Navbar
-            bg={darkMode ? 'dark' : 'light'}
+            bg={darkMode ? 'dark' : undefined} // 'light' removido, usaremos classe personalizada
             variant={darkMode ? 'dark' : 'light'}
             expand="lg"
             sticky="top"
+            className={!darkMode ? 'navbar-custom-light' : ''}
         >
             <Container>
                 <Navbar.Brand as={Link} to="/">Ravi Silva</Navbar.Brand>

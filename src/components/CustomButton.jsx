@@ -42,5 +42,4 @@ CustomButton.propTypes = {
     className: PropTypes.string,
 };
 
-
 export default CustomButton;

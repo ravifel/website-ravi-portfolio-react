@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Container, Row, Col, Accordion } from 'react-bootstrap';
 import RepositoryCard from '../components/RepositoryCard';
 import { ThemeContext } from '../App';
+import { Github } from 'lucide-react';
 
 const groupedRepositories = [
     {
@@ -94,10 +95,10 @@ const Repositories = () => {
     const { darkMode } = useContext(ThemeContext);
 
     return (
-        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-light text-dark min-vh-100'}>
+        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}>
             <Container className="py-5">
                 <h2 className="mb-4">
-                    <span role="img" aria-label="Folder">📁</span> Repositórios
+                    <span role="img" aria-label="Folder"><Github className='iconGithub'/></span> Repositórios
                 </h2>
 
                 <Accordion alwaysOpen>

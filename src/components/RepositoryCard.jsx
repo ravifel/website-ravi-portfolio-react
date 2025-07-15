@@ -9,6 +9,7 @@ import {
     SiPostman, SiMongodb, SiMysql, SiPostgresql, SiDotnet
 } from 'react-icons/si';
 import { BiCodeAlt } from 'react-icons/bi';
+import { Github } from 'lucide-react';
 
 const techIcons = {
     javascript: <SiJavascript size={60} color="#F7DF1E" />,
@@ -49,7 +50,7 @@ const RepositoryCard = ({ name, description, url, tech }) => {
                     rel="noopener noreferrer"
                     className="mt-auto d-inline-flex align-items-center"
                 >
-                    <span className="me-2">🔗</span> Ver o repositório
+                    <span className="me-2"><Github /></span> Ver o repositório
                 </Button>
             </Card.Body>
         </Card>

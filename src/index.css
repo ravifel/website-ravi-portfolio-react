@@ -8,7 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -29,6 +28,11 @@ code {
   color: #212529;
 }
 
+.navbar-custom-light {
+  background-color: #e3e3e3 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
 /* Modo Escuro */
 .dark-theme {
   background-color: #121212;
@@ -36,7 +40,8 @@ code {
 }
 
 /* Estilo para links ou botões personalizados se precisar */
-a, .btn {
+a,
+.btn {
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -45,13 +50,13 @@ a, .btn {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Modo claro */
+/* Modo claro - Cards */
 .light-theme .card {
   background-color: #ffffff;
   color: #212529;
 }
 
-/* Modo escuro */
+/* Modo escuro - Cards */
 .dark-theme .card {
   background-color: #1e1e1e;
   color: #f8f9fa;
@@ -62,6 +67,12 @@ a, .btn {
   color: #f8f9fa;
 }
 
+/* Textos apagados no modo escuro */
+.dark-theme .text-muted-fix {
+  color: #fff !important;
+}
+
+/* Botões em modo escuro com borda azul */
 .dark-theme .btn-outline-primary {
   border-color: #61dafb;
   color: #61dafb;
@@ -72,6 +83,7 @@ a, .btn {
   color: #121212;
 }
 
+/* Textos dos Tech Cards no modo escuro */
 .dark-theme .tech-card p {
   color: #212529 !important;
 }
@@ -81,7 +93,40 @@ a, .btn {
   color: #212529 !important;
 }
 
-html, body, #root {
+/* Fundo branco para os TechCards em qualquer tema */
+.tech-card {
+  background-color: #ffffff !important;
+}
+
+.bg-custom-light {
+  background-color: #e3e3e3 !important;
+}
+
+/* Botões com fundo branco */
+.btn,
+.btn-contact,
+.custom-white-btn {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+  border-color: #ccc !important;
+}
+
+/* Hover para os botões */
+.btn:hover,
+.btn-contact:hover,
+.custom-white-btn:hover {
+  background-color: #e2e6ea !important;
+  color: #212529 !important;
+}
+
+.iconGithub {
+  width: 4rem;
+  height: 4rem;
+}
+
+html,
+body,
+#root {
   min-height: 100%;
   background-color: inherit;
 }

@@ -40,7 +40,7 @@ function Home() {
     ];
 
     return (
-        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-light text-dark min-vh-100'}>
+        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}>
             <Container className="py-5">
                 <Row className="align-items-center">
                     <Col xs={12} md={5} className="text-center mb-4 mb-md-0">
@@ -96,7 +96,7 @@ function Home() {
                     <Phone className="me-2" />
                     Contato
                 </h2>
-                <p className="mb-4 text-muted">
+                <p className={`mb-4 text-muted ${darkMode ? 'text-muted-fix' : ''}`}>
                     Caso queira entrar em contato comigo, abaixo estão algumas opções de como me contactar.
                 </p>
                 <Row className="mb-5">
