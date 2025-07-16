@@ -1,17 +1,37 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import React, { useContext } from 'react';
+import { ThemeContext } from '../App';
+import { Link } from "react-router-dom";
+import CustomButton from "../components/CustomButton";
+import { FaArrowLeft } from "react-icons/fa";
 
-const NotFound = () => (
-    <div className="container text-center py-5">
-        <h1 style={{ fontSize: "4rem", fontWeight: 800, color: "var(--primary)" }}>404</h1>
-        <h2 className="mb-3">Page Not Found</h2>
-        <p className="mb-4 text-muted">
-            Sorry, the page you are looking for does not exist or has been moved.
-        </p>
-        <Link to="/" className="btn btn-primary">
-            Go to Home
-        </Link>
-    </div>
-);
+function NotFound() {
+    const { darkMode } = useContext(ThemeContext);
+    const { t } = useTranslation();
 
+    return (
+        <div
+            className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}
+            style={{
+                minHeight: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+            }}
+        >
+            <h1 style={{ fontSize: 72, margin: 0 }}>404</h1>
+            <h2 style={{ margin: "20px 0 10px" }}>{t('notfound.title')}</h2>
+            <p>{t('notfound.message')}</p>
+            <CustomButton
+                as={Link}
+                to="/"
+                icon={<FaArrowLeft />}
+                text={t('notfound.backHome')}
+                className="btn btn-primary mt-4"
+            />
+        </div>
+    );
+}
 export default NotFound;

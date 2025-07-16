@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import React, { useState, useEffect } from "react";
 import TestimonialCard from "../components/TestimonialCard";
-import TestimonialModal from "../components/TestimonialModal";
 import SortFilter from "../components/SortFilter";
 import Pagination from "../components/Pagination";
+import CustomModal from "../components/CustomModal";
 
 function Testimonials() {
     const { t, i18n } = useTranslation();
@@ -11,7 +11,7 @@ function Testimonials() {
     const [modalContent, setModalContent] = useState({});
     const [sortOrder, setSortOrder] = useState("desc");
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage, setItemsPerPage] = useState(5);
+    const [itemsPerPage, setItemsPerPage] = useState(6);
 
     const isDark = document.body.classList.contains("dark-theme");
     const testimonials = t("testimonials_data", { returnObjects: true }) || [];
@@ -74,7 +74,7 @@ function Testimonials() {
                 itemsPerPage={itemsPerPage}
                 onPageChange={setCurrentPage}
                 onItemsPerPageChange={setItemsPerPage}
-                itemsPerPageOptions={[5, 10, 20]}
+                itemsPerPageOptions={[6, 12, 18, 24, 30]}
                 labelItemsPerPage={t("pagination.items_per_page")}
                 labelOf={t("pagination.of")}
                 ariaLabelPrev={t("pagination.prev_page")}
@@ -95,15 +95,34 @@ function Testimonials() {
                 ))}
             </div>
 
-            <TestimonialModal
-                isOpen={modalOpen}
-                onClose={closeModal}
-                testimonial={modalContent}
-                isDark={isDark}
-                i18n={i18n}
-                t={t}
-                getRecommendation={getRecommendation}
-            />
+            <CustomModal
+                show={modalOpen}
+                onHide={closeModal}
+                title={
+                    modalContent && (
+                        <div>
+                            <strong>{modalContent.name}</strong>
+                            {modalContent.title && <span> — {modalContent.title}</span>}
+                            {modalContent.date && (
+                                <span style={{ marginLeft: 8 }}>
+                                    <small>
+                                        {new Date(modalContent.date).toLocaleDateString(
+                                            i18n.language === "en" ? "en-US" : "pt-BR"
+                                        )}
+                                    </small>
+                                </span>
+                            )}
+                        </div>
+                    )
+                }
+            >
+                {modalContent && (
+                    <>
+                        <div>{modalContent.connection}</div>
+                        <div>{getRecommendation(modalContent.recommendation)}</div>
+                    </>
+                )}
+            </CustomModal>
         </section>
     );
 }

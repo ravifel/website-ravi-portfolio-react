@@ -190,8 +190,22 @@
         "prev_page": "Página anterior",
         "next_page": "Página siguiente"
     },
-    "repositories_test_group": "🧪 Repositorios de prueba",
-    "repositories_dev_group": "💻 Repositorios de desarrollo",
+    "notfound": {
+        "title": "Página no encontrada",
+        "message": "Lo sentimos, la página que buscas no existe.",
+        "backHome": "Volver al inicio"
+    },
+    "contactForm": {
+        "contact_form_title": "Contáctame",
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "send": "Enviar",
+        "success": "¡Mensaje enviado con éxito!",
+        "error": "Se produjo un error al enviar su mensaje. Por favor, inténtelo de nuevo."
+    },
+    "repositories_test_group": "Repositorios de prueba",
+    "repositories_dev_group": "Repositorios de desarrollo",
     "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
     "repo_landing_page_tests_automated_desc": "Pruebas automatizadas para la LandingPage de Agilean.",
     "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",

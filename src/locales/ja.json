@@ -190,8 +190,22 @@
         "prev_page": "前のページ",
         "next_page": "次のページ"
     },
-    "repositories_test_group": "🧪 テストリポジトリ",
-    "repositories_dev_group": "💻 開発リポジトリ",
+    "notfound": {
+        "title": "ページが見つかりません",
+        "message": "申し訳ありませんが、お探しのページは存在しません。",
+        "backHome": "ホームに戻る"
+    },
+    "contactForm": {
+        "contact_form_title": "お問い合わせ",
+        "name": "名前",
+        "email": "メールアドレス",
+        "message": "メッセージ",
+        "send": "送信",
+        "success": "メッセージが正常に送信されました！",
+        "error": "メッセージの送信中にエラーが発生しました。もう一度お試しください。"
+    },
+    "repositories_test_group": "テストリポジトリ",
+    "repositories_dev_group": "開発リポジトリ",
     "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
     "repo_landing_page_tests_automated_desc": "Agileanランディングページの自動テスト。",
     "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",

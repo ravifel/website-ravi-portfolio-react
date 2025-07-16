@@ -1,45 +1,69 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { ThemeContext } from '../App';
 import { useTranslation, Trans } from 'react-i18next';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import {
+    FaReact,
+    FaAngular,
+    FaGithub,
+    FaHtml5,
+    FaCss3,
+    FaJs,
+    FaNodeJs,
+    FaLinux,
+    FaWindows,
+    FaBootstrap,
+    FaBitbucket,
+    FaCode,
+} from 'react-icons/fa';
+import {
+    SiTypescript,
+    SiPostgresql,
+    SiTrello,
+    SiJira,
+    SiFedora,
+    SiCypress,
+    SiSelenium,
+    SiSqlite,
+    SiMaterialdesign,
+    SiPostman,
+} from 'react-icons/si';
 import TechCard from '../components/TechCard';
 import CustomButton from '../components/CustomButton';
+import ContactForm from '../components/ContactForm';
+import CustomModal from '../components/CustomModal';
 
 function Home() {
     const { darkMode } = useContext(ThemeContext);
     const { t } = useTranslation();
+    const [showContactModal, setShowContactModal] = useState(false);
 
-    // Refactor this part of the code
+    const iconColor = darkMode ? "#fff" : "#222";
+
     const tecnologias = [
-        { emoji: "🎭", key: "playwright", testId: "tech-playwright" },
-        { emoji: "🧬", key: "selenium", testId: "tech-selenium" },
-        { emoji: "⚙️", key: "csharp", testId: "tech-csharp" },
-        { emoji: "🧪", key: "cypress", testId: "tech-cypress" },
-        { emoji: "🟨", key: "javascript", testId: "tech-javascript" },
-        { emoji: "🟦", key: "typescript", testId: "tech-typescript" },
-        { emoji: "📮", key: "postman", testId: "tech-postman" },
-        { emoji: "🗄️", key: "sql", testId: "tech-sql" },
-        { emoji: "🐘", key: "postgresql", testId: "tech-postgresql" },
-        { emoji: "📦", key: "sqlite", testId: "tech-sqlite" },
-        { emoji: "🌿", key: "git", testId: "tech-git" },
-        { emoji: "🐙", key: "github", testId: "tech-github" },
-        { emoji: "🧵", key: "bitbucket", testId: "tech-bitbucket" },
-        { emoji: "⚛️", key: "react", testId: "tech-react" },
-        { emoji: "🅰️", key: "angular", testId: "tech-angular" },
-        { emoji: "🧾", key: "html", testId: "tech-html" },
-        { emoji: "🎨", key: "css", testId: "tech-css" },
-        { emoji: "📘", key: "bootstrap", testId: "tech-bootstrap" },
-        { emoji: "📐", key: "angularmaterial", testId: "tech-angularmaterial" },
-        { emoji: "🖥️", key: "vscode", testId: "tech-vscode" },
-        { emoji: "📋", key: "jira", testId: "tech-jira" },
-        { emoji: "💬", key: "teams", testId: "tech-teams" },
-        { emoji: "☁️", key: "azuredevops", testId: "tech-azuredevops" },
-        { emoji: "📌", key: "trello", testId: "tech-trello" },
-        { emoji: "🪟", key: "windows", testId: "tech-windows" },
-        { emoji: "🐧", key: "linux", testId: "tech-linux" },
-        { emoji: "🎩", key: "fedora", testId: "tech-fedora" },
-        { emoji: "🔶", key: "ubuntu", testId: "tech-ubuntu" },
+        { icon: <SiSelenium size={24} color={iconColor} />, key: "selenium", testId: "tech-selenium" },
+        { icon: <FaCode size={24} color={iconColor} />, key: "csharp", testId: "tech-csharp" },
+        { icon: <SiCypress size={24} color={iconColor} />, key: "cypress", testId: "tech-cypress" },
+        { icon: <FaJs size={24} color={iconColor} />, key: "javascript", testId: "tech-javascript" },
+        { icon: <SiTypescript size={24} color={iconColor} />, key: "typescript", testId: "tech-typescript" },
+        { icon: <SiPostman size={24} color={iconColor} />, key: "postman", testId: "tech-postman" },
+        { icon: <SiSqlite size={24} color={iconColor} />, key: "sqlite", testId: "tech-sqlite" },
+        { icon: <SiPostgresql size={24} color={iconColor} />, key: "postgresql", testId: "tech-postgresql" },
+        { icon: <FaGithub size={24} color={iconColor} />, key: "github", testId: "tech-github" },
+        { icon: <FaBitbucket size={24} color={iconColor} />, key: "bitbucket", testId: "tech-bitbucket" },
+        { icon: <FaReact size={24} color={iconColor} />, key: "react", testId: "tech-react" },
+        { icon: <FaAngular size={24} color={iconColor} />, key: "angular", testId: "tech-angular" },
+        { icon: <FaHtml5 size={24} color={iconColor} />, key: "html", testId: "tech-html" },
+        { icon: <FaCss3 size={24} color={iconColor} />, key: "css", testId: "tech-css" },
+        { icon: <FaBootstrap size={24} color={iconColor} />, key: "bootstrap", testId: "tech-bootstrap" },
+        { icon: <SiMaterialdesign size={24} color={iconColor} />, key: "angularmaterial", testId: "tech-angularmaterial" },
+        { icon: <FaWindows size={24} color={iconColor} />, key: "windows", testId: "tech-windows" },
+        { icon: <FaLinux size={24} color={iconColor} />, key: "linux", testId: "tech-linux" },
+        { icon: <SiFedora size={24} color={iconColor} />, key: "fedora", testId: "tech-fedora" },
+        { icon: <FaNodeJs size={24} color={iconColor} />, key: "ubuntu", testId: "tech-ubuntu" },
+        { icon: <SiJira size={24} color={iconColor} />, key: "jira", testId: "tech-jira" },
+        { icon: <SiTrello size={24} color={iconColor} />, key: "trello", testId: "tech-trello" },
     ];
 
     return (
@@ -79,13 +103,13 @@ function Home() {
 
                         <div className="d-flex flex-wrap gap-3 mt-4">
                             <CustomButton
-                                icon="📄"
+                                icon={<Mail />}
                                 text={t('see_resume_pt')}
                                 href="/curriculo-ravi-pt.pdf"
                                 isExternal
                             />
                             <CustomButton
-                                icon="🌍"
+                                icon={<Mail />}
                                 text={t('see_resume_en')}
                                 href="/curriculo-ravi-en.pdf"
                                 isExternal
@@ -107,7 +131,8 @@ function Home() {
                         <CustomButton
                             icon={<Mail />}
                             text={t('contact_email')}
-                            href="mailto:ravifel.contact@gmail.com"
+                            onClick={() => setShowContactModal(true)}
+                            as="button"
                             className="btn btn-outline-primary btn-contact"
                         />
                         <CustomButton
@@ -137,15 +162,24 @@ function Home() {
                     </Col>
                 </Row>
 
+                {/* ContactForm modal */}
+                <CustomModal
+                    show={showContactModal}
+                    onHide={() => setShowContactModal(false)}
+                    title={t('contactForm.contact_form_title')}
+                >
+                    <ContactForm onClose={() => setShowContactModal(false)} />
+                </CustomModal>
+
                 <hr className="my-5" />
-                <h2 className="mb-4">
-                    <span role="img" aria-label={t('technologies')}>💻</span> {t('technologies')}
+                <h2 className="mb-4 d-flex align-items-center">
+                    {t('technologies')}
                 </h2>
                 <Row xs={3} md={4} lg={6} className="g-3">
                     {tecnologias.map((tech) => (
                         <TechCard
                             key={tech.testId}
-                            emoji={tech.emoji}
+                            icon={tech.icon}
                             label={t(`techs.${tech.key}`)}
                             testId={tech.testId}
                         />

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { ThemeContext } from '../App';
 import { useTranslation } from 'react-i18next';
+import { Sun, Moon } from "lucide-react";
 
 function Header() {
     const { darkMode, toggleTheme } = useContext(ThemeContext);
@@ -44,8 +45,10 @@ function Header() {
                                 closeMobileMenu();
                             }}
                             size="sm"
+                            className="d-flex align-items-center gap-2"
                         >
-                            {darkMode ? `☀️ ${t('light_mode')}` : `🌙 ${t('dark_mode')}`}
+                            {darkMode ? <Sun size={16} /> : <Moon size={16} />}
+                            {darkMode ? t('light_mode') : t('dark_mode')}
                         </Button>
                         <select
                             value={i18n.language}

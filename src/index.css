@@ -88,14 +88,18 @@ a,
   color: #212529 !important;
 }
 
-.dark-theme .tech-card h6,
-.dark-theme .tech-card p {
-  color: #212529 !important;
+.dark-theme .tech-card p,
+.dark-theme .tech-card h6 {
+  color: #f8f9fa !important;
 }
 
 /* White background for TechCards in any theme */
 .tech-card {
   background-color: #ffffff !important;
+}
+
+.dark-theme .tech-card {
+  background-color: #23272b !important;
 }
 
 .bg-custom-light {

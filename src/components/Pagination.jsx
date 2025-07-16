@@ -19,12 +19,12 @@ const Pagination = ({
     itemsPerPage,
     onPageChange,
     onItemsPerPageChange,
-    itemsPerPageOptions = [5, 10, 20, 50, 100],
+    itemsPerPageOptions = [6, 12, 18, 24, 30],
     labelItemsPerPage = "Resultados por página",
     labelOf = "de",
     ariaLabelPrev = "Página anterior",
     ariaLabelNext = "Próxima página",
-    isDarkMode = false // Passe essa prop conforme seu controle de tema
+    isDarkMode = false
 }) => {
     const totalPages = Math.ceil(totalItems / itemsPerPage);
     const start = totalItems === 0 ? 0 : (currentPage - 1) * itemsPerPage + 1;
@@ -57,7 +57,6 @@ const Pagination = ({
         boxShadow: "none"
     });
 
-    // Para garantir que a cor do SVG fique correta conforme o tema e estado
     const getArrowColor = (disabled) =>
         disabled
             ? (isDarkMode ? "#5a5f68" : "#b0b8c1")

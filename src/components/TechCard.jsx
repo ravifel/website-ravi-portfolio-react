@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Col } from 'react-bootstrap';
+import { ThemeContext } from '../App';
 
-const TechCard = ({ emoji, label, testId }) => {
+const TechCard = ({ icon, label, testId }) => {
+    const { darkMode } = useContext(ThemeContext);
+
     return (
         <Col>
             <div
@@ -9,11 +12,13 @@ const TechCard = ({ emoji, label, testId }) => {
                 style={{
                     height: '100%',
                     minHeight: '85px',
-                    backgroundColor: '#fff'
+                    backgroundColor: darkMode ? '#23272b' : '#fff'
                 }}
                 data-testid={testId}
             >
-                <span style={{ fontSize: '1.5rem', marginBottom: '4px' }}>{emoji}</span>
+                <span style={{ fontSize: '1.5rem', marginBottom: '4px' }}>
+                    {icon}
+                </span>
                 <p className="mb-0" style={{ fontSize: '0.9rem', fontWeight: '600' }}>
                     {label}
                 </p>

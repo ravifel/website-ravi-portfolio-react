@@ -20,15 +20,15 @@
     "language": "Idioma",
     "home": "Início",
     "view_repository": "Ver o repositório",
-    "testimonials": "Depoimentos",
+    "testimonials": "Recomendações",
     "select_language": "Selecione o idioma",
     "testimonials_section": {
-        "title": "Depoimentos",
+        "title": "Recomendações",
         "sort_label": "Ordenar por:",
         "most_recent": "Mais recentes",
         "oldest": "Mais antigas",
         "see_more": "Ver mais",
-        "see_more_aria": "Ver mais do depoimento",
+        "see_more_aria": "Ver mais da recomendação",
         "close_modal": "Fechar modal"
     },
     "testimonials_data": [
@@ -179,8 +179,22 @@
         "prev_page": "Página anterior",
         "next_page": "Próxima página"
     },
-    "repositories_test_group": "🧪 Repositórios de Teste",
-    "repositories_dev_group": "💻 Repositórios de Desenvolvimento",
+    "notfound": {
+        "title": "Página não encontrada",
+        "message": "Desculpe, a página que você procura não existe.",
+        "backHome": "Voltar para a Home"
+    },
+    "contactForm": {
+    "contact_form_title": "Fale comigo",
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "success": "Mensagem enviada com sucesso!",
+    "error": "Houve um erro ao enviar sua mensagem. Por favor, tente novamente."
+},
+    "repositories_test_group": "Repositórios de Teste",
+    "repositories_dev_group": "Repositórios de Desenvolvimento",
     "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
     "repo_landing_page_tests_automated_desc": "Testes automatizados para a LandingPage do Agilean.",
     "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",

@@ -190,8 +190,22 @@
         "prev_page": "Leathanach roimhe seo",
         "next_page": "Leathanach eile"
     },
-    "repositories_test_group": "🧪 Stórtha Tástála",
-    "repositories_dev_group": "💻 Stórtha Forbartha",
+    "notfound": {
+        "title": "Leathanach gan aimsiú",
+        "message": "Tá brón orainn, níor aimsíodh an leathanach atá á lorg agat.",
+        "backHome": "Ar ais go dtí an baile"
+    },
+    "contactForm": {
+        "contact_form_title": "Déan teagmháil liom",
+        "name": "Ainm",
+        "email": "Ríomhphost",
+        "message": "Teachtaireacht",
+        "send": "Seol",
+        "success": "Seoladh an teachtaireacht go rathúil!",
+        "error": "Tharla earráid agus an teachtaireacht á seoladh. Bain triail eile as le do thoil."
+    },
+    "repositories_test_group": "Stórtha Tástála",
+    "repositories_dev_group": "Stórtha Forbartha",
     "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
     "repo_landing_page_tests_automated_desc": "Tástálacha uathoibrithe do LandingPage Agilean.",
     "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",

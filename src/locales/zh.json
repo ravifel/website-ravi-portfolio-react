@@ -190,8 +190,22 @@
         "prev_page": "上一页",
         "next_page": "下一页"
     },
-    "repositories_test_group": "🧪 测试仓库",
-    "repositories_dev_group": "💻 开发仓库",
+    "notfound": {
+        "title": "未找到页面",
+        "message": "很抱歉，您查找的页面不存在。",
+        "backHome": "返回首页"
+    },
+    "contactForm": {
+        "contact_form_title": "联系我",
+        "name": "姓名",
+        "email": "电子邮件",
+        "message": "留言",
+        "send": "发送",
+        "success": "消息发送成功！",
+        "error": "发送消息时出错，请重试。"
+    },
+    "repositories_test_group": "测试仓库",
+    "repositories_dev_group": "开发仓库",
     "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",
     "repo_landing_page_tests_automated_desc": "Agilean落地页的自动化测试。",
     "repo_selenium_ui_test_csharp_name": "Selenium UI Test Csharp",

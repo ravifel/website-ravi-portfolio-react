@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const CustomButton = ({
     href,
+    to,
     onClick,
     icon,
     text,
@@ -17,7 +18,7 @@ const CustomButton = ({
                 target: isExternal ? '_blank' : undefined,
                 rel: isExternal ? 'noopener noreferrer' : undefined,
             }
-            : { onClick };
+            : { onClick, to };
 
     return React.createElement(
         as,
@@ -34,11 +35,12 @@ const CustomButton = ({
 
 CustomButton.propTypes = {
     href: PropTypes.string,
+    to: PropTypes.string,
     onClick: PropTypes.func,
-    icon: PropTypes.node.isRequired,
+    icon: PropTypes.node,
     text: PropTypes.string.isRequired,
     isExternal: PropTypes.bool,
-    as: PropTypes.oneOf(['a', 'button']),
+    as: PropTypes.oneOf(['a', 'button', 'Link']),
     className: PropTypes.string,
 };
 
