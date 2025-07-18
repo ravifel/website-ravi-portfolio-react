@@ -1,0 +1,18 @@
+.btn-contact,
+.custom-white-btn {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    border-color: #ccc !important;
+}
+
+.btn-contact:hover,
+.custom-white-btn:hover {
+    background-color: #e2e6ea !important;
+    color: #212529 !important;
+}

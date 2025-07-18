@@ -2,7 +2,8 @@ import React, { useState, createContext } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import RoutesApp from './routes';
-import './index.css';
+import './styles/base/main.css';
+import './styles/base/theme.css';
 
 export const ThemeContext = createContext(); // Theme Context
 

@@ -1,0 +1,46 @@
+.light-theme {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.light-theme .card {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.dark-theme .card {
+    background-color: #383838;
+    color: #f8f9fa;
+}
+
+.dark-theme .card-title,
+.dark-theme .card-text {
+    color: #f8f9fa;
+}
+
+.dark-theme .text-muted-fix {
+    color: #fff !important;
+}
+
+.dark-theme .btn-outline-primary {
+    border-color: #61dafb;
+    color: #61dafb;
+}
+
+.dark-theme .btn-outline-primary:hover {
+    background-color: #61dafb;
+    color: #121212;
+}
+
+.tech-card {
+    background-color: #ffffff !important;
+}
+
+.dark-theme .bg-dark {
+    background: linear-gradient(120deg, #23272e 0%, #181b20 100%) !important;
+}

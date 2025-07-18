@@ -29,7 +29,8 @@
         "oldest": "最古",
         "see_more": "もっと見る",
         "see_more_aria": "推薦文の続きを見る",
-        "close_modal": "閉じる"
+        "close_modal": "閉じる",
+        "description": "LinkedIn 経由での推薦です。私の LinkedIn プロフィールで推薦を見るには、下のボタンをクリックしてください。"
     },
     "testimonials_data": [
         {

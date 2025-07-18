@@ -1,0 +1,16 @@
+.sort-filter-container {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.sort-filter-label {
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.sort-filter-select {
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 1rem;
+}

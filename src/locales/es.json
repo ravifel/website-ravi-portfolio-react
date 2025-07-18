@@ -29,7 +29,8 @@
         "oldest": "Más antiguos",
         "see_more": "Ver más",
         "see_more_aria": "Ver más del testimonio",
-        "close_modal": "Cerrar modal"
+        "close_modal": "Cerrar modal",
+        "description": "Recomendaciones realizadas a través de LinkedIn. Para ver las recomendaciones en mi perfil de LinkedIn, haz clic en el botón de abajo."
     },
     "testimonials_data": [
         {

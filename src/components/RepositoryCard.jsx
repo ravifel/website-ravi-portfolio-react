@@ -11,6 +11,7 @@ import {
 import { BiCodeAlt } from 'react-icons/bi';
 import { Github } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import '../styles/components/RepositoryCard.css';
 
 const techIcons = {
     javascript: <SiJavascript size={60} color="#F7DF1E" />,
@@ -40,11 +41,11 @@ const RepositoryCard = ({ name, description, url, tech }) => {
     const icon = techIcons[tech?.toLowerCase()] || techIcons.default;
 
     return (
-        <Card className="shadow-sm border-0 h-100 text-center">
+        <Card className="repository-card shadow-sm border-0 h-100 text-center">
             <Card.Body className="d-flex flex-column align-items-center">
                 <div className="mb-3">{icon}</div>
                 <Card.Title className="text-capitalize">{name}</Card.Title>
-                <Card.Text style={{ fontSize: '0.9rem' }}>{description}</Card.Text>
+                <Card.Text className="repository-description">{description}</Card.Text>
                 <Button
                     variant="outline-primary"
                     href={url}

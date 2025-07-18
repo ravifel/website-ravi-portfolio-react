@@ -1,0 +1,10 @@
+.home-container {}
+
+.home-profile-desc {
+    font-size: 1.1rem;
+}
+
+.home-profile-quote {
+    font-style: italic;
+    font-size: 1rem;
+}

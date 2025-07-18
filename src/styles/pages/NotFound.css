@@ -1,0 +1,23 @@
+.not-found-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.not-found-title {
+    font-size: 72px;
+    margin: 0;
+}
+
+.not-found-subtitle {
+    margin: 20px 0 10px;
+}
+
+.dark-theme .not-found-page,
+.bg-dark.not-found-page {
+    background: linear-gradient(120deg, #23272e 0%, #181b20 100%) !important;
+}

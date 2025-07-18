@@ -29,7 +29,8 @@
         "oldest": "Mais antigas",
         "see_more": "Ver mais",
         "see_more_aria": "Ver mais da recomendação",
-        "close_modal": "Fechar modal"
+        "close_modal": "Fechar modal",
+        "description": "Recomendações feitas pelo Linkedin. Para ver as recomendações no meu perfil do Linkedin clicar no botão abaixo."
     },
     "testimonials_data": [
         {
@@ -185,14 +186,14 @@
         "backHome": "Voltar para a Home"
     },
     "contactForm": {
-    "contact_form_title": "Fale comigo",
-    "name": "Nome",
-    "email": "E-mail",
-    "message": "Mensagem",
-    "send": "Enviar",
-    "success": "Mensagem enviada com sucesso!",
-    "error": "Houve um erro ao enviar sua mensagem. Por favor, tente novamente."
-},
+        "contact_form_title": "Fale comigo",
+        "name": "Nome",
+        "email": "E-mail",
+        "message": "Mensagem",
+        "send": "Enviar",
+        "success": "Mensagem enviada com sucesso!",
+        "error": "Houve um erro ao enviar sua mensagem. Por favor, tente novamente."
+    },
     "repositories_test_group": "Repositórios de Teste",
     "repositories_dev_group": "Repositórios de Desenvolvimento",
     "repo_landing_page_tests_automated_name": "Landing Page Tests Automated",

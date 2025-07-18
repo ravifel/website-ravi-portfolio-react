@@ -1,0 +1,98 @@
+.testimonial-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(44, 90, 150, 0.10), 0 2px 4px rgba(0, 0, 0, 0.03);
+    max-width: 370px;
+    width: 100%;
+    padding: 2rem 1.4rem 1.5rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.18s, box-shadow 0.18s;
+    box-sizing: border-box;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-6px) scale(1.025);
+    box-shadow: 0 8px 30px rgba(44, 90, 150, 0.18), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.testimonial-text,
+.testimonial-info,
+.testimonial-title,
+.testimonial-connection {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.testimonial-text {
+    font-style: italic;
+    color: #374151;
+    font-size: 1.09rem;
+    margin-bottom: 1.3rem;
+    line-height: 1.6;
+    padding: 1rem;
+}
+
+.testimonial-info {
+    border-top: 1px solid #e5e7eb;
+    color: #2c3e50;
+    padding: 1rem;
+}
+
+.testimonial-title {
+    color: #59606b;
+    font-weight: 500;
+}
+
+.testimonial-connection {
+    font-size: 0.96rem;
+    color: #5a6d89;
+    margin-top: 0.3rem;
+}
+
+.see-more-btn {
+    background: none;
+    border: none;
+    color: #2874f0;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.see-more-btn:hover {
+    color: #1746a0;
+}
+
+.testimonial-date {
+    margin-top: 0.3rem;
+    color: #888;
+    font-size: 0.96rem;
+}
+
+.testimonial-card-dark {
+    background: #383838;
+    color: #e1e8ed;
+    box-shadow: 0 4px 18px rgba(44, 90, 150, 0.13), 0 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.testimonial-card-dark .testimonial-info {
+    border-top: 1px solid #23272e;
+    color: #d1d6de;
+}
+
+.testimonial-card-dark .testimonial-title {
+    color: #8ec2f3;
+}
+
+.testimonial-card-dark .testimonial-connection {
+    color: #8a9bb9;
+}
+
+.testimonial-card-dark .testimonial-text {
+    color: #e1e8ed;
+}

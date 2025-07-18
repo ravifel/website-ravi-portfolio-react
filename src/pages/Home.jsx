@@ -33,6 +33,7 @@ import TechCard from '../components/TechCard';
 import CustomButton from '../components/CustomButton';
 import ContactForm from '../components/ContactForm';
 import CustomModal from '../components/CustomModal';
+import '../styles/pages/Home.css';
 
 function Home() {
     const { darkMode } = useContext(ThemeContext);
@@ -40,67 +41,84 @@ function Home() {
     const [showContactModal, setShowContactModal] = useState(false);
 
     const iconColor = darkMode ? "#fff" : "#222";
+    const techColors = {
+        selenium: "#43B02A",         // Selenium
+        csharp: "#68217A",           // C# (usando o roxo do Visual Studio)
+        cypress: "#17202C",          // Cypress
+        javascript: "#F7DF1E",       // JavaScript
+        typescript: "#3178C6",       // TypeScript
+        postman: "#FF6C37",          // Postman
+        sqlite: "#003B57",           // SQLite
+        postgresql: "#336791",       // PostgreSQL
+        github: "#181717",           // GitHub
+        bitbucket: "#2684FF",        // Bitbucket
+        react: "#61DAFB",            // React
+        angular: "#DD0031",          // Angular
+        html: "#E34F26",             // HTML5
+        css: "#1572B6",              // CSS3
+        bootstrap: "#7952B3",        // Bootstrap
+        angularmaterial: "#009688",  // Angular Material
+        windows: "#0078D6",          // Windows
+        linux: "#FCC624",            // Linux (Tux)
+        fedora: "#294172",           // Fedora
+        ubuntu: "#E95420",           // Ubuntu
+        jira: "#0052CC",             // Jira
+        trello: "#0079BF",           // Trello
+    };
 
     const tecnologias = [
-        { icon: <SiSelenium size={24} color={iconColor} />, key: "selenium", testId: "tech-selenium" },
-        { icon: <FaCode size={24} color={iconColor} />, key: "csharp", testId: "tech-csharp" },
-        { icon: <SiCypress size={24} color={iconColor} />, key: "cypress", testId: "tech-cypress" },
-        { icon: <FaJs size={24} color={iconColor} />, key: "javascript", testId: "tech-javascript" },
-        { icon: <SiTypescript size={24} color={iconColor} />, key: "typescript", testId: "tech-typescript" },
-        { icon: <SiPostman size={24} color={iconColor} />, key: "postman", testId: "tech-postman" },
-        { icon: <SiSqlite size={24} color={iconColor} />, key: "sqlite", testId: "tech-sqlite" },
-        { icon: <SiPostgresql size={24} color={iconColor} />, key: "postgresql", testId: "tech-postgresql" },
-        { icon: <FaGithub size={24} color={iconColor} />, key: "github", testId: "tech-github" },
-        { icon: <FaBitbucket size={24} color={iconColor} />, key: "bitbucket", testId: "tech-bitbucket" },
-        { icon: <FaReact size={24} color={iconColor} />, key: "react", testId: "tech-react" },
-        { icon: <FaAngular size={24} color={iconColor} />, key: "angular", testId: "tech-angular" },
-        { icon: <FaHtml5 size={24} color={iconColor} />, key: "html", testId: "tech-html" },
-        { icon: <FaCss3 size={24} color={iconColor} />, key: "css", testId: "tech-css" },
-        { icon: <FaBootstrap size={24} color={iconColor} />, key: "bootstrap", testId: "tech-bootstrap" },
-        { icon: <SiMaterialdesign size={24} color={iconColor} />, key: "angularmaterial", testId: "tech-angularmaterial" },
-        { icon: <FaWindows size={24} color={iconColor} />, key: "windows", testId: "tech-windows" },
-        { icon: <FaLinux size={24} color={iconColor} />, key: "linux", testId: "tech-linux" },
-        { icon: <SiFedora size={24} color={iconColor} />, key: "fedora", testId: "tech-fedora" },
-        { icon: <FaNodeJs size={24} color={iconColor} />, key: "ubuntu", testId: "tech-ubuntu" },
-        { icon: <SiJira size={24} color={iconColor} />, key: "jira", testId: "tech-jira" },
-        { icon: <SiTrello size={24} color={iconColor} />, key: "trello", testId: "tech-trello" },
+        { icon: <SiSelenium size={24} color={techColors.selenium} />, key: "selenium", testId: "tech-selenium" },
+        { icon: <FaCode size={24} color={techColors.csharp} />, key: "csharp", testId: "tech-csharp" },
+        { icon: <SiCypress size={24} color={techColors.cypress} />, key: "cypress", testId: "tech-cypress" },
+        { icon: <FaJs size={24} color={techColors.javascript} />, key: "javascript", testId: "tech-javascript" },
+        { icon: <SiTypescript size={24} color={techColors.typescript} />, key: "typescript", testId: "tech-typescript" },
+        { icon: <SiPostman size={24} color={techColors.postman} />, key: "postman", testId: "tech-postman" },
+        { icon: <SiSqlite size={24} color={techColors.sqlite} />, key: "sqlite", testId: "tech-sqlite" },
+        { icon: <SiPostgresql size={24} color={techColors.postgresql} />, key: "postgresql", testId: "tech-postgresql" },
+        { icon: <FaGithub size={24} color={techColors.github} />, key: "github", testId: "tech-github" },
+        { icon: <FaBitbucket size={24} color={techColors.bitbucket} />, key: "bitbucket", testId: "tech-bitbucket" },
+        { icon: <FaReact size={24} color={techColors.react} />, key: "react", testId: "tech-react" },
+        { icon: <FaAngular size={24} color={techColors.angular} />, key: "angular", testId: "tech-angular" },
+        { icon: <FaHtml5 size={24} color={techColors.html} />, key: "html", testId: "tech-html" },
+        { icon: <FaCss3 size={24} color={techColors.css} />, key: "css", testId: "tech-css" },
+        { icon: <FaBootstrap size={24} color={techColors.bootstrap} />, key: "bootstrap", testId: "tech-bootstrap" },
+        { icon: <SiMaterialdesign size={24} color={techColors.angularmaterial} />, key: "angularmaterial", testId: "tech-angularmaterial" },
+        { icon: <FaWindows size={24} color={techColors.windows} />, key: "windows", testId: "tech-windows" },
+        { icon: <FaLinux size={24} color={techColors.linux} />, key: "linux", testId: "tech-linux" },
+        { icon: <SiFedora size={24} color={techColors.fedora} />, key: "fedora", testId: "tech-fedora" },
+        { icon: <FaNodeJs size={24} color={techColors.ubuntu} />, key: "ubuntu", testId: "tech-ubuntu" },
+        { icon: <SiJira size={24} color={techColors.jira} />, key: "jira", testId: "tech-jira" },
+        { icon: <SiTrello size={24} color={techColors.trello} />, key: "trello", testId: "tech-trello" },
     ];
 
     return (
         <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}>
-            <Container className="py-5">
+            <Container className="py-5 home-container">
                 <Row className="align-items-center">
-                    <Col xs={12} md={5} className="text-center mb-4 mb-md-0">
+                    <Col xs={12} md={5} className="text-center mb-4 mb-md-0 col-profile-img">
                         <Image
                             src="/images/ravi-image-2.jpeg"
                             alt="Profile Image"
                             roundedCircle
                             fluid
-                            style={{
-                                maxWidth: '240px',
-                                opacity: 0.95,
-                                border: '4px solid #212529',
-                                padding: '4px'
-                            }}
+                            className="home-profile-image"
                             data-testid="home-profile-image"
                         />
                     </Col>
-
                     <Col xs={12} md={7}>
                         <h1 className="mb-3">{t('profile_name')}</h1>
-                        <p style={{ fontSize: '1.1rem' }}>
+                        <p className="home-profile-desc">
                             <Trans i18nKey="profile_description_1" components={{ strong: <strong /> }} />
                         </p>
-                        <p style={{ fontSize: '1.1rem' }}>
+                        <p className="home-profile-desc">
                             <Trans i18nKey="profile_description_2" components={{ strong: <strong /> }} />
                         </p>
-                        <p style={{ fontSize: '1.1rem' }}>
+                        <p className="home-profile-desc">
                             <Trans i18nKey="profile_description_3" components={{ strong: <strong /> }} />
                         </p>
-                        <p style={{ fontStyle: 'italic', fontSize: '1rem' }}>
+                        <p className="home-profile-quote">
                             {t('profile_quote')}
                         </p>
-
                         <div className="d-flex flex-wrap gap-3 mt-4">
                             <CustomButton
                                 icon={<Mail />}
@@ -162,7 +180,6 @@ function Home() {
                     </Col>
                 </Row>
 
-                {/* ContactForm modal */}
                 <CustomModal
                     show={showContactModal}
                     onHide={() => setShowContactModal(false)}

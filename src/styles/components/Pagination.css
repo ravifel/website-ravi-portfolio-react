@@ -1,0 +1,109 @@
+.pagination-container {
+    gap: 20px;
+    padding: 18px 0 10px 0;
+    font-size: 15px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.pagination-arrow-btn {
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: #f4f4f4;
+    color: #222;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.18s, color 0.18s;
+    margin: 0 2px;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.pagination-arrow-btn:disabled {
+    background: #e0e0e0;
+    color: #b0b8c1;
+    cursor: not-allowed;
+}
+
+.dark-theme .pagination-arrow-btn {
+    background: #23272f;
+    color: #fff;
+}
+
+.dark-theme .pagination-arrow-btn:disabled {
+    background: #23272f;
+    color: #5a5f68;
+}
+
+.pagination-select__control {
+    background: #fff;
+    color: #222;
+    border: none;
+    min-height: 30px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.dark-theme .pagination-select__control {
+    background: #23272f;
+    color: #fff;
+}
+
+.pagination-select__menu {
+    background: #fff;
+    color: #222;
+}
+
+.dark-theme .pagination-select__menu {
+    background: #23272f;
+    color: #fff;
+}
+
+.pagination-select__option {
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+}
+
+.pagination-select__option--is-selected,
+.pagination-select__option--is-focused {
+    background: #eee;
+}
+
+.dark-theme .pagination-select__option {
+    background: #23272f;
+    color: #fff;
+}
+
+.dark-theme .pagination-select__option--is-selected,
+.dark-theme .pagination-select__option--is-focused {
+    background: #444;
+}
+
+.pagination-select__single-value {
+    color: #222;
+}
+
+.dark-theme .pagination-select__single-value {
+    color: #fff;
+}
+
+.pagination-select__dropdown-indicator {
+    color: #222;
+}
+
+.dark-theme .pagination-select__dropdown-indicator {
+    color: #fff;
+}
+
+.pagination-select__indicator-separator {
+    background: transparent;
+}

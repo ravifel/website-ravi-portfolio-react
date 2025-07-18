@@ -1,0 +1,9 @@
+.custom-contact-success {
+    font-weight: bold;
+    color: #256029;
+}
+
+.custom-contact-error {
+    font-weight: bold;
+    color: #b71c1c;
+}

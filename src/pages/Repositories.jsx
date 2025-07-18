@@ -5,6 +5,7 @@ import { ThemeContext } from '../App';
 import { Github } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import repositoriesData from '../data/repositories.json';
+import '../styles/pages/Repositories.css';
 
 
 const Repositories = () => {

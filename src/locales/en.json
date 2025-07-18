@@ -29,7 +29,8 @@
         "oldest": "Oldest",
         "see_more": "See more",
         "see_more_aria": "See more of the testimonial",
-        "close_modal": "Close modal"
+        "close_modal": "Close modal",
+        "description": "Recommendations made via LinkedIn. To see the recommendations on my LinkedIn profile, click the button below."
     },
     "testimonials_data": [
         {

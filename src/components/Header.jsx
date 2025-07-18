@@ -4,6 +4,7 @@ import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { ThemeContext } from '../App';
 import { useTranslation } from 'react-i18next';
 import { Sun, Moon } from "lucide-react";
+import '../styles/components/Header.css';
 
 function Header() {
     const { darkMode, toggleTheme } = useContext(ThemeContext);
@@ -53,14 +54,7 @@ function Header() {
                         <select
                             value={i18n.language}
                             onChange={e => changeLanguage(e.target.value)}
-                            style={{
-                                marginLeft: '10px',
-                                padding: '4px 10px',
-                                borderRadius: '6px',
-                                border: '1px solid #ccc',
-                                background: darkMode ? '#212529' : '#fff',
-                                color: darkMode ? '#f8f9fa' : '#212529'
-                            }}
+                            className="header-lang-select"
                             aria-label={t('language')}
                         >
                             <option value="pt">Português - Portuguese</option>

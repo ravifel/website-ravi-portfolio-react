@@ -1,19 +1,23 @@
 import { useTranslation } from "react-i18next";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import TestimonialCard from "../components/TestimonialCard";
 import SortFilter from "../components/SortFilter";
 import Pagination from "../components/Pagination";
 import CustomModal from "../components/CustomModal";
+import { ThemeContext } from "../App";
+import { Linkedin } from "lucide-react";
+import '../styles/pages/Testimonials.css';
+import '../styles/pages/Home.css';
+import CustomButton from "../components/CustomButton";
 
 function Testimonials() {
     const { t, i18n } = useTranslation();
+    const { darkMode } = useContext(ThemeContext);
     const [modalOpen, setModalOpen] = useState(false);
     const [modalContent, setModalContent] = useState({});
     const [sortOrder, setSortOrder] = useState("desc");
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(6);
-
-    const isDark = document.body.classList.contains("dark-theme");
     const testimonials = t("testimonials_data", { returnObjects: true }) || [];
 
     const sortedTestimonials = testimonials
@@ -52,10 +56,21 @@ function Testimonials() {
     }
 
     return (
-        <section className={`testimonials-section${isDark ? " testimonials-section-dark" : ""}`}>
-            <h2 className={`testimonials-title${isDark ? " testimonials-title-dark" : ""}`}>
+        <section className={`testimonials-section${darkMode ? " testimonials-section-dark" : ""}`}>
+            <h2 className={`testimonials-title${darkMode ? " testimonials-title-dark" : ""}`}>
                 {t("testimonials_section.title")}
             </h2>
+
+            <div className="testimonials-linkedin-desc" style={{ textAlign: "center", marginBottom: 28 }}>
+                <p>{t("testimonials_section.description")}</p>
+                <CustomButton
+                    icon={<Linkedin size={18} />}
+                    text={t("contact_linkedin")}
+                    href="https://www.linkedin.com/in/ravifel/"
+                    isExternal
+                    className="btn-contact"
+                />
+            </div>
 
             <SortFilter
                 value={sortOrder}
@@ -86,7 +101,7 @@ function Testimonials() {
                     <TestimonialCard
                         key={idx}
                         testimonial={testimonial}
-                        isDark={isDark}
+                        isDark={darkMode}
                         i18n={i18n}
                         t={t}
                         getRecommendation={getRecommendation}
@@ -100,11 +115,11 @@ function Testimonials() {
                 onHide={closeModal}
                 title={
                     modalContent && (
-                        <div>
+                        <div className="testimonial-modal-title">
                             <strong>{modalContent.name}</strong>
                             {modalContent.title && <span> — {modalContent.title}</span>}
                             {modalContent.date && (
-                                <span style={{ marginLeft: 8 }}>
+                                <span className="testimonial-modal-date">
                                     <small>
                                         {new Date(modalContent.date).toLocaleDateString(
                                             i18n.language === "en" ? "en-US" : "pt-BR"
