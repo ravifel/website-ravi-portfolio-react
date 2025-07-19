@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/components/ContactForm.css';
 
-function ContactForm() {
+function ContactForm({ isDark = false, id = "contact-form" }) {
     const { t } = useTranslation();
     const [success, setSuccess] = useState(false);
     const [error, setError] = useState(false);
@@ -39,31 +39,31 @@ function ContactForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={isDark ? "contact-form-dark" : ""} id={id}>
             {success && (
-                <div className="alert alert-success" role="alert">
+                <div className="alert alert-success" role="alert" id="contact-success-message">
                     {t('contactForm.success')}
                 </div>
             )}
             {error && (
-                <div className="alert alert-danger" role="alert">
+                <div className="alert alert-danger" role="alert" id="contact-error-message">
                     {t('contactForm.error')}
                 </div>
             )}
 
             <div className="mb-3">
-                <label htmlFor="name" className="form-label">{t('contactForm.name')}</label>
-                <input type="text" className="form-control" id="name" name="name" required />
+                <label htmlFor="name" className="form-label" id="label-name">{t('contactForm.name')}</label>
+                <input type="text" className="form-control" id="input-name" name="name" required />
             </div>
             <div className="mb-3">
-                <label htmlFor="email" className="form-label">{t('contactForm.email')}</label>
-                <input type="email" className="form-control" id="email" name="email" required />
+                <label htmlFor="email" className="form-label" id="label-email">{t('contactForm.email')}</label>
+                <input type="email" className="form-control" id="input-email" name="email" required />
             </div>
             <div className="mb-3">
-                <label htmlFor="message" className="form-label">{t('contactForm.message')}</label>
-                <textarea className="form-control" id="message" name="message" rows={4} required />
+                <label htmlFor="message" className="form-label" id="label-message">{t('contactForm.message')}</label>
+                <textarea className="form-control" id="input-message" name="message" rows={4} required />
             </div>
-            <button type="submit" className="btn btn-primary" disabled={loading}>
+            <button type="submit" className="btn btn-primary" id="btn-contact-send" disabled={loading}>
                 {loading ? t('contactForm.sending') || "Enviando..." : t('contactForm.send')}
             </button>
         </form>

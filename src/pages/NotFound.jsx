@@ -11,16 +11,20 @@ function NotFound() {
     const { t } = useTranslation();
 
     return (
-        <div className={`not-found-page ${darkMode ? 'bg-dark text-light' : 'bg-custom-light text-dark'}`}>
-            <h1 className="not-found-title">404</h1>
-            <h2 className="not-found-subtitle">{t('notfound.title')}</h2>
-            <p>{t('notfound.message')}</p>
+        <div
+            className={`not-found-page ${darkMode ? 'bg-dark text-light' : 'bg-custom-light text-dark'}`}
+            id="page-not-found"
+        >
+            <h1 className="not-found-title" id="not-found-title">404</h1>
+            <h2 className="not-found-subtitle" id="not-found-subtitle">{t('notfound.title')}</h2>
+            <p id="not-found-message">{t('notfound.message')}</p>
             <CustomButton
                 as={Link}
                 to="/"
                 icon={<FaArrowLeft />}
                 text={t('notfound.backHome')}
                 className="btn btn-primary mt-4"
+                id="btn-back-home"
             />
         </div>
     );

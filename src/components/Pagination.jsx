@@ -25,7 +25,8 @@ const Pagination = ({
     labelOf = "de",
     ariaLabelPrev = "Página anterior",
     ariaLabelNext = "Próxima página",
-    isDarkMode = false
+    isDarkMode = false,
+    id = "pagination"
 }) => {
     const totalPages = Math.ceil(totalItems / itemsPerPage);
     const start = totalItems === 0 ? 0 : (currentPage - 1) * itemsPerPage + 1;
@@ -42,8 +43,8 @@ const Pagination = ({
             : undefined;
 
     return (
-        <div className="pagination-container">
-            <span>{labelItemsPerPage}</span>
+        <div className="pagination-container" id={id}>
+            <span id={`${id}-label-items-per-page`}>{labelItemsPerPage}</span>
             <div style={{ minWidth: 70 }}>
                 <Select
                     classNamePrefix="pagination-select"
@@ -51,9 +52,10 @@ const Pagination = ({
                     onChange={selected => onItemsPerPageChange(selected.value)}
                     options={selectOptions}
                     isSearchable={false}
+                    inputId={`${id}-select-items-per-page`}
                 />
             </div>
-            <span>
+            <span id={`${id}-range`}>
                 {start}-{end} {labelOf} {totalItems}
             </span>
             <button
@@ -61,6 +63,7 @@ const Pagination = ({
                 aria-label={ariaLabelPrev}
                 onClick={() => onPageChange(currentPage - 1)}
                 disabled={currentPage === 1}
+                id={`${id}-prev`}
             >
                 <ArrowLeftSVG color={getArrowColor(currentPage === 1)} size={22} />
             </button>
@@ -69,6 +72,7 @@ const Pagination = ({
                 aria-label={ariaLabelNext}
                 onClick={() => onPageChange(currentPage + 1)}
                 disabled={currentPage === totalPages || totalItems === 0}
+                id={`${id}-next`}
             >
                 <ArrowRightSVG color={getArrowColor(currentPage === totalPages || totalItems === 0)} size={22} />
             </button>

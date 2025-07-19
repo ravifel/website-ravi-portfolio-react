@@ -7,34 +7,44 @@ import { useTranslation } from 'react-i18next';
 import repositoriesData from '../data/repositories.json';
 import '../styles/pages/Repositories.css';
 
-
 const Repositories = () => {
     const { darkMode } = useContext(ThemeContext);
     const { t } = useTranslation();
 
     return (
-        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}>
+        <div
+            className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}
+            id="page-repositories"
+        >
             <Container className="py-5">
-                <h2 className="mb-4">
-                    <span role="img" aria-label="Folder"><Github className='iconGithub' /></span> {t('repositories')}
+                <h2 className="mb-4" id="repositories-title">
+                    <span role="img" aria-label="Folder">
+                        <Github className='iconGithub' />
+                    </span>
+                    {t('repositories')}
                 </h2>
-                <Accordion alwaysOpen>
-                    {repositoriesData.map((group) => (
+                <Accordion alwaysOpen id="repositories-accordion">
+                    {repositoriesData.map((group, groupIdx) => (
                         <Accordion.Item
                             eventKey={group.eventKey}
                             key={group.eventKey}
                             className={darkMode ? 'bg-dark text-light' : ''}
+                            id={`accordion-group-${group.eventKey}`}
                         >
-                            <Accordion.Header>{t(group.titleKey)}</Accordion.Header>
-                            <Accordion.Body>
-                                <Row xs={1} md={2} lg={3} className="g-4">
-                                    {group.items.map((repo) => (
+                            <Accordion.Header id={`accordion-header-${group.eventKey}`}>
+                                {t(group.titleKey)}
+                            </Accordion.Header>
+                            <Accordion.Body id={`accordion-body-${group.eventKey}`}>
+                                <Row xs={1} md={2} lg={3} className="g-4" id={`repositories-row-${group.eventKey}`}>
+                                    {group.items.map((repo, repoIdx) => (
                                         <Col key={repo.nameKey}>
                                             <RepositoryCard
                                                 name={t(repo.nameKey)}
                                                 description={t(repo.descriptionKey)}
                                                 url={repo.url}
                                                 tech={repo.tech}
+                                                id={`repository-card-${group.eventKey}-${repo.nameKey}`}
+                                                btnId={`btn-view-repository-${group.eventKey}-${repo.nameKey}`}
                                             />
                                         </Col>
                                     ))}

@@ -56,19 +56,23 @@ function Testimonials() {
     }
 
     return (
-        <section className={`testimonials-section${darkMode ? " testimonials-section-dark" : ""}`}>
-            <h2 className={`testimonials-title${darkMode ? " testimonials-title-dark" : ""}`}>
+        <section className={`testimonials-section${darkMode ? " testimonials-section-dark" : ""}`} id="page-testimonials">
+            <h2
+                className={`testimonials-title${darkMode ? " testimonials-title-dark" : ""}`}
+                id="testimonials-title"
+            >
                 {t("testimonials_section.title")}
             </h2>
 
-            <div className="testimonials-linkedin-desc" style={{ textAlign: "center", marginBottom: 28 }}>
-                <p>{t("testimonials_section.description")}</p>
+            <div className="testimonials-linkedin-desc" style={{ textAlign: "center", marginBottom: 28 }} id="testimonials-linkedin-info">
+                <p id="testimonials-linkedin-description">{t("testimonials_section.description")}</p>
                 <CustomButton
                     icon={<Linkedin size={18} />}
                     text={t("contact_linkedin")}
                     href="https://www.linkedin.com/in/ravifel/"
                     isExternal
                     className="btn-contact"
+                    id="btn-linkedin-testimonials"
                 />
             </div>
 
@@ -81,6 +85,7 @@ function Testimonials() {
                     { value: "desc", label: t("testimonials_section.most_recent") },
                     { value: "asc", label: t("testimonials_section.oldest") }
                 ]}
+                id="testimonials-sort-filter"
             />
 
             <Pagination
@@ -94,9 +99,10 @@ function Testimonials() {
                 labelOf={t("pagination.of")}
                 ariaLabelPrev={t("pagination.prev_page")}
                 ariaLabelNext={t("pagination.next_page")}
+                id="testimonials-pagination"
             />
 
-            <div className="testimonials-list">
+            <div className="testimonials-list" id="testimonials-list">
                 {paginatedTestimonials.map((testimonial, idx) => (
                     <TestimonialCard
                         key={idx}
@@ -106,6 +112,7 @@ function Testimonials() {
                         t={t}
                         getRecommendation={getRecommendation}
                         onSeeMore={openModal}
+                        id={`testimonial-card-${currentPage}-${idx}`}
                     />
                 ))}
             </div>
@@ -115,7 +122,7 @@ function Testimonials() {
                 onHide={closeModal}
                 title={
                     modalContent && (
-                        <div className="testimonial-modal-title">
+                        <div className="testimonial-modal-title" id="testimonial-modal-title">
                             <strong>{modalContent.name}</strong>
                             {modalContent.title && <span> — {modalContent.title}</span>}
                             {modalContent.date && (
@@ -130,11 +137,13 @@ function Testimonials() {
                         </div>
                     )
                 }
+                isDark={darkMode}
+                id="testimonial-modal"
             >
                 {modalContent && (
                     <>
-                        <div>{modalContent.connection}</div>
-                        <div>{getRecommendation(modalContent.recommendation)}</div>
+                        <div id="testimonial-modal-connection">{modalContent.connection}</div>
+                        <div id="testimonial-modal-recommendation">{getRecommendation(modalContent.recommendation)}</div>
                     </>
                 )}
             </CustomModal>

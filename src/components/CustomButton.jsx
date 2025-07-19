@@ -11,6 +11,7 @@ const CustomButton = ({
     isExternal = false,
     as = 'a',
     className = 'btn btn-outline-primary d-inline-flex align-items-center',
+    id,
 }) => {
     const commonProps =
         as === 'a'
@@ -26,6 +27,7 @@ const CustomButton = ({
         {
             className,
             ...commonProps,
+            id,
         },
         <>
             {icon && <span className="me-2">{icon}</span>}
@@ -43,6 +45,7 @@ CustomButton.propTypes = {
     isExternal: PropTypes.bool,
     as: PropTypes.oneOf(['a', 'button', 'Link']),
     className: PropTypes.string,
+    id: PropTypes.string,
 };
 
 export default CustomButton;

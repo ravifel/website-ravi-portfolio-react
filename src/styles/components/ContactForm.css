@@ -7,3 +7,42 @@
     font-weight: bold;
     color: #b71c1c;
 }
+
+.contact-form-dark {
+    background: #23272e;
+    color: #e1e8ed;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+}
+
+.contact-form-dark .form-label {
+    color: #e1e8ed;
+}
+
+.contact-form-dark .alert {
+    color: #fff;
+    background: #1d232a;
+    border-color: #444;
+}
+
+.contact-form-dark .form-control {
+    background: #fff;
+    color: #23272e;
+}
+
+.contact-form-dark .form-control:focus {
+    border-color: #61dafb;
+    box-shadow: 0 0 0 0.2rem rgba(97, 218, 251, 0.25);
+}
+
+.contact-form-dark .btn-primary {
+    background-color: #61dafb;
+    border-color: #61dafb;
+    color: #23272e;
+}
+
+.contact-form-dark .btn-primary:hover {
+    background-color: #21a1c4;
+    border-color: #21a1c4;
+    color: #fff;
+}

@@ -40,10 +40,9 @@ function Home() {
     const { t } = useTranslation();
     const [showContactModal, setShowContactModal] = useState(false);
 
-    const iconColor = darkMode ? "#fff" : "#222";
     const techColors = {
         selenium: "#43B02A",         // Selenium
-        csharp: "#68217A",           // C# (usando o roxo do Visual Studio)
+        csharp: "#68217A",           // C#
         cypress: "#17202C",          // Cypress
         javascript: "#F7DF1E",       // JavaScript
         typescript: "#3178C6",       // TypeScript
@@ -59,7 +58,7 @@ function Home() {
         bootstrap: "#7952B3",        // Bootstrap
         angularmaterial: "#009688",  // Angular Material
         windows: "#0078D6",          // Windows
-        linux: "#FCC624",            // Linux (Tux)
+        linux: "#FCC624",            // Linux
         fedora: "#294172",           // Fedora
         ubuntu: "#E95420",           // Ubuntu
         jira: "#0052CC",             // Jira
@@ -92,7 +91,7 @@ function Home() {
     ];
 
     return (
-        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'}>
+        <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'} id="page-home">
             <Container className="py-5 home-container">
                 <Row className="align-items-center">
                     <Col xs={12} md={5} className="text-center mb-4 mb-md-0 col-profile-img">
@@ -103,48 +102,51 @@ function Home() {
                             fluid
                             className="home-profile-image"
                             data-testid="home-profile-image"
+                            id="img-profile"
                         />
                     </Col>
                     <Col xs={12} md={7}>
-                        <h1 className="mb-3">{t('profile_name')}</h1>
-                        <p className="home-profile-desc">
+                        <h1 className="mb-3" id="profile-title">{t('profile_name')}</h1>
+                        <p className="home-profile-desc" id="profile-description-1">
                             <Trans i18nKey="profile_description_1" components={{ strong: <strong /> }} />
                         </p>
-                        <p className="home-profile-desc">
+                        <p className="home-profile-desc" id="profile-description-2">
                             <Trans i18nKey="profile_description_2" components={{ strong: <strong /> }} />
                         </p>
-                        <p className="home-profile-desc">
+                        <p className="home-profile-desc" id="profile-description-3">
                             <Trans i18nKey="profile_description_3" components={{ strong: <strong /> }} />
                         </p>
-                        <p className="home-profile-quote">
+                        <p className="home-profile-quote" id="profile-quote">
                             {t('profile_quote')}
                         </p>
-                        <div className="d-flex flex-wrap gap-3 mt-4">
+                        <div className="d-flex flex-wrap gap-3 mt-4" id="resume-buttons">
                             <CustomButton
                                 icon={<Mail />}
                                 text={t('see_resume_pt')}
                                 href="/curriculo-ravi-pt.pdf"
                                 isExternal
+                                id="btn-resume-pt"
                             />
                             <CustomButton
                                 icon={<Mail />}
                                 text={t('see_resume_en')}
                                 href="/curriculo-ravi-en.pdf"
                                 isExternal
+                                id="btn-resume-en"
                             />
                         </div>
                     </Col>
                 </Row>
 
                 <hr className="my-5" />
-                <h2 className="mb-4 d-flex align-items-center">
+                <h2 className="mb-4 d-flex align-items-center" id="contact-title">
                     <Phone className="me-2" />
                     {t('contact')}
                 </h2>
-                <p className={`mb-4 text-muted ${darkMode ? 'text-muted-fix' : ''}`}>
+                <p className={`mb-4 text-muted ${darkMode ? 'text-muted-fix' : ''}`} id="contact-intro">
                     {t('contact_intro')}
                 </p>
-                <Row className="mb-5">
+                <Row className="mb-5" id="contact-buttons">
                     <Col md={6} className="d-flex flex-column gap-3 mb-3">
                         <CustomButton
                             icon={<Mail />}
@@ -152,6 +154,7 @@ function Home() {
                             onClick={() => setShowContactModal(true)}
                             as="button"
                             className="btn btn-outline-primary btn-contact"
+                            id="btn-contact-email"
                         />
                         <CustomButton
                             icon={<Phone />}
@@ -159,6 +162,7 @@ function Home() {
                             href="https://wa.me/5585997641193?text=Ol%C3%A1%2C%20Ravi.%20Como%20vai%3F%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20n%C3%BAmero%20que%20encontrei%20no%20seu%20website."
                             isExternal
                             className="btn btn-outline-primary btn-contact"
+                            id="btn-contact-whatsapp"
                         />
                     </Col>
 
@@ -169,6 +173,7 @@ function Home() {
                             href="https://www.linkedin.com/in/ravifel"
                             isExternal
                             className="btn btn-outline-primary btn-contact"
+                            id="btn-contact-linkedin"
                         />
                         <CustomButton
                             icon={<Github />}
@@ -176,6 +181,7 @@ function Home() {
                             href="https://github.com/ravifel"
                             isExternal
                             className="btn btn-outline-primary btn-contact"
+                            id="btn-contact-github"
                         />
                     </Col>
                 </Row>
@@ -184,21 +190,24 @@ function Home() {
                     show={showContactModal}
                     onHide={() => setShowContactModal(false)}
                     title={t('contactForm.contact_form_title')}
+                    isDark={darkMode}
+                    id="modal-contact-form"
                 >
-                    <ContactForm onClose={() => setShowContactModal(false)} />
+                    <ContactForm onClose={() => setShowContactModal(false)} isDark={darkMode} id="contact-form" />
                 </CustomModal>
 
                 <hr className="my-5" />
-                <h2 className="mb-4 d-flex align-items-center">
+                <h2 className="mb-4 d-flex align-items-center" id="tech-title">
                     {t('technologies')}
                 </h2>
-                <Row xs={3} md={4} lg={6} className="g-3">
+                <Row xs={3} md={4} lg={6} className="g-3" id="tech-list">
                     {tecnologias.map((tech) => (
                         <TechCard
                             key={tech.testId}
                             icon={tech.icon}
                             label={t(`techs.${tech.key}`)}
                             testId={tech.testId}
+                            id={`tech-card-${tech.key}`}
                         />
                     ))}
                 </Row>

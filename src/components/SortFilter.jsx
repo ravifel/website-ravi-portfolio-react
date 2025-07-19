@@ -1,10 +1,10 @@
 import React from "react";
 import '../styles/components/SortFilter.css';
 
-function SortFilter({ value, onChange, options, label, ariaLabel }) {
+function SortFilter({ value, onChange, options, label, ariaLabel, id }) {
     return (
-        <div className="sort-filter-container">
-            <label className="sort-filter-label">
+        <div className="sort-filter-container" id={id}>
+            <label className="sort-filter-label" id={`${id}-label`}>
                 {label}
             </label>
             <select
@@ -12,9 +12,10 @@ function SortFilter({ value, onChange, options, label, ariaLabel }) {
                 value={value}
                 onChange={e => onChange(e.target.value)}
                 aria-label={ariaLabel}
+                id={`${id}-select`}
             >
                 {options.map(opt => (
-                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                    <option key={opt.value} value={opt.value} id={`${id}-option-${opt.value}`}>{opt.label}</option>
                 ))}
             </select>
         </div>

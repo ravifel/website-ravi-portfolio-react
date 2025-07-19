@@ -36,22 +36,23 @@ const techIcons = {
     default: <BiCodeAlt size={60} color="#212529" />,
 };
 
-const RepositoryCard = ({ name, description, url, tech }) => {
+const RepositoryCard = ({ name, description, url, tech, id, btnId }) => {
     const { t } = useTranslation();
     const icon = techIcons[tech?.toLowerCase()] || techIcons.default;
 
     return (
-        <Card className="repository-card shadow-sm border-0 h-100 text-center">
+        <Card className="repository-card shadow-sm border-0 h-100 text-center" id={id}>
             <Card.Body className="d-flex flex-column align-items-center">
-                <div className="mb-3">{icon}</div>
-                <Card.Title className="text-capitalize">{name}</Card.Title>
-                <Card.Text className="repository-description">{description}</Card.Text>
+                <div className="mb-3" id={`${id}-icon`}>{icon}</div>
+                <Card.Title className="text-capitalize" id={`${id}-title`}>{name}</Card.Title>
+                <Card.Text className="repository-description" id={`${id}-description`}>{description}</Card.Text>
                 <Button
                     variant="outline-primary"
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-auto d-inline-flex align-items-center"
+                    id={btnId}
                 >
                     <span className="me-2"><Github /></span> {t('view_repository')}
                 </Button>
