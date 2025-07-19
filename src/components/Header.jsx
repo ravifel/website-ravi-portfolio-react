@@ -25,6 +25,7 @@ function Header() {
 
     return (
         <Navbar
+            id="navbar"
             bg={darkMode ? 'dark' : undefined}
             variant={darkMode ? 'dark' : 'light'}
             expand="lg"
@@ -32,14 +33,21 @@ function Header() {
             className={!darkMode ? 'navbar-custom-light' : ''}
         >
             <Container>
-                <Navbar.Brand as={Link} to="/">{t('profile_name')}</Navbar.Brand>
-                <Navbar.Toggle aria-controls="main-navbar-nav" />
+                <Navbar.Brand as={Link} to="/" id="navbar-brand">{t('profile_name')}</Navbar.Brand>
+                <Navbar.Toggle aria-controls="main-navbar-nav" id="navbar-toggle" />
                 <Navbar.Collapse id="main-navbar-nav">
-                    <Nav className="ms-auto align-items-center gap-3">
-                        <Nav.Link as={Link} to="/" onClick={closeMobileMenu}>{t('home')}</Nav.Link>
-                        <Nav.Link as={Link} to="/repositories" onClick={closeMobileMenu}>{t('repositories')}</Nav.Link>
-                        <Nav.Link as={Link} to="/testimonials" onClick={closeMobileMenu}>{t('testimonials')}</Nav.Link>
+                    <Nav className="ms-auto align-items-center gap-3" id="navbar-links">
+                        <Nav.Link as={Link} to="/" onClick={closeMobileMenu} id="link-home">
+                            {t('home')}
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/repositories" onClick={closeMobileMenu} id="link-repositories">
+                            {t('repositories')}
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/testimonials" onClick={closeMobileMenu} id="link-testimonials">
+                            {t('testimonials')}
+                        </Nav.Link>
                         <Button
+                            id="toggle-theme-btn"
                             variant={darkMode ? 'outline-light' : 'outline-dark'}
                             onClick={() => {
                                 toggleTheme();
@@ -52,18 +60,19 @@ function Header() {
                             {darkMode ? t('light_mode') : t('dark_mode')}
                         </Button>
                         <select
+                            id="language-select"
                             value={i18n.language}
                             onChange={e => changeLanguage(e.target.value)}
                             className="header-lang-select"
                             aria-label={t('language')}
                         >
-                            <option value="pt">Português - Portuguese</option>
-                            <option value="en">English</option>
-                            <option value="ga">Gaeilge - Irish</option>
-                            <option value="es">Español - Spanish</option>
-                            <option value="fr">Français - French</option>
-                            <option value="zh">中文 - Mandarin</option>
-                            <option value="ja">日本語 - Japanese</option>
+                            <option value="pt" id="lang-pt">Português - Portuguese</option>
+                            <option value="en" id="lang-en">English</option>
+                            <option value="ga" id="lang-ga">Gaeilge - Irish</option>
+                            <option value="es" id="lang-es">Español - Spanish</option>
+                            <option value="fr" id="lang-fr">Français - French</option>
+                            <option value="zh" id="lang-zh">中文 - Mandarin</option>
+                            <option value="ja" id="lang-ja">日本語 - Japanese</option>
                         </select>
                     </Nav>
                 </Navbar.Collapse>
