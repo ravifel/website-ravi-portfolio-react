@@ -3,10 +3,15 @@
 Welcome to my personal portfolio website!  
 This project is a modern, multilingual portfolio built with React, showcasing my background, skills, and selected projects as a Software Quality Analyst and Frontend Developer.
 
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/272c4c00-21a0-4e15-aded-baa2f4b7515b" /> <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/3c4e31aa-7fea-4eb5-aedd-0f2f77b866a8" /> <img width="100" height="300" alt="image" src="https://github.com/user-attachments/assets/a1f5c98d-5ed8-4395-a4f2-d82de251d93c" /> <img width="100" height="300" alt="image" src="https://github.com/user-attachments/assets/a2bdd590-706d-48c0-a079-16333199353c" />
+
+
+
+
 ---
 
 ## Deployment made on Github pages
-- [Link](https://ravifel.github.io/)
+- [https://ravifel.github.io/](https://ravifel.github.io/)
 
 ---
 
