@@ -1,3 +1,4 @@
+// RepositoryCard: displays a repository's icon, name, description, and a button to view it on GitHub.
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import {
@@ -13,6 +14,7 @@ import { Github } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import '../styles/components/RepositoryCard.css';
 
+// Mapping of technology names to corresponding icon components
 const techIcons = {
     javascript: <SiJavascript size={60} color="#F7DF1E" />,
     typescript: <SiTypescript size={60} color="#3178C6" />,
@@ -38,14 +40,19 @@ const techIcons = {
 
 const RepositoryCard = ({ name, description, url, tech, id, btnId }) => {
     const { t } = useTranslation();
+    // Select the appropriate icon based on technology, fallback to default
     const icon = techIcons[tech?.toLowerCase()] || techIcons.default;
 
     return (
         <Card className="repository-card shadow-sm border-0 h-100 text-center" id={id}>
             <Card.Body className="d-flex flex-column align-items-center">
+                {/* Technology icon */}
                 <div className="mb-3" id={`${id}-icon`}>{icon}</div>
+                {/* Repository name */}
                 <Card.Title className="text-capitalize" id={`${id}-title`}>{name}</Card.Title>
+                {/* Repository description */}
                 <Card.Text className="repository-description" id={`${id}-description`}>{description}</Card.Text>
+                {/* Button to access the repository URL (opens in new tab) */}
                 <Button
                     variant="outline-primary"
                     href={url}

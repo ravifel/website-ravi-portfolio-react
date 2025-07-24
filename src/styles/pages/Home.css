@@ -1,9 +1,12 @@
+/* Main container for the Home page */
 .home-container {}
 
+/* Profile description text style */
 .home-profile-desc {
     font-size: 1.1rem;
 }
 
+/* Profile quote: italic style and slightly smaller font */
 .home-profile-quote {
     font-style: italic;
     font-size: 1rem;

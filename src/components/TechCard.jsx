@@ -1,3 +1,4 @@
+// TechCard component: displays a technology icon and label in a Bootstrap column.
 import React from 'react';
 import { Col } from 'react-bootstrap';
 import '../styles/components/TechCard.css';

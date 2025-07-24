@@ -1,3 +1,4 @@
+// SortFilter: select control for sorting testimonials (recent/oldest).
 import React from "react";
 import '../styles/components/SortFilter.css';
 

@@ -1,18 +1,22 @@
+/* Main App wrapper for global text alignment */
 .App {
   text-align: center;
 }
 
+/* React logo animation and sizing */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Only animate logo if user does not prefer reduced motion */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Main header area styling */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,14 +28,17 @@
   color: white;
 }
 
+/* Styling for links in the app */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframes for spinning the logo */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

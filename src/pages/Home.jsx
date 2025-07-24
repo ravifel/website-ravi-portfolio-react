@@ -1,3 +1,4 @@
+// Home page component: displays profile, contact options, and technologies.
 import React, { useContext, useState } from 'react';
 import { ThemeContext } from '../App';
 import { useTranslation, Trans } from 'react-i18next';
@@ -36,10 +37,14 @@ import CustomModal from '../components/CustomModal';
 import '../styles/pages/Home.css';
 
 function Home() {
+    // Get darkMode value from ThemeContext
     const { darkMode } = useContext(ThemeContext);
+    // Get translation function from i18n
     const { t } = useTranslation();
+    // State to control contact modal visibility
     const [showContactModal, setShowContactModal] = useState(false);
 
+    // Color configuration for each technology icon
     const techColors = {
         selenium: "#43B02A",         // Selenium
         csharp: "#68217A",           // C#
@@ -65,6 +70,7 @@ function Home() {
         trello: "#0079BF",           // Trello
     };
 
+    // List of technologies to be displayed using TechCard
     const tecnologias = [
         { icon: <SiSelenium size={24} color={techColors.selenium} />, key: "selenium", testId: "tech-selenium" },
         { icon: <FaCode size={24} color={techColors.csharp} />, key: "csharp", testId: "tech-csharp" },
@@ -91,9 +97,11 @@ function Home() {
     ];
 
     return (
+        // Main wrapper with theme-based background and text color
         <div className={darkMode ? 'bg-dark text-light min-vh-100' : 'bg-custom-light text-dark min-vh-100'} id="page-home">
             <Container className="py-5 home-container">
                 <Row className="align-items-center">
+                    {/* Profile image section */}
                     <Col xs={12} md={5} className="text-center mb-4 mb-md-0 col-profile-img">
                         <Image
                             src="/images/ravi-image-2.jpeg"
@@ -105,8 +113,10 @@ function Home() {
                             id="img-profile"
                         />
                     </Col>
+                    {/* Profile details section */}
                     <Col xs={12} md={7}>
                         <h1 className="mb-3" id="profile-title">{t('profile_name')}</h1>
+                        {/* Profile description with translation and strong tags */}
                         <p className="home-profile-desc" id="profile-description-1">
                             <Trans i18nKey="profile_description_1" components={{ strong: <strong /> }} />
                         </p>
@@ -119,6 +129,7 @@ function Home() {
                         <p className="home-profile-quote" id="profile-quote">
                             {t('profile_quote')}
                         </p>
+                        {/* Resume buttons */}
                         <div className="d-flex flex-wrap gap-3 mt-4" id="resume-buttons">
                             <CustomButton
                                 icon={<Mail />}
@@ -139,14 +150,17 @@ function Home() {
                 </Row>
 
                 <hr className="my-5" />
+                {/* Contact section title */}
                 <h2 className="mb-4 d-flex align-items-center" id="contact-title">
                     <Phone className="me-2" />
                     {t('contact')}
                 </h2>
+                {/* Contact introduction */}
                 <p className={`mb-4 text-muted ${darkMode ? 'text-muted-fix' : ''}`} id="contact-intro">
                     {t('contact_intro')}
                 </p>
                 <Row className="mb-5" id="contact-buttons">
+                    {/* Email and WhatsApp contact buttons */}
                     <Col md={6} className="d-flex flex-column gap-3 mb-3">
                         <CustomButton
                             icon={<Mail />}
@@ -166,6 +180,7 @@ function Home() {
                         />
                     </Col>
 
+                    {/* LinkedIn and GitHub contact buttons */}
                     <Col md={6} className="d-flex flex-column gap-3 mb-3">
                         <CustomButton
                             icon={<Linkedin />}
@@ -186,6 +201,7 @@ function Home() {
                     </Col>
                 </Row>
 
+                {/* Custom modal for contact form */}
                 <CustomModal
                     show={showContactModal}
                     onHide={() => setShowContactModal(false)}
@@ -197,9 +213,11 @@ function Home() {
                 </CustomModal>
 
                 <hr className="my-5" />
+                {/* Technologies section title */}
                 <h2 className="mb-4 d-flex align-items-center" id="tech-title">
                     {t('technologies')}
                 </h2>
+                {/* Technologies grid */}
                 <Row xs={3} md={4} lg={6} className="g-3" id="tech-list">
                     {tecnologias.map((tech) => (
                         <TechCard

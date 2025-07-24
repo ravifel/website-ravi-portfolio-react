@@ -1,13 +1,16 @@
+/* Sort filter container styles */
 .sort-filter-container {
     text-align: right;
     margin-bottom: 1.5rem;
 }
 
+/* Sort filter label */
 .sort-filter-label {
     font-weight: 500;
     margin-right: 8px;
 }
 
+/* Select control for sorting */
 .sort-filter-select {
     padding: 0.3rem 0.7rem;
     border-radius: 5px;

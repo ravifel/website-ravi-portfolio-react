@@ -1,8 +1,10 @@
+// TestimonialCard: displays a single testimonial, truncates long text with "see more" button.
 import React from "react";
 import '../styles/components/TestimonialCard.css';
 
 const CHAR_LIMIT = 515;
 
+// Helper function to truncate text at the last space before the limit
 function truncateText(text, limit) {
     if (text.length <= limit) return text;
     const trunc = text.slice(0, limit);
@@ -19,16 +21,19 @@ function TestimonialCard({
     onSeeMore,
     id
 }) {
+    // Get localized recommendation text
     const recommendationText = getRecommendation(testimonial.recommendation);
     const isLong = recommendationText.length > CHAR_LIMIT;
 
     return (
         <div className={`testimonial-card${isDark ? " testimonial-card-dark" : ""}`} id={id}>
+            {/* Testimonial text, truncated if too long */}
             <p className={`testimonial-text${isDark ? " testimonial-text-dark" : ""}`} id={`${id}-text`}>
                 "{isLong ? truncateText(recommendationText, CHAR_LIMIT) : recommendationText}"
                 {isLong && (
                     <>
                         &nbsp;
+                        {/* "See more" button to expand full testimonial in modal */}
                         <button
                             className="see-more-btn"
                             onClick={() => onSeeMore(testimonial)}
@@ -40,6 +45,7 @@ function TestimonialCard({
                     </>
                 )}
             </p>
+            {/* Author and meta info */}
             <div className={`testimonial-info${isDark ? " testimonial-info-dark" : ""}`} id={`${id}-info`}>
                 <div id={`${id}-name`}>
                     <strong>{testimonial.name}</strong>

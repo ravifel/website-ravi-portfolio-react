@@ -1,13 +1,16 @@
+/* Success message style for contact form */
 .custom-contact-success {
     font-weight: bold;
     color: #256029;
 }
 
+/* Error message style for contact form */
 .custom-contact-error {
     font-weight: bold;
     color: #b71c1c;
 }
 
+/* Dark mode wrapper for contact form */
 .contact-form-dark {
     background: #23272e;
     color: #e1e8ed;
@@ -15,32 +18,38 @@
     padding: 0.5rem 0;
 }
 
+/* Label color in dark mode */
 .contact-form-dark .form-label {
     color: #e1e8ed;
 }
 
+/* Alert style in dark mode */
 .contact-form-dark .alert {
     color: #fff;
     background: #1d232a;
     border-color: #444;
 }
 
+/* Input field style in dark mode */
 .contact-form-dark .form-control {
     background: #fff;
     color: #23272e;
 }
 
+/* Input field focus style in dark mode */
 .contact-form-dark .form-control:focus {
     border-color: #61dafb;
     box-shadow: 0 0 0 0.2rem rgba(97, 218, 251, 0.25);
 }
 
+/* Primary button style in dark mode */
 .contact-form-dark .btn-primary {
     background-color: #61dafb;
     border-color: #61dafb;
     color: #23272e;
 }
 
+/* Primary button hover style in dark mode */
 .contact-form-dark .btn-primary:hover {
     background-color: #21a1c4;
     border-color: #21a1c4;

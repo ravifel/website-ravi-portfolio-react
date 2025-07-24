@@ -1,3 +1,4 @@
+// Testimonials page: displays testimonial cards with sorting, pagination, and modal for full text.
 import { useTranslation } from "react-i18next";
 import React, { useState, useEffect, useContext } from "react";
 import TestimonialCard from "../components/TestimonialCard";
@@ -11,15 +12,22 @@ import '../styles/pages/Home.css';
 import CustomButton from "../components/CustomButton";
 
 function Testimonials() {
+    // Get translation and theme context
     const { t, i18n } = useTranslation();
     const { darkMode } = useContext(ThemeContext);
+
+    // Modal visibility and content state
     const [modalOpen, setModalOpen] = useState(false);
     const [modalContent, setModalContent] = useState({});
+    // Sorting and pagination state
     const [sortOrder, setSortOrder] = useState("desc");
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(6);
+
+    // Fetch testimonial data from i18n
     const testimonials = t("testimonials_data", { returnObjects: true }) || [];
 
+    // Sort testimonials by date (desc/asc)
     const sortedTestimonials = testimonials
         .slice()
         .sort((a, b) =>
@@ -28,6 +36,7 @@ function Testimonials() {
                 : new Date(a.date) - new Date(b.date)
         );
 
+    // Pagination logic
     const totalItems = sortedTestimonials.length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
     const paginatedTestimonials = sortedTestimonials.slice(
@@ -35,20 +44,24 @@ function Testimonials() {
         currentPage * itemsPerPage
     );
 
+    // Reset to first page when sort or itemsPerPage changes
     useEffect(() => {
         setCurrentPage(1);
     }, [sortOrder, itemsPerPage]);
 
+    // Open modal with full testimonial
     function openModal(testimonial) {
         setModalContent(testimonial);
         setModalOpen(true);
     }
 
+    // Close modal and clear content
     function closeModal() {
         setModalOpen(false);
         setModalContent({});
     }
 
+    // Get recommendation text (handles localization)
     function getRecommendation(rec) {
         if (!rec) return "";
         if (typeof rec === "string") return rec;
@@ -57,6 +70,7 @@ function Testimonials() {
 
     return (
         <section className={`testimonials-section${darkMode ? " testimonials-section-dark" : ""}`} id="page-testimonials">
+            {/* Section title */}
             <h2
                 className={`testimonials-title${darkMode ? " testimonials-title-dark" : ""}`}
                 id="testimonials-title"
@@ -64,6 +78,7 @@ function Testimonials() {
                 {t("testimonials_section.title")}
             </h2>
 
+            {/* LinkedIn button and description */}
             <div className="testimonials-linkedin-desc" style={{ textAlign: "center", marginBottom: 28 }} id="testimonials-linkedin-info">
                 <p id="testimonials-linkedin-description">{t("testimonials_section.description")}</p>
                 <CustomButton
@@ -76,6 +91,7 @@ function Testimonials() {
                 />
             </div>
 
+            {/* Sorting select */}
             <SortFilter
                 value={sortOrder}
                 onChange={setSortOrder}
@@ -88,6 +104,7 @@ function Testimonials() {
                 id="testimonials-sort-filter"
             />
 
+            {/* Pagination controls */}
             <Pagination
                 currentPage={currentPage}
                 totalItems={totalItems}
@@ -102,6 +119,7 @@ function Testimonials() {
                 id="testimonials-pagination"
             />
 
+            {/* List of testimonial cards */}
             <div className="testimonials-list" id="testimonials-list">
                 {paginatedTestimonials.map((testimonial, idx) => (
                     <TestimonialCard
@@ -117,6 +135,7 @@ function Testimonials() {
                 ))}
             </div>
 
+            {/* Modal to show full testimonial */}
             <CustomModal
                 show={modalOpen}
                 onHide={closeModal}

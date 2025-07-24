@@ -1,3 +1,4 @@
+/* Main pagination container styles */
 .pagination-container {
     gap: 20px;
     padding: 18px 0 10px 0;
@@ -8,6 +9,7 @@
     justify-content: end;
 }
 
+/* Arrow button styles */
 .pagination-arrow-btn {
     min-width: 36px;
     min-height: 36px;
@@ -27,22 +29,26 @@
     padding: 0;
 }
 
+/* Disabled arrow button */
 .pagination-arrow-btn:disabled {
     background: #e0e0e0;
     color: #b0b8c1;
     cursor: not-allowed;
 }
 
+/* Arrow button in dark mode */
 .dark-theme .pagination-arrow-btn {
     background: #23272f;
     color: #fff;
 }
 
+/* Disabled arrow button in dark mode */
 .dark-theme .pagination-arrow-btn:disabled {
     background: #23272f;
     color: #5a5f68;
 }
 
+/* Select control styles */
 .pagination-select__control {
     background: #fff;
     color: #222;

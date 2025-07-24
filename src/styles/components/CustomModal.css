@@ -1,3 +1,4 @@
+/* Overlay for custom testimonial modal (not Bootstrap modal) */
 .testimonial-modal-overlay {
     position: fixed;
     top: 0;
@@ -11,6 +12,7 @@
     justify-content: center;
 }
 
+/* Testimonial modal content styles */
 .testimonial-modal {
     background: #fff;
     border-radius: 16px;
@@ -23,6 +25,7 @@
     word-break: break-word;
 }
 
+/* Modal appear animation */
 @keyframes modal-appear {
     from {
         opacity: 0;
@@ -35,6 +38,7 @@
     }
 }
 
+/* Close button for testimonial modal */
 .testimonial-modal-close {
     position: absolute;
     top: 12px;
@@ -47,16 +51,19 @@
     transition: color .2s;
 }
 
+/* Dark theme styles for testimonial modal */
 .dark-theme .testimonial-modal {
     background: #23272e;
     color: #e1e8ed;
 }
 
+/* Bootstrap modal dark background and text color override */
 .custom-modal-dark .modal-content {
     background-color: #23272e !important;
     color: #e1e8ed !important;
 }
 
+/* Modal header for dark mode */
 .custom-modal-header-dark,
 .custom-modal-dark .modal-header {
     background-color: #23272e !important;
@@ -64,12 +71,14 @@
     border-bottom: 1px solid #343a40;
 }
 
+/* Modal body for dark mode */
 .custom-modal-body-dark,
 .custom-modal-dark .modal-body {
     background-color: #23272e !important;
     color: #e1e8ed !important;
 }
 
+/* Close button override for dark mode modal header */
 .custom-modal-dark .btn-close,
 .custom-modal-dark .modal-header .btn-close,
 .custom-modal-header-dark .btn-close {
@@ -81,6 +90,7 @@
     border: none !important;
 }
 
+/* Remove default Bootstrap close icon, add custom "×" for dark mode */
 .custom-modal-dark .btn-close {
     background-image: none !important;
     position: relative;

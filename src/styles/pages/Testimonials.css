@@ -1,3 +1,4 @@
+/* Main testimonials section styles */
 .testimonials-section {
     padding: 3rem 1rem;
     background-color: #e3e3e3;
@@ -5,10 +6,12 @@
     box-sizing: border-box;
 }
 
+/* Dark mode background for testimonials section */
 section.testimonials-section.testimonials-section-dark {
     background: linear-gradient(120deg, #23272e 0%, #1a1c20 100%) !important;
 }
 
+/* Title styles */
 .testimonials-title {
     text-align: center;
     font-size: 2.3rem;
@@ -20,10 +23,12 @@ section.testimonials-section.testimonials-section-dark {
     overflow-wrap: break-word;
 }
 
+/* Title color for dark mode */
 .testimonials-title-dark {
     color: #e1e8ed;
 }
 
+/* LinkedIn description and button container */
 .testimonials-linkedin-desc {
     text-align: center;
     margin-bottom: 1.8rem;
@@ -33,6 +38,7 @@ section.testimonials-section.testimonials-section-dark {
     margin-top: 0.7rem;
 }
 
+/* List of testimonial cards */
 .testimonials-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +46,7 @@ section.testimonials-section.testimonials-section-dark {
     justify-content: center;
 }
 
+/* Modal title styles */
 .testimonial-modal-title {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +58,7 @@ section.testimonials-section.testimonials-section-dark {
     margin-left: 8px;
 }
 
+/* Responsive adjustments for smaller screens */
 @media (max-width: 900px) {
     .testimonials-list {
         flex-direction: column;

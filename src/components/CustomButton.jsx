@@ -1,3 +1,4 @@
+// CustomButton: flexible button/link component supporting icons, external links, and different HTML elements.
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/components/CustomButton.css';
@@ -13,6 +14,7 @@ const CustomButton = ({
     className = 'btn btn-outline-primary d-inline-flex align-items-center',
     id,
 }) => {
+    // Decide which props to use based on the rendered element (anchor, button, Link)
     const commonProps =
         as === 'a'
             ? {

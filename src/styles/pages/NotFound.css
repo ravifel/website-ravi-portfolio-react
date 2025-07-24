@@ -1,3 +1,4 @@
+/* Main container for the NotFound (404) page */
 .not-found-page {
     min-height: 100vh;
     display: flex;
@@ -8,15 +9,18 @@
     transition: background 0.3s;
 }
 
+/* Large 404 title */
 .not-found-title {
     font-size: 72px;
     margin: 0;
 }
 
+/* Subtitle below the 404 number */
 .not-found-subtitle {
     margin: 20px 0 10px;
 }
 
+/* Dark theme background for the NotFound page */
 .dark-theme .not-found-page,
 .bg-dark.not-found-page {
     background: linear-gradient(120deg, #23272e 0%, #181b20 100%) !important;

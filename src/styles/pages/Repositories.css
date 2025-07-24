@@ -1,7 +1,9 @@
+/* Style for the Accordion body (repositories group container) */
 .accordion-body {
     background-color: #e3e3e3;
 }
 
+/* Dark theme override for Accordion body */
 .dark-theme .accordion-body,
 .bg-dark .accordion-body {
     background-color: #21242b !important;

@@ -1,8 +1,10 @@
+/* Custom light navbar background and shadow */
 .navbar-custom-light {
     background-color: #e3e3e3 !important;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
+/* Language select dropdown in the header */
 .header-lang-select {
     margin-left: 10px;
     padding: 4px 10px;
@@ -13,6 +15,7 @@
     transition: background 0.2s, color 0.2s;
 }
 
+/* Language select in dark theme */
 .dark-theme .header-lang-select {
     background: #212529;
     color: #f8f9fa;

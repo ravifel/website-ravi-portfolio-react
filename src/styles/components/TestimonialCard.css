@@ -1,3 +1,4 @@
+/* Main testimonial card container */
 .testimonial-card {
     background: #fff;
     border-radius: 16px;
@@ -14,11 +15,13 @@
     overflow-wrap: break-word;
 }
 
+/* Card hover elevation */
 .testimonial-card:hover {
     transform: translateY(-6px) scale(1.025);
     box-shadow: 0 8px 30px rgba(44, 90, 150, 0.18), 0 2px 4px rgba(0, 0, 0, 0.06);
 }
 
+/* General text break styles for testimonial content */
 .testimonial-text,
 .testimonial-info,
 .testimonial-title,
@@ -27,6 +30,7 @@
     overflow-wrap: break-word;
 }
 
+/* Testimonial text style */
 .testimonial-text {
     font-style: italic;
     color: #374151;
@@ -36,23 +40,27 @@
     padding: 1rem;
 }
 
+/* Author and meta info style */
 .testimonial-info {
     border-top: 1px solid #e5e7eb;
     color: #2c3e50;
     padding: 1rem;
 }
 
+/* Title/job style */
 .testimonial-title {
     color: #59606b;
     font-weight: 500;
 }
 
+/* Connection (relationship) style */
 .testimonial-connection {
     font-size: 0.96rem;
     color: #5a6d89;
     margin-top: 0.3rem;
 }
 
+/* "See more" button for truncated testimonials */
 .see-more-btn {
     background: none;
     border: none;
@@ -68,12 +76,14 @@
     color: #1746a0;
 }
 
+/* Date style */
 .testimonial-date {
     margin-top: 0.3rem;
     color: #888;
     font-size: 0.96rem;
 }
 
+/* Dark theme overrides */
 .testimonial-card-dark {
     background: #383838;
     color: #e1e8ed;
