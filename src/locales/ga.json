@@ -175,7 +175,30 @@
                 "ga": "Tá gairmithe ann a léiríonn a gcumas ollmhór ón gcéad teagmháil, agus is cinnte gurb é Ravi duine acu. Bhí an-áthas orm bualadh leis le linn a phróisis ionduchtaithe ag FitBank agus thuig mé láithreach go raibh mé ag déileáil le duine uathúil. Bhí a chuid iarrachtaí agus réamhghníomhaíochta suntasach; níor chuir sé teorainn leis na bunghnéithe, ach chuir sé ceisteanna straitéiseacha a léirigh uaillmhian soiléir chun fás agus luach a chur leis. Deimhníodh an chéad tuiscint seo go tapa. Nuair a ghlac sé lena fhreagrachtaí mar QA, rinne Ravi idirdhealú idir é féin agus cáilíocht theicniúil ard, ag forbairt cásanna tástála mionsonraithe, ag déanamh tástálacha láimhe go cruinn, agus ag cur uathoibriú chun cinn chun cáilíocht táirgí airgeadais casta a chinntiú. Bhí sé i láthair i bpríomhthionscadail na cuideachta, ní mar rannpháirtí amháin, ach mar imreoir lárnach a raibh torthaí den scoth mar thoradh ar a chuid iarrachtaí agus a shármhaitheas i gcónaí. Thar a inniúlacht theicniúil, bhí an t-ádh orm Ravi a aithint ar leibhéal níos pearsanta. Fuair mé comhghleacaí thar a bheith cabhrach, i gcónaí sásta cabhrú, múineadh, agus rialacha gnó na dtáirgí a mhíniú go foighneach. Bhí sé ríthábhachtach i mo thuras, ag cabhrú liom a thuiscint i gcleachtas cad is brí le tástálacha a dhéanamh ar leibhéal fíorghairmiúil. Is duine gairmiúil é Ravi a fheabhsaíonn cáilíocht a chuid oibre agus a shaibhríonn an fhoireann timpeall air, rud a chruthaíonn timpeallacht oibre dhinimiciúil agus taitneamhach. Bhainfeadh aon chuideachta nó tionscadal leas mór as a bheith aige ar bord."
             },
             "date": "2025-08-08"
+        },
+                {
+            "name": "Delano Marques",
+            "title": "Anailísí Acmhainní Daonna / Earcaí",
+            "connection": "D'oibrigh Delano le Ravi sa bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar com o Ravi e posso afirmar com segurança que ele é um excelente profissional. Sua dedicação e comprometimento em entregar resultados de alta qualidade realmente se destacam. O Ravi é confiável, trabalhador e sempre traz uma atitude positiva para a equipe. Recomendo-o fortemente para futuras oportunidades.",
+                "en": "I had the pleasure of working with Ravi, and I can confidently say that they are an excellent professional. Their dedication and commitment to delivering high-quality results truly stand out. Ravi is reliable, hardworking, and always brings a positive attitude to the team. I strongly recommend them for any future opportunities.",
+                "ga": "Bhí an t-ádh orm oibriú le Ravi agus is féidir liom a rá go muiníneach gur gairmí den scoth é. Seasann a dhúthracht agus a thiomantas chun torthaí ardchaighdeáin a sheachadadh amach go mór. Tá Ravi iontaofa, dícheallach agus tugann sé dearcadh dearfach don fhoireann i gcónaí. Molaim go láidir é do dheiseanna amach anseo."
+            },
+            "date": "2025-08-17"
+        },
+        {
+            "name": "Witalo Vieira Melo",
+            "title": "Innealtóir DevOps | Azure DevOps",
+            "connection": "D'oibrigh Witalo le Ravi sa bhfoireann chéanna.",
+            "recommendation": {
+                "pt": "Tive a oportunidade de trabalhar com o Ravi e rapidamente ficou claro o quão comprometido e dedicado ele é como profissional. Como testador, ele está sempre ansioso para aprender coisas novas, estudando e se aprimorando constantemente para entregar os melhores resultados. Além de suas habilidades técnicas, o que mais se destaca é sua atitude solidária e a energia positiva que inspira todos ao seu redor. Sua capacidade de construir amizades facilmente e promover a colaboração torna o trabalho em equipe muito mais tranquilo e agradável. Sem dúvida, o Ravi é um excelente profissional e uma ótima pessoa para se ter na equipe.",
+                "en": "I had the opportunity to work with Ravi, and it quickly became clear how committed and dedicated he is as a professional. As a tester, he is always eager to learn new things, constantly studying and improving to deliver the best results. Beyond his technical skills, what stands out the most is his supportive attitude and the positive energy that inspires everyone around him. His ability to build friendships easily and foster collaboration makes teamwork much smoother and more enjoyable. Without a doubt, Ravi is both an excellent professional and a great person to have on the team.",
+                "ga": "Bhí an deis agam oibriú le Ravi agus tháinig sé chun solais go tapa cé chomh dílis agus tiomanta is atá sé mar ghairmí. Mar thástálaí, tá sé i gcónaí ag iarraidh rudaí nua a fhoghlaim, ag staidéar agus ag feabhsú i gcónaí chun na torthaí is fearr a sheachadadh. Taobh amuigh dá scileanna teicniúla, is é an rud is mó a sheasann amach ná a dhearcadh tacúil agus an fuinneamh dearfach a spreagann gach duine timpeall air. Déanann a chumas cairdeas a chruthú go héasca agus comhoibriú a chothú an obair foirne i bhfad níos réidhe agus níos taitneamhaí. Gan dabht, is gairmí den scoth é Ravi agus is duine iontach é le bheith agat ar an bhfoireann."
+            },
+            "date": "2025-08-17"
         }
+
     ],
     "techs": {
         "playwright": "Playwright",

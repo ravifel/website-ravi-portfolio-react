@@ -2,7 +2,7 @@
 import React from "react";
 import '../styles/components/TestimonialCard.css';
 
-const CHAR_LIMIT = 515;
+const CHAR_LIMIT = 150;
 
 // Helper function to truncate text at the last space before the limit
 function truncateText(text, limit) {

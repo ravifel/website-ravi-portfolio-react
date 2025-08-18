@@ -1,4 +1,4 @@
-# Ravi Silva - Personal Portfolio
+# Ravi - Personal Portfolio
 
 Welcome to my personal portfolio website!  
 This project is a modern, multilingual portfolio built with React, showcasing my background, skills, and selected projects as a Software Quality Analyst and Frontend Developer.
@@ -185,8 +185,8 @@ In the project directory, you can run:
 ## 📬 Contact
 
 - **Email**: ravifel.contact@gmail.com
-- **LinkedIn**: [Ravi Silva](https://www.linkedin.com/in/seulinkedin)
-- **GitHub**: [ravisilvafitbank](https://github.com/ravisilvafitbank)
+- **LinkedIn**: [Ravi](https://www.linkedin.com/in/seulinkedin)
+- **GitHub**: [ravifel](https://github.com/ravifel)
 
 ---
 

@@ -175,6 +175,28 @@
                 "fr": "Il y a des professionnels qui démontrent leur immense potentiel dès le premier contact, et Ravi en fait incontestablement partie. J'ai eu le plaisir de le rencontrer lors de son intégration chez FitBank et j'ai immédiatement compris que j'avais affaire à quelqu'un d'unique. Son engagement et sa proactivité étaient remarquables ; il ne se limitait pas à l'essentiel, mais posait des questions stratégiques témoignant d'une volonté claire de croissance et de création de valeur. Cette première impression s'est rapidement confirmée. Dès sa prise de fonctions d'assurance qualité, Ravi s'est distingué par sa grande qualité technique, développant des cas de test détaillés, exécutant avec précision des tests manuels et faisant progresser l'automatisation pour garantir la qualité de produits financiers complexes. Il était présent dans les projets majeurs de l'entreprise, non pas comme un simple participant, mais comme un acteur clé dont les efforts et l'excellence ont toujours abouti à d'excellents livrables. Au-delà de ses compétences techniques, j'ai eu la chance de connaître Ravi sur un plan plus personnel. J'ai découvert un collègue extrêmement serviable, toujours prêt à aider, à enseigner et à expliquer patiemment les règles métier des produits. Il a joué un rôle essentiel dans mon parcours, m'aidant à comprendre concrètement ce que signifie réaliser des tests à un niveau véritablement professionnel. Ravi est le genre de professionnel qui non seulement améliore la qualité de son travail, mais enrichit également l'équipe qui l'entoure, créant un environnement de travail dynamique et agréable. Toute entreprise ou tout projet bénéficierait grandement de son intégration."
             },
             "date": "2025-08-08"
+        },
+                {
+            "name": "Delano Marques",
+            "title": "Analyste en Ressources Humaines / Chasseur de têtes",
+            "connection": "Delano a travaillé avec Ravi dans la même équipe.",
+            "recommendation": {
+                "pt": "Tive o prazer de trabalhar com o Ravi e posso afirmar com segurança que ele é um excelente profissional. Sua dedicação e comprometimento em entregar resultados de alta qualidade realmente se destacam. O Ravi é confiável, trabalhador e sempre traz uma atitude positiva para a equipe. Recomendo-o fortemente para futuras oportunidades.",
+                "en": "I had the pleasure of working with Ravi, and I can confidently say that they are an excellent professional. Their dedication and commitment to delivering high-quality results truly stand out. Ravi is reliable, hardworking, and always brings a positive attitude to the team. I strongly recommend them for any future opportunities.",
+                "fr": "J’ai eu le plaisir de travailler avec Ravi et je peux affirmer avec certitude qu’il est un excellent professionnel. Sa dévotion et son engagement à fournir des résultats de haute qualité se distinguent réellement. Ravi est fiable, travailleur et apporte toujours une attitude positive à l’équipe. Je le recommande vivement pour toute opportunité future."
+            },
+            "date": "2025-08-17"
+        },
+        {
+            "name": "Witalo Vieira Melo",
+            "title": "Ingénieur DevOps | GCP | AWS | Docker | Kubernetes | Ansible | Terraform | Linux | Azure DevOps",
+            "connection": "Witalo a travaillé avec Ravi dans la même équipe.",
+            "recommendation": {
+                "pt": "Tive a oportunidade de trabalhar com o Ravi e rapidamente ficou claro o quão comprometido e dedicado ele é como profissional. Como testador, ele está sempre ansioso para aprender coisas novas, estudando e se aprimorando constantemente para entregar os melhores resultados. Além de suas habilidades técnicas, o que mais se destaca é sua atitude solidária e a energia positiva que inspira todos ao seu redor. Sua capacidade de construir amizades facilmente e promover a colaboração torna o trabalho em equipe muito mais tranquilo e agradável. Sem dúvida, o Ravi é um excelente profissional e uma ótima pessoa para se ter na equipe.",
+                "en": "I had the opportunity to work with Ravi, and it quickly became clear how committed and dedicated he is as a professional. As a tester, he is always eager to learn new things, constantly studying and improving to deliver the best results. Beyond his technical skills, what stands out the most is his supportive attitude and the positive energy that inspires everyone around him. His ability to build friendships easily and foster collaboration makes teamwork much smoother and more enjoyable. Without a doubt, Ravi is both an excellent professional and a great person to have on the team.",
+                "fr": "J’ai eu l’occasion de travailler avec Ravi et il est rapidement devenu évident à quel point il est engagé et dévoué en tant que professionnel. En tant que testeur, il est toujours désireux d’apprendre de nouvelles choses, étudiant et s’améliorant constamment pour livrer les meilleurs résultats. Au-delà de ses compétences techniques, ce qui ressort le plus est son attitude de soutien et l’énergie positive qui inspire tous ceux qui l’entourent. Sa capacité à se lier d’amitié facilement et à favoriser la collaboration rend le travail d’équipe beaucoup plus fluide et agréable. Sans aucun doute, Ravi est à la fois un excellent professionnel et une excellente personne à avoir dans une équipe."
+            },
+            "date": "2025-08-17"
         }
     ],
     "techs": {
