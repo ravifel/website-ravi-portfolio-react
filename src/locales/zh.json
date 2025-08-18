@@ -1,9 +1,9 @@
 {
     "profile_name": "Ravi",
-    "profile_description_1": "热爱技术和软件质量，我毕业于<strong>福塔雷萨大学（UNIFOR）</strong>系统分析与开发专业，并拥有<strong>软件工程（质量方向）</strong>和<strong>前端开发</strong>两个研究生学位。",
-    "profile_description_2": "我是一名软件质量分析师，拥有使用<strong>Cypress、Selenium WebDriver</strong>等工具进行自动化测试的经验。熟悉<strong>Angular、React、Git、SQL</strong>和敏捷开发方法。",
-    "profile_description_3": "我每周五次与母语老师学习<strong>英语</strong>，不断提升自己的英语能力。我是一个<strong>注重细节、组织有序、追求卓越</strong>的人。",
-    "profile_quote": "“我对技术在解决现实和日常问题方面对人们生活所带来的积极影响感到惊叹。技术带来的创新和变革能力不断激励我深入学习，令我着迷于科技带来的无限可能。”",
+    "profile_description_1": "热爱技术和软件质量，我毕业于<strong>福塔莱萨大学 (UNIFOR) 的系统分析与开发</strong>，并获得了<strong>软件工程（质量与软件测试方向）</strong>以及<strong>前端开发</strong>的研究生学位。",
+    "profile_description_2": "我担任<strong>软件质量分析师</strong>，在技术领域拥有3年以上经验，其中近3年专注于测试工作，涵盖<strong>自动化测试</strong>和<strong>手动测试</strong>。我熟悉 <strong>Cypress (JavaScript)</strong>、<strong>Selenium WebDriver (C#)</strong>、<strong>Postman</strong>、<strong>SQL</strong>，并对 <strong>Angular</strong> 和 <strong>React</strong> 等前端框架、使用 <strong>Git</strong> 进行代码版本管理以及 <strong>敏捷方法论</strong> 有所掌握。",
+    "profile_description_3": "近年来，我全身心投入到<strong>英语学习</strong>中。我最初在巴西接受私人课程，随后转向<strong>Cambly</strong>平台，在那里我完成了一年的课程，每周三次，与来自世界各国的母语教师学习。目前进入第二年，我每周上五节全英文课程。这个过程让我认识到，英语已不再仅仅是一个职业目标，而是成为了我的人生目标：<strong>实现完全流利</strong>。在<strong>2025年9月</strong>，我的新国际旅程将开始。我将前往<strong>爱尔兰</strong>，参加一个长期的<strong>文化与语言交流项目</strong>，以进一步提高我的英语水平，并拓展我在<strong>国际技术市场</strong>的经验。",
+    "profile_quote": "“每一个细节都很重要。软件不仅仅是代码，更是它所提供的体验。对我来说，质量不仅是开发的最后阶段之一，而是赋予产品生命、目标和真正价值的关键步骤。我的承诺是在软件到达客户手中之前，通过他们的视角去看待它，提前预见需求，并合作创造能打动人心、建立信任并改变用户体验的解决方案。真正的创新在于交付的质量不仅能正常运行，而且能对人们的生活产生积极的影响。”",
     "see_resume_pt": "查看葡萄牙语简历",
     "see_resume_en": "查看英文简历",
     "contact": "联系方式",

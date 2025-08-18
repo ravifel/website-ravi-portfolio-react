@@ -1,9 +1,9 @@
 {
     "profile_name": "Ravi",
-    "profile_description_1": "Táim paiseanta faoi theicneolaíocht agus cáilíocht bogearraí, bhain mé céim amach i mAnailís agus Forbairt Córais ó <strong>Ollscoil Fortaleza (UNIFOR)</strong> agus tá céimeanna iarchéime agam i <strong>Innealtóireacht Bogearraí le Béim ar Cháilíocht</strong> agus <strong>Forbairt Frontend</strong>.",
-    "profile_description_2": "Táim ag obair mar Anailísí Cáilíochta Bogearraí, le taithí ar thástáil uathoibríoch ag baint úsáide as <strong>Cypress, Selenium WebDriver</strong> agus cinn eile. Tá cur amach agam ar <strong>Angular, React, Git, SQL</strong> agus modheolaíochtaí lúfar.",
-    "profile_description_3": "Táim ag staidéar <strong>Béarla le múinteoirí dúchais</strong> cúig huaire sa tseachtain, ag iarraidh mo scileanna sa teanga a fheabhsú. Is duine <strong>mionchúiseach, eagraithe agus tiomanta</strong> mé le haghaidh feabhais.",
-    "profile_quote": "“Is iontach liom an tionchar dearfach is féidir le teicneolaíocht a bheith aici ar shaol na ndaoine trí fhadhbanna fíorúla laethúla a réiteach. Spreagann an acmhainn nuálaíochta agus claochlaithe a thugann sí orm mo chuid eolais a dhoimhniú tuilleadh, spreagtha ag an t-iontas atá agam do na deiseanna gan teorainn a thairgeann an teicneolaíocht.”",
+    "profile_description_1": "Le paisean don teicneolaíocht agus don cháilíocht bogearraí, tá céim agam i <strong>Anailís agus Forbairt Córais</strong> ó Ollscoil Fortaleza (UNIFOR) agus iarchéim i <strong>Innealtóireacht Bhogearraí le Béim ar Cháilíocht agus Tástáil Bogearraí</strong> agus i <strong>Forbairt Frontend</strong>.",
+    "profile_description_2": "Oibrím mar <strong>Anailísí Cáilíochta Bogearraí</strong>, le níos mó ná 3 bliana taithí i dteicneolaíocht agus beagnach 3 bliana dírithe ar thástáil, ag clúdach araon <strong>thástáil uathoibrithe</strong> agus <strong>thástáil láimhe</strong>. Tá taithí agam le <strong>Cypress (JavaScript)</strong>, <strong>Selenium WebDriver (C#)</strong>, <strong>Postman</strong>, <strong>SQL</strong>, chomh maith le cur amach ar fhrámaí tosaigh cosúil le <strong>Angular</strong> agus <strong>React</strong>, leaganú cód le <strong>Git</strong> agus <strong>modheolaíochtaí aclaí</strong>.",
+    "profile_description_3": "Le cúpla bliain anuas, thug mé tiomantas dian don <strong>fhoghlaim na teanga Béarla</strong>. Thosaigh mé le ranganna príobháideacha sa Bhrasaíl, ansin chuaigh mé ar aghaidh chuig an ardán <strong>Cambly</strong>, áit ar chríochnaigh mé bliain amháin le trí rang sa tseachtain le múinteoirí dúchais ó thíortha éagsúla ar fud an domhain, agus anois táim i mo dara bliain le cúig rang sa tseachtain go hiomlán i mBéarla. Thaispeáin an próiseas seo dom nach sprioc ghairmiúil amháin a bhí sa Bhéarla a thuilleadh, ach gur éirigh sé ina sprioc saoil phearsanta: <strong>líofacht iomlán a bhaint amach</strong>. I <strong>Meán Fómhair 2025</strong> tosaíonn mo thuras idirnáisiúnta nua. Táim ag dul go <strong>hÉirinn</strong> le haghaidh <strong>malartú cultúrtha agus teangeolaíoch</strong> fadtéarmach, leis an aidhm mo chuid Béarla a fheabhsú tuilleadh agus mo thaithí a leathnú sa <strong>mhargadh idirnáisiúnta teicneolaíochta</strong>.",
+    "profile_quote": "“Tá gach mionsonra tábhachtach. Ní cód amháin atá i mbogearraí, ach is é an taithí a sholáthraíonn sé freisin. Dar liomsa, ní hamháin ceann de chéimeanna deiridh an fhorbartha atá sa cháilíocht; is céim riachtanach í chun beatha, cuspóir agus fíorluach a thabhairt don táirge. Is é mo ghealltanas an bogearraí a fheiceáil trí shúile an chustaiméara sula sroicheann sé fiú a lámha, riachtanais a thuar agus comhoibriú chun réitigh a chruthú a mheallann, a thógann muinín agus a athraíonn taithí an úsáideora. Tá an nuálaíocht fhíor ann trí cháilíocht a sheachadadh nach n-oibríonn amháin, ach a dhéanann difear dearfach i saol na ndaoine.”",
     "see_resume_pt": "Féach ar an CV i bPortaingéilis",
     "see_resume_en": "Féach ar an CV i mBéarla",
     "contact": "Teagmháil",
@@ -176,7 +176,7 @@
             },
             "date": "2025-08-08"
         },
-                {
+        {
             "name": "Delano Marques",
             "title": "Anailísí Acmhainní Daonna",
             "connection": "D'oibrigh Delano le Ravi sa bhfoireann chéanna.",
@@ -198,7 +198,6 @@
             },
             "date": "2025-08-17"
         }
-
     ],
     "techs": {
         "playwright": "Playwright",

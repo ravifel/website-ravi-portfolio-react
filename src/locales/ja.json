@@ -1,9 +1,9 @@
 {
     "profile_name": "Ravi",
-    "profile_description_1": "<strong>フォルタレザ大学（UNIFOR）</strong>でシステム分析と開発を学び、<strong>品質重視のソフトウェア工学</strong>と<strong>フロントエンド開発</strong>の両方で大学院修了しています。技術とソフトウェア品質に情熱を持っています。",
-    "profile_description_2": "ソフトウェア品質アナリストとして活動し、<strong>Cypress、Selenium WebDriver</strong>などのツールによる自動テストの経験があります。<strong>Angular、React、Git、SQL</strong>やアジャイル手法にも精通しています。",
-    "profile_description_3": "<strong>ネイティブ講師による英語</strong>を週5回勉強し、英語力向上に努めています。私は<strong>細部にこだわり、整理整頓され、卓越性にコミットする</strong>人間です。",
-    "profile_quote": "「テクノロジーが現実的で日常的な問題を解決することで、人々の生活にポジティブな影響を与えることに感銘を受けています。その革新性と変革力は、私に知識を深め続けるインスピレーションを与え、テクノロジーがもたらす無限の可能性に魅了され続けています。」",
+    "profile_description_1": "テクノロジーとソフトウェア品質に情熱を持ち、<strong>システム分析と開発</strong>をフォルタレーザ大学 (UNIFOR) で学び、<strong>品質とソフトウェアテストを専門とするソフトウェア工学</strong>および<strong>フロントエンド開発</strong>で大学院課程を修了しました。",
+    "profile_description_2": "現在、<strong>ソフトウェア品質アナリスト</strong>として、テクノロジー分野で3年以上の経験を持ち、そのうちほぼ3年間をテスト分野に専念してきました。<strong>自動テスト</strong>と<strong>手動テスト</strong>の両方を担当し、<strong>Cypress (JavaScript)</strong>、<strong>Selenium WebDriver (C#)</strong>、<strong>Postman</strong>、<strong>SQL</strong>の使用経験があります。また、<strong>Angular</strong>や<strong>React</strong>などのフロントエンドフレームワーク、<strong>Git</strong>によるバージョン管理、<strong>アジャイル手法</strong>にも精通しています。",
+    "profile_description_3": "近年、私は<strong>英語学習</strong>に集中的に取り組んできました。ブラジルで個人レッスンを受け始め、その後<strong>Cambly</strong>というプラットフォームに移行し、世界各国のネイティブ講師と週3回のレッスンを1年間修了しました。現在は2年目に入り、週5回すべて英語で授業を受けています。この過程で、英語はもはや職業上の目標にとどまらず、<strong>完全な流暢さの達成</strong>という人生の個人的な目標になりました。<strong>2025年9月</strong>から私の新しい国際的な旅が始まります。私は<strong>アイルランド</strong>に<strong>文化と言語の長期交流プログラム</strong>で渡航し、英語力をさらに向上させ、<strong>国際的なテクノロジー市場</strong>での経験を広げることを目指しています。",
+    "profile_quote": "「すべての細部が重要です。ソフトウェアは単なるコードではなく、それが提供する体験でもあります。私にとって品質は、開発の最終段階の一つではなく、製品に命、目的、そして真の価値を与えるための不可欠なステップです。私の使命は、ソフトウェアがお客様の手に届く前にその目を通して見て、ニーズを先取りし、信頼を築き、ユーザー体験を変革する解決策を共に創り上げることです。真のイノベーションとは、単に動作するだけでなく、人々の生活に前向きな影響を与える品質を提供することにあります。」",
     "see_resume_pt": "ポルトガル語の履歴書を見る",
     "see_resume_en": "英語の履歴書を見る",
     "contact": "連絡先",
@@ -176,7 +176,7 @@
             },
             "date": "2025-08-08"
         },
-                {
+        {
             "name": "Delano Marques",
             "title": "人事アナリスト",
             "connection": "DelanoはRaviと同じチームで働いていました。",
