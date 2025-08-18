@@ -58,6 +58,10 @@ section.testimonials-section.testimonials-section-dark {
     margin-left: 8px;
 }
 
+.testimonial-modal-connection {
+    margin-bottom: 7%;
+}
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 900px) {
     .testimonials-list {

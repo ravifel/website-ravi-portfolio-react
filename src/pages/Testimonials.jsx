@@ -143,7 +143,7 @@ function Testimonials() {
                     modalContent && (
                         <div className="testimonial-modal-title" id="testimonial-modal-title">
                             <strong>{modalContent.name}</strong>
-                            {modalContent.title && <span> — {modalContent.title}</span>}
+                            {modalContent.title && <span> {modalContent.title}</span>}
                             {modalContent.date && (
                                 <span className="testimonial-modal-date">
                                     <small>
@@ -161,7 +161,7 @@ function Testimonials() {
             >
                 {modalContent && (
                     <>
-                        <div id="testimonial-modal-connection">{modalContent.connection}</div>
+                        <div id="testimonial-modal-connection" className="testimonial-modal-connection"><strong>- {modalContent.connection}</strong></div>
                         <div id="testimonial-modal-recommendation">{getRecommendation(modalContent.recommendation)}</div>
                     </>
                 )}
