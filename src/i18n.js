@@ -14,16 +14,16 @@ i18n
     .use(initReactI18next)
     .init({
         resources: {
-            pt: { translation: pt },
             en: { translation: en },
+            pt: { translation: pt },
             ga: { translation: ga },
             es: { translation: es },
             fr: { translation: fr },
             zh: { translation: zh },
             ja: { translation: ja },
         },
-        lng: 'pt', // Default language
-        fallbackLng: 'en',
+        lng: 'en', // Default language
+        fallbackLng: 'pt',
         interpolation: { escapeValue: false },
     });
 
