@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react';
 import { ThemeContext } from '../App';
 import { useTranslation, Trans } from 'react-i18next';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, FileUser } from 'lucide-react';
 import {
     FaReact,
     FaAngular,
@@ -104,7 +104,7 @@ function Home() {
                     {/* Profile image section */}
                     <Col xs={12} md={5} className="text-center mb-4 mb-md-0 col-profile-img">
                         <Image
-                            src="/images/ravi-image-2.jpeg"
+                            src="/images/ravi-image-1.jpeg"
                             alt="Profile Image"
                             roundedCircle
                             fluid
@@ -133,13 +133,13 @@ function Home() {
                         <div className="d-flex flex-wrap gap-3 mt-4" id="resume-buttons">
                             <CustomButton
                                 icon={<Mail />}
-                                text={t('see_resume_pt')}
-                                href="/curriculo-ravi-pt.pdf"
+                                text={t('see_cover-letter-en')}
+                                href="/cover-letter-english-2025.pdf"
                                 isExternal
-                                id="btn-resume-pt"
+                                id="btn-cover-letter-en"
                             />
                             <CustomButton
-                                icon={<Mail />}
+                                icon={<FileUser />}
                                 text={t('see_resume_en')}
                                 href="/curriculo-ravi-en.pdf"
                                 isExternal
