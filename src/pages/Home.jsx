@@ -173,7 +173,7 @@ function Home() {
                         <CustomButton
                             icon={<Phone />}
                             text={t('contact_whatsapp')}
-                            href="https://wa.me/5585997641193?text=Ol%C3%A1%2C%20Ravi.%20Como%20vai%3F%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20n%C3%BAmero%20que%20encontrei%20no%20seu%20website."
+                            href="https://wa.me/353831559629?text=Hi%2C%20Ravi.%20How%20are%20you%3F%20I'm%20contacting%20you%20through%20the%20number%20I%20found%20on%20your%20website."
                             isExternal
                             className="btn btn-outline-primary btn-contact"
                             id="btn-contact-whatsapp"
