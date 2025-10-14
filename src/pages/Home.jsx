@@ -104,7 +104,7 @@ function Home() {
                     {/* Profile image section */}
                     <Col xs={12} md={5} className="text-center mb-4 mb-md-0 col-profile-img">
                         <Image
-                            src="/images/ravi-image-1.jpeg"
+                            src="/images/ravi-image-main.jpeg"
                             alt="Profile Image"
                             roundedCircle
                             fluid
