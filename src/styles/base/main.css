@@ -1,70 +1,70 @@
 /* Root body style and system font stack */
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* prevent horizontal scroll */
 }
 
 /* Ensure full height for main containers */
-html,
-body,
-#root {
-    min-height: 100%;
-    background-color: inherit;
+html, body, #root {
+  min-height: 100%;
+  background-color: inherit; /* inherit theme bg from parent */
+}
+
+/* Smooth scrolling for anchor navigation */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Monospace font for code blocks */
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-/* Custom light background utility class */
+/* Custom light background utility */
 .bg-custom-light {
-    background-color: #e3e3e3 !important;
+  background-color: #e3e3e3 !important;
 }
 
-/* Transition for link and button colors */
-a,
-.btn {
-    transition: background-color 0.3s, color 0.3s;
+/* Link/button transitions */
+a, .btn {
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Remove underline from all button and link elements */
+/* Remove underline from link-like buttons */
 .btn,
 .btn-link,
 .btn-outline-primary,
 .btn-contact,
 .custom-button,
 .custom-button a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 /* Custom GitHub icon size */
 .iconGithub {
-    width: 4rem;
-    height: 4rem;
-}
-
-/* Card transition for background and text color */
-.card {
-    transition: background-color 0.3s, color 0.3s;
+  width: 4rem;
+  height: 4rem;
 }
 
 /* Responsive profile image size */
 .home-profile-image.img-fluid {
-    max-width: 60% !important;
-    height: auto;
+  max-width: 60% !important;
+  height: auto;
 }
 
-/* Profile image size adjustment for smaller screens */
+/* Smaller screens: allow a larger image percentage */
 @media (max-width: 767.98px) {
-    .home-profile-image.img-fluid {
-        max-width: 70% !important;
-        height: auto;
-    }
+  .home-profile-image.img-fluid {
+    max-width: 70% !important; /* height:auto already inherited */
+  }
+}
+
+/* Accessibility: respect users that prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; }
 }

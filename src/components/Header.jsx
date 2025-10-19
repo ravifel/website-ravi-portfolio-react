@@ -17,7 +17,7 @@ function Header() {
     const closeMobileMenu = () => {
         const navbarToggler = document.querySelector('.navbar-toggler');
         const navbarCollapse = document.querySelector('.navbar-collapse');
-        if (navbarToggler && navbarCollapse.classList.contains('show')) {
+        if (navbarToggler && navbarCollapse?.classList.contains('show')) {
             navbarToggler.click();
         }
     };
@@ -40,22 +40,37 @@ function Header() {
             <Container>
                 {/* Brand logo/name */}
                 <Navbar.Brand as={Link} to="/" id="navbar-brand">{t('profile_name')}</Navbar.Brand>
+
                 {/* Hamburger menu toggle for mobile */}
                 <Navbar.Toggle aria-controls="main-navbar-nav" id="navbar-toggle" />
+
                 <Navbar.Collapse id="main-navbar-nav">
                     <Nav className="ms-auto align-items-center gap-3" id="navbar-links">
-                        {/* Home navigation link */}
-                        <Nav.Link as={Link} to="/" onClick={closeMobileMenu} id="link-home">
+                        {/* Home navigation link: always go to the top section of Home */}
+                        <Nav.Link as={Link} to="/#top" onClick={closeMobileMenu} id="link-home">
                             {t('home')}
                         </Nav.Link>
+
+                        {/* Contact: routes to Home with #contact and triggers smooth scroll there */}
+                        <Nav.Link
+                            as={Link}
+                            to="/#contact"
+                            onClick={closeMobileMenu}
+                            id="link-contact"
+                        >
+                            {t('contact')}
+                        </Nav.Link>
+
                         {/* Repositories page link */}
                         <Nav.Link as={Link} to="/repositories" onClick={closeMobileMenu} id="link-repositories">
                             {t('repositories')}
                         </Nav.Link>
+
                         {/* Testimonials page link */}
                         <Nav.Link as={Link} to="/testimonials" onClick={closeMobileMenu} id="link-testimonials">
                             {t('testimonials')}
                         </Nav.Link>
+
                         {/* Theme toggle button */}
                         <Button
                             id="toggle-theme-btn"
@@ -70,6 +85,7 @@ function Header() {
                             {darkMode ? <Sun size={16} /> : <Moon size={16} />}
                             {darkMode ? t('light_mode') : t('dark_mode')}
                         </Button>
+
                         {/* Language select dropdown */}
                         <select
                             id="language-select"

@@ -3,11 +3,24 @@
 
 /* Profile description text style */
 .home-profile-desc {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 /* Profile quote: italic style and slightly smaller font */
 .home-profile-quote {
-    font-style: italic;
-    font-size: 1rem;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* Anchor offset so the sticky navbar doesn't cover the title */
+#contact-section {
+  /* mobile / default: navbar is taller */
+  scroll-margin-top: 120px;
+}
+
+@media (min-width: 992px) {
+  /* desktop/tablet: navbar is shorter */
+  #contact-section {
+    scroll-margin-top: 88px;
+  }
 }
