@@ -1,5 +1,6 @@
 // Repositories page: displays grouped repositories using Accordion and RepositoryCard.
 import React, { useContext } from 'react';
+import { useEffect } from 'react';
 import { Container, Row, Col, Accordion } from 'react-bootstrap';
 import RepositoryCard from '../components/RepositoryCard';
 import { ThemeContext } from '../App';
@@ -13,6 +14,7 @@ const Repositories = () => {
     const { darkMode } = useContext(ThemeContext);
     // Get translation function from i18n
     const { t } = useTranslation();
+    useEffect(() => { window.scrollTo(0, 0); }, []);
 
     return (
         // Main wrapper with theme-based background and text color

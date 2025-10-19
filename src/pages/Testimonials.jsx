@@ -68,6 +68,8 @@ function Testimonials() {
         return rec[i18n.language] || rec.pt || Object.values(rec)[0] || "";
     }
 
+    useEffect(() => { window.scrollTo(0, 0); }, []);
+
     return (
         <section className={`testimonials-section${darkMode ? " testimonials-section-dark" : ""}`} id="page-testimonials">
             {/* Section title */}
