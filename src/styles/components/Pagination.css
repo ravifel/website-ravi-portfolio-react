@@ -1,7 +1,7 @@
 /* Main pagination container styles */
 .pagination-container {
     gap: 20px;
-    padding: 18px 0 10px 0;
+    padding: 20px 0 20px 0;
     font-size: 15px;
     flex-wrap: wrap;
     display: flex;

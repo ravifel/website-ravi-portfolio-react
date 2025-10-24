@@ -1,24 +1,27 @@
 /* Main testimonial card container */
 .testimonial-card {
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 4px 18px rgba(44, 90, 150, 0.10), 0 2px 4px rgba(0, 0, 0, 0.03);
-    max-width: 370px;
-    width: 100%;
-    padding: 2rem 1.4rem 1.5rem 1.4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.18s, box-shadow 0.18s;
-    box-sizing: border-box;
-    word-break: break-word;
-    overflow-wrap: break-word;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(44, 90, 150, 0.10), 0 2px 4px rgba(0, 0, 0, 0.03);
+  /* Allow the card to fill the Bootstrap column width */
+  max-width: none;
+  width: 100%;
+  /* Ensure equal height across cards in the grid */
+  height: 100%;
+  padding: 2rem 1.4rem 1.5rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.18s, box-shadow 0.18s;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Card hover elevation */
 .testimonial-card:hover {
-    transform: translateY(-6px) scale(1.025);
-    box-shadow: 0 8px 30px rgba(44, 90, 150, 0.18), 0 2px 4px rgba(0, 0, 0, 0.06);
+  transform: translateY(-6px) scale(1.025);
+  box-shadow: 0 8px 30px rgba(44, 90, 150, 0.18), 0 2px 4px rgba(0, 0, 0, 0.06);
 }
 
 /* General text break styles for testimonial content */
@@ -26,83 +29,103 @@
 .testimonial-info,
 .testimonial-title,
 .testimonial-connection {
-    word-break: break-word;
-    overflow-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Testimonial text style */
 .testimonial-text {
-    font-style: italic;
-    color: #374151;
-    font-size: 1.09rem;
-    margin-bottom: 1.3rem;
-    line-height: 1.6;
-    padding: 1rem;
+  font-style: italic;
+  color: #374151;
+  font-size: 1.09rem;
+  margin-bottom: 1.3rem;
+  line-height: 1.6;
+  padding: 1rem;
 }
 
 /* Author and meta info style */
 .testimonial-info {
-    border-top: 1px solid #e5e7eb;
-    color: #2c3e50;
-    padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+  color: #2c3e50;
+  padding: 1rem;
 }
 
 /* Title/job style */
 .testimonial-title {
-    color: #59606b;
-    font-weight: 500;
+  color: #59606b;
+  font-weight: 500;
 }
 
 /* Connection (relationship) style */
 .testimonial-connection {
-    font-size: 0.96rem;
-    color: #5a6d89;
-    margin-top: 0.3rem;
+  font-size: 0.96rem;
+  color: #5a6d89;
+  margin-top: 0.3rem;
 }
 
 /* "See more" button for truncated testimonials */
 .see-more-btn {
-    background: none;
-    border: none;
-    color: #2874f0;
-    cursor: pointer;
-    font-size: 1em;
-    padding: 0;
-    text-decoration: underline;
-    transition: color 0.2s;
+  background: none;
+  border: none;
+  color: #2874f0;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0;
+  text-decoration: underline;
+  transition: color 0.2s;
 }
 
 .see-more-btn:hover {
-    color: #1746a0;
+  color: #1746a0;
 }
 
 /* Date style */
 .testimonial-date {
-    margin-top: 0.3rem;
-    color: #888;
-    font-size: 0.96rem;
+  margin-top: 0.3rem;
+  color: #888;
+  font-size: 0.96rem;
 }
 
 /* Dark theme overrides */
 .testimonial-card-dark {
-    background: #383838;
-    color: #e1e8ed;
-    box-shadow: 0 4px 18px rgba(44, 90, 150, 0.13), 0 2px 4px rgba(0, 0, 0, 0.07);
+  background: #383838;
+  color: #e1e8ed;
+  box-shadow: 0 4px 18px rgba(44, 90, 150, 0.13), 0 2px 4px rgba(0, 0, 0, 0.07);
 }
 
 .testimonial-card-dark .testimonial-info {
-    border-top: 1px solid #23272e;
-    color: #d1d6de;
+  border-top: 1px solid #23272e;
+  color: #d1d6de;
 }
 
 .testimonial-card-dark .testimonial-title {
-    color: #8ec2f3;
+  color: #8ec2f3;
 }
 
 .testimonial-card-dark .testimonial-connection {
-    color: #8a9bb9;
+  color: #8a9bb9;
 }
 
 .testimonial-card-dark .testimonial-text {
-    color: #e1e8ed;
+  color: #e1e8ed;
+}
+
+/* Small screen adjustments */
+@media (max-width: 480px) {
+  .testimonial-card {
+    padding: 1.3rem 1rem;
+    font-size: 0.97rem;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .testimonial-card {
+    padding: 1rem 0.6rem;
+    font-size: 0.9rem;
+  }
 }
