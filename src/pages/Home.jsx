@@ -188,14 +188,14 @@ function Home() {
                             <CustomButton
                                 icon={<Mail />}
                                 text={t('see_cover-letter-en')}
-                                href="/cover-letter-english-2025.pdf"
+                                href="/CoverLetter-ENG-Ravi-2026.pdf"
                                 isExternal
                                 id="btn-cover-letter-en"
                             />
                             <CustomButton
                                 icon={<FileUser />}
                                 text={t('see_resume_en')}
-                                href="/curriculo-ravi-en.pdf"
+                                href="/CV-ENG-Ravi-2026.docx.pdf"
                                 isExternal
                                 id="btn-resume-en"
                             />
