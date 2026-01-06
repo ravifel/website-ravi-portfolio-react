@@ -176,6 +176,7 @@ function Testimonials() {
               getRecommendation={getRecommendation}
               onSeeMore={openModal}
               id={`testimonial-card-${currentPage}-${idx}`}
+              data-testid="testimonial-card"
             />
           </Col>
         ))}
