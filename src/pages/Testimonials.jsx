@@ -204,7 +204,7 @@ function Testimonials() {
           )
         }
         isDark={darkMode}
-        id="testimonial-modal"
+        id={"testimonial-modal"}
       >
         {modalContent && (
           <>

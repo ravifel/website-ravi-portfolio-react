@@ -87,6 +87,7 @@ const Pagination = ({
           isSearchable={false}
           inputId={selectId}
           aria-labelledby={`${id}-label-items-per-page`}
+          id="results-per-page-select"
         />
       </div>
 
