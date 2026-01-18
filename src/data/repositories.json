@@ -4,6 +4,18 @@
         "eventKey": "0",
         "items": [
             {
+                "nameKey": "repo_automated_tests_with_cypress_for_react_portfolio_name",
+                "descriptionKey": "repo_automated_tests_with_cypress_for_react_portfolio_desc",
+                "url": "https://github.com/ravifel/automated-tests-with-cypress-for-react-portfolio",
+                "tech": "cypress"
+            },
+            {
+                "nameKey": "repo_automated_tests_with_selenium_for_react_portfolio_name",
+                "descriptionKey": "repo_automated_tests_with_selenium_for_react_portfolio_desc",
+                "url": "https://github.com/ravifel/automated-tests-with-selenium-for-react-portfolio",
+                "tech": "selenium"
+            },
+            {
                 "nameKey": "repo_landing_page_tests_automated_name",
                 "descriptionKey": "repo_landing_page_tests_automated_desc",
                 "url": "https://github.com/ravifel/LandingPageTestsAutomated",
