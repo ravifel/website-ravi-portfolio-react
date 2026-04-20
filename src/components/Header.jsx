@@ -95,12 +95,12 @@ function Header() {
                             aria-label={t('language')}
                         >
                             <option value="en" id="lang-en">English</option>
-                            <option value="ga" id="lang-ga">Gaeilge - Irish</option>
-                            <option value="es" id="lang-es">Español - Spanish</option>
-                            <option value="pt" id="lang-pt">Português - Portuguese</option>
-                            <option value="fr" id="lang-fr">Français - French</option>
-                            <option value="zh" id="lang-zh">中文 - Mandarin</option>
-                            <option value="ja" id="lang-ja">日本語 - Japanese</option>
+                            <option value="es" id="lang-es">Spanish</option>
+                            <option value="pt" id="lang-pt">Portuguese</option>
+                            <option value="fr" id="lang-fr">French</option>
+                            {/* <option value="zh" id="lang-zh">中文 - Mandarin</option> */}
+                            {/* <option value="ja" id="lang-ja">日本語 - Japanese</option> */}
+                            {/* <option value="ga" id="lang-ga">Gaeilge - Irish</option> */}
                         </select>
                     </Nav>
                 </Navbar.Collapse>
