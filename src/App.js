@@ -11,7 +11,7 @@ export const ThemeContext = createContext(); // Theme Context
 
 function App() {
   // State for dark mode theme
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   // Toggle between dark and light theme
   const toggleTheme = () => setDarkMode((prev) => !prev);
